@@ -144,10 +144,10 @@ def process_changes(request):
 	try:
 		station = request.form['thr_id']
 
-		crnt = '10.1'
+		crnt = '11.0'
 		crntfile = '/Users/keith/Sites/data/threaded_records.db'
-		prev = '9.3'
-		prevfile = '/Users/keith/progs/Threading/Version_9.3/threaded_records.db'
+		prev = '10.1'
+		prevfile = '/Users/keith/progs/Threading/Version_10.1/threaded_records.db'
 		
 	#	process data and send results for output
 		crnt_recs, name, crnt_por = get_records (station,1,crntfile)
