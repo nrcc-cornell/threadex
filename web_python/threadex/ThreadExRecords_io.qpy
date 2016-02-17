@@ -23,7 +23,7 @@ def display_records [html] (threads,records,name,var,hilo,thr_id,syr,eyr):
 		<a href="http://www.noaa.gov"><img src="http://threadex.rcc-acis.org/noaalogo.gif" width="97" height="97" alt="NOAA"></a>&nbsp;&nbsp;
 		<a href="http://www.ncdc.noaa.gov"><img src="http://threadex.rcc-acis.org/ncdc-smlogo.gif" alt="NCDC"></a>&nbsp;&nbsp;
 		   <a href="http://www.nws.noaa.gov"><img src="http://threadex.rcc-acis.org/nws-smlogo.jpg" alt="NWS"></a>&nbsp;&nbsp;
-		   <a href="http://www.ncdc.noaa.gov/oa/climate/regionalclimatecenters.html" alt="RCC"><img src="http://www.nrcc.cornell.edu/grass/images/ncc.gif"></a>
+		   <a href="http://www.ncdc.noaa.gov/oa/climate/regionalclimatecenters.html" alt="RCC"><img src="http://www.nrcc.cornell.edu/images/rcc-transparent.png" height=97></a>
 	</tr>
 	</table>
 	'''
@@ -217,7 +217,7 @@ def display_coverage [html] (coverage,name,var):
 		<a href="http://www.noaa.gov"><img src="http://threadex.rcc-acis.org/noaalogo.gif" width="97" height="97" alt="NOAA"></a>&nbsp;&nbsp;
 		<a href="http://www.ncdc.noaa.gov"><img src="http://threadex.rcc-acis.org/ncdc-smlogo.gif" alt="NCDC"></a>&nbsp;&nbsp;
 		   <a href="http://www.nws.noaa.gov"><img src="http://threadex.rcc-acis.org/nws-smlogo.jpg" alt="NWS"></a>&nbsp;&nbsp;
-		   <a href="http://www.ncdc.noaa.gov/oa/climate/regionalclimatecenters.html" alt="RCC"><img src="http://www.nrcc.cornell.edu/grass/images/ncc.gif"></a>
+		   <a href="http://www.ncdc.noaa.gov/oa/climate/regionalclimatecenters.html" alt="RCC"><img src="http://www.nrcc.cornell.edu/images/rcc-transparent.png" height=97></a>
 	</tr>
 	</table>
 	'''
@@ -307,7 +307,7 @@ def display_thread [html] (threads,name):
 		<a href="http://www.noaa.gov"><img src="http://threadex.rcc-acis.org/noaalogo.gif" width="97" height="97" alt="NOAA"></a>&nbsp;&nbsp;
 		<a href="http://www.ncdc.noaa.gov"><img src="http://threadex.rcc-acis.org/ncdc-smlogo.gif" alt="NCDC"></a>&nbsp;&nbsp;
 		   <a href="http://www.nws.noaa.gov"><img src="http://threadex.rcc-acis.org/nws-smlogo.jpg" alt="NWS"></a>&nbsp;&nbsp;
-		   <a href="http://www.ncdc.noaa.gov/oa/climate/regionalclimatecenters.html" alt="RCC"><img src="http://www.nrcc.cornell.edu/grass/images/ncc.gif"></a>
+		   <a href="http://www.ncdc.noaa.gov/oa/climate/regionalclimatecenters.html" alt="RCC"><img src="http://www.nrcc.cornell.edu/images/rcc-transparent.png" height=97></a>
 	</tr>
 	</table>
 	'''
@@ -364,7 +364,7 @@ def display_changes [html] (crnt,prev,name,crnt_por,prev_por,changes,):
 		<a href="http://www.noaa.gov"><img src="http://threadex.rcc-acis.org/noaalogo.gif" width="97" height="97" alt="NOAA"></a>&nbsp;&nbsp;
 		<a href="http://www.ncdc.noaa.gov"><img src="http://threadex.rcc-acis.org/ncdc-smlogo.gif" alt="NCDC"></a>&nbsp;&nbsp;
 		   <a href="http://www.nws.noaa.gov"><img src="http://threadex.rcc-acis.org/nws-smlogo.jpg" alt="NWS"></a>&nbsp;&nbsp;
-		   <a href="http://www.ncdc.noaa.gov/oa/climate/regionalclimatecenters.html" alt="RCC"><img src="http://www.nrcc.cornell.edu/grass/images/ncc.gif"></a>
+		   <a href="http://www.ncdc.noaa.gov/oa/climate/regionalclimatecenters.html" alt="RCC"><img src="http://www.nrcc.cornell.edu/images/rcc-transparent.png" height=97></a>
 	</tr>
 	</table>
 	'''
