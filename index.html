@@ -1,0 +1,563 @@
+<!doctype html>
+<html>
+<head>
+<title>Threaded Extremes</title>
+<link rel="icon" type="image/x-icon" href="./favicon.ico" />
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/redmond/jquery-ui.css" />
+<link rel="stylesheet" href="./threadex.css" />
+</head>
+<body>
+<h3>Threaded Station Extremes</h3>
+
+<div class="option-container">
+	<div class="menu-container" style="margin-right:2em;">
+		<b>Station:</b>
+		<span id="selected_station">None selected</span>
+		<br><button id="show_stns" class="show_menu">Select station</button>
+		<ul id="thr_id">
+			<li class="noselect"><div>Alabama</div>
+				<ul>
+					<li data-value="BHMthr"><div> AL - Birmingham</div></li>
+					<li data-value="HSVthr"><div> AL - Huntsville</div></li>
+					<li data-value="MOBthr"><div> AL - Mobile</div></li>
+					<li data-value="MGMthr"><div> AL - Montgomery</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Alaska</div>
+				<ul>
+					<li data-value="ANCthr"><div> AK - Anchorage</div></li>
+					<li data-value="ANNthr"><div> AK - Annette</div></li>
+					<li data-value="BRWthr"><div> AK - Barrow</div></li>
+					<li data-value="BETthr"><div> AK - Bethel</div></li>
+					<li data-value="BTTthr"><div> AK - Bettles</div></li>
+					<li data-value="CDBthr"><div> AK - Cold Bay</div></li>
+					<li data-value="BIGthr"><div> AK - Delta Junction</div></li>
+					<li data-value="FAIthr"><div> AK - Fairbanks</div></li>
+					<li data-value="GKNthr"><div> AK - Gulkana</div></li>
+					<li data-value="HOMthr"><div> AK - Homer</div></li>
+					<li data-value="JNUthr"><div> AK - Juneau</div></li>
+					<li data-value="AKNthr"><div> AK - King Salmon</div></li>
+					<li data-value="ADQthr"><div> AK - Kodiak</div></li>
+					<li data-value="OTZthr"><div> AK - Kotzebue</div></li>
+					<li data-value="MCGthr"><div> AK - Mcgrath</div></li>
+					<li data-value="OMEthr"><div> AK - Nome</div></li>
+					<li data-value="SNPthr"><div> AK - St Paul Island</div></li>
+					<li data-value="TKAthr"><div> AK - Talkeetna</div></li>
+					<li data-value="YAKthr"><div> AK - Yakutat</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Arizona</div>
+				<ul>
+					<li data-value="PHXthr"><div> AZ - Phoenix</div></li>
+					<li data-value="TUSthr"><div> AZ - Tucson</div></li>
+					<li data-value="INWthr"><div> AZ - Winslow</div></li>
+					<li data-value="YUMthr"><div> AZ - Yuma</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Arkansas</div>
+				<ul>
+					<li data-value="FSMthr"><div> AR - Fort Smith</div></li>
+					<li data-value="LITthr"><div> AR - Little Rock</div></li>
+					<li data-value="FLGthr"><div> AZ - Flagstaff</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>California</div>
+				<ul>
+					<li data-value="BFLthr"><div> CA - Bakersfield</div></li>
+					<li data-value="BIHthr"><div> CA - Bishop</div></li>
+					<li data-value="EKAthr"><div> CA - Eureka</div></li>
+					<li data-value="FATthr"><div> CA - Fresno</div></li>
+					<li data-value="LGBthr"><div> CA - Long Beach</div></li>
+					<li data-value="LAXthr"><div> CA - Los Angeles Airport</div></li>
+					<li data-value="CQTthr"><div> CA - Los Angeles Downtown</div></li>
+					<li data-value="RDDthr"><div> CA - Redding</div></li>
+					<li data-value="SACthr"><div> CA - Sacramento</div></li>
+					<li data-value="SANthr"><div> CA - San Diego</div></li>
+					<li data-value="SFOthr"><div> CA - San Francisco Airport</div></li>
+					<li data-value="SMXthr"><div> CA - Santa Maria</div></li>
+					<li data-value="SCKthr"><div> CA - Stockton</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Colorado</div>
+				<ul>
+					<li data-value="ALSthr"><div> CO - Alamosa</div></li>
+					<li data-value="COSthr"><div> CO - Colorado Springs</div></li>
+					<li data-value="DENthr"><div> CO - Denver</div></li>
+					<li data-value="GJTthr"><div> CO - Grand Junction</div></li>
+					<li data-value="PUBthr"><div> CO - Pueblo</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Connecticut</div>
+				<ul>
+					<li data-value="BDRthr"><div> CT - Bridgeport</div></li>
+					<li data-value="BDLthr"><div> CT - Hartford</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Delaware</div>
+				<ul>
+					<li data-value="ILGthr"><div> DE - Wilmington</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>District of Columbia</div>
+				<ul>
+					<li data-value="DCAthr"><div> DC - Washington</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Florida</div>
+				<ul>
+					<li data-value="DABthr"><div> FL - Daytona Beach</div></li>
+					<li data-value="FMYthr"><div> FL - Fort Myers</div></li>
+					<li data-value="GNVthr"><div> FL - Gainesville</div></li>
+					<li data-value="JAXthr"><div> FL - Jacksonville</div></li>
+					<li data-value="EYWthr"><div> FL - Key West</div></li>
+					<li data-value="MLBthr"><div> FL - Melbourne</div></li>
+					<li data-value="MIAthr"><div> FL - Miami</div></li>
+					<li data-value="MCOthr"><div> FL - Orlando</div></li>
+					<li data-value="PNSthr"><div> FL - Pensacola</div></li>
+					<li data-value="TLHthr"><div> FL - Tallahassee</div></li>
+					<li data-value="TPAthr"><div> FL - Tampa</div></li>
+					<li data-value="VRBthr"><div> FL - Vero Beach</div></li>
+					<li data-value="PBIthr"><div> FL - West Palm Beach</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Georgia</div>
+				<ul>
+					<li data-value="AHNthr"><div> GA - Athens</div></li>
+					<li data-value="ATLthr"><div> GA - Atlanta</div></li>
+					<li data-value="AGSthr"><div> GA - Augusta</div></li>
+					<li data-value="CSGthr"><div> GA - Columbus</div></li>
+					<li data-value="MCNthr"><div> GA - Macon</div></li>
+					<li data-value="SAVthr"><div> GA - Savannah</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Hawaii</div>
+				<ul>
+					<li data-value="ITOthr"><div> HI - Hilo</div></li>
+					<li data-value="HNLthr"><div> HI - Honolulu</div></li>
+					<li data-value="OGGthr"><div> HI - Kahului</div></li>
+					<li data-value="LIHthr"><div> HI - Lihue</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Idaho</div>
+				<ul>
+					<li data-value="BOIthr"><div> ID - Boise</div></li>
+					<li data-value="LWSthr"><div> ID - Lewiston</div></li>
+					<li data-value="PIHthr"><div> ID - Pocatello</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Illinois</div>
+				<ul>
+					<li data-value="ORDthr"><div> IL - Chicago</div></li>
+					<li data-value="MLIthr"><div> IL - Moline</div></li>
+					<li data-value="PIAthr"><div> IL - Peoria</div></li>
+					<li data-value="RFDthr"><div> IL - Rockford</div></li>
+					<li data-value="SPIthr"><div> IL - Springfield</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Indiana</div>
+				<ul>
+					<li data-value="EVVthr"><div> IN - Evansville</div></li>
+					<li data-value="FWAthr"><div> IN - Fort Wayne</div></li>
+					<li data-value="INDthr"><div> IN - Indianapolis</div></li>
+					<li data-value="SBNthr"><div> IN - South Bend</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Iowa</div>
+				<ul>
+					<li data-value="DSMthr"><div> IA - Des Moines</div></li>
+					<li data-value="DBQthr"><div> IA - Dubuque</div></li>
+					<li data-value="SUXthr"><div> IA - Sioux City</div></li>
+					<li data-value="ALOthr"><div> IA - Waterloo</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Kansas</div>
+				<ul>
+					<li data-value="CNKthr"><div> KS - Concordia</div></li>
+					<li data-value="DDCthr"><div> KS - Dodge City</div></li>
+					<li data-value="GLDthr"><div> KS - Goodland</div></li>
+					<li data-value="TOPthr"><div> KS - Topeka</div></li>
+					<li data-value="ICTthr"><div> KS - Wichita</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Kentucky</div>
+				<ul>
+					<li data-value="JKLthr"><div> KY - Jackson</div></li>
+					<li data-value="LEXthr"><div> KY - Lexington</div></li>
+					<li data-value="SDFthr"><div> KY - Louisville</div></li>
+					<li data-value="PAHthr"><div> KY - Paducah</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Louisiana</div>
+				<ul>
+					<li data-value="BTRthr"><div> LA - Baton Rouge</div></li>
+					<li data-value="LCHthr"><div> LA - Lake Charles</div></li>
+					<li data-value="MSYthr"><div> LA - New Orleans</div></li>
+					<li data-value="SHVthr"><div> LA - Shreveport</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Maine</div>
+				<ul>
+					<li data-value="BGRthr"><div> ME - Bangor</div></li>
+					<li data-value="CARthr"><div> ME - Caribou</div></li>
+					<li data-value="PWMthr"><div> ME - Portland</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Maryland</div>
+				<ul>
+					<li data-value="BWIthr"><div> MD - Baltimore</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Massachusetts</div>
+				<ul>
+					<li data-value="BOSthr"><div> MA - Boston</div></li>
+					<li data-value="MQEthr"><div> MA - Milton</div></li>
+					<li data-value="ORHthr"><div> MA - Worcester</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Michigan</div>
+				<ul>
+					<li data-value="APNthr"><div> MI - Alpena</div></li>
+					<li data-value="DTWthr"><div> MI - Detroit</div></li>
+					<li data-value="FNTthr"><div> MI - Flint</div></li>
+					<li data-value="GRRthr"><div> MI - Grand Rapids</div></li>
+					<li data-value="HTLthr"><div> MI - Houghton Lake</div></li>
+					<li data-value="LANthr"><div> MI - Lansing</div></li>
+					<li data-value="MQTthr"><div> MI - Marquette</div></li>
+					<li data-value="MKGthr"><div> MI - Muskegon</div></li>
+					<li data-value="ANJthr"><div> MI - Sault Ste Marie</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Minnesota</div>
+				<ul>
+					<li data-value="DLHthr"><div> MN - Duluth</div></li>
+					<li data-value="INLthr"><div> MN - International Falls</div></li>
+					<li data-value="MSPthr"><div> MN - Minneapolis-St Paul</div></li>
+					<li data-value="RSTthr"><div> MN - Rochester</div></li>
+					<li data-value="STCthr"><div> MN - Saint Cloud</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Mississippi</div>
+				<ul>
+					<li data-value="JANthr"><div> MS - Jackson</div></li>
+					<li data-value="MEIthr"><div> MS - Meridian</div></li>
+					<li data-value="TUPthr"><div> MS - Tupelo</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Missouri</div>
+				<ul>
+					<li data-value="COUthr"><div> MO - Columbia</div></li>
+					<li data-value="MCIthr"><div> MO - Kansas City</div></li>
+					<li data-value="SGFthr"><div> MO - Springfield</div></li>
+					<li data-value="STLthr"><div> MO - St Louis</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Montana</div>
+				<ul>
+					<li data-value="BILthr"><div> MT - Billings</div></li>
+					<li data-value="GGWthr"><div> MT - Glasgow</div></li>
+					<li data-value="GTFthr"><div> MT - Great Falls</div></li>
+					<li data-value="HVRthr"><div> MT - Havre</div></li>
+					<li data-value="HLNthr"><div> MT - Helena</div></li>
+					<li data-value="FCAthr"><div> MT - Kalispell</div></li>
+					<li data-value="MSOthr"><div> MT - Missoula</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Nebraska</div>
+				<ul>
+					<li data-value="GRIthr"><div> NE - Grand Island</div></li>
+					<li data-value="LNKthr"><div> NE - Lincoln</div></li>
+					<li data-value="OFKthr"><div> NE - Norfolk</div></li>
+					<li data-value="LBFthr"><div> NE - North Platte</div></li>
+					<li data-value="OMAthr"><div> NE - Omaha</div></li>
+					<li data-value="BFFthr"><div> NE - Scottsbluff</div></li>
+					<li data-value="VTNthr"><div> NE - Valentine</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Nevada</div>
+				<ul>
+					<li data-value="EKOthr"><div> NV - Elko</div></li>
+					<li data-value="ELYthr"><div> NV - Ely</div></li>
+					<li data-value="LASthr"><div> NV - Las Vegas</div></li>
+					<li data-value="RNOthr"><div> NV - Reno</div></li>
+					<li data-value="WMCthr"><div> NV - Winnemucca</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>New Hampshire</div>
+				<ul>
+					<li data-value="CONthr"><div> NH - Concord</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>New Jersey</div>
+				<ul>
+					<li data-value="ACYthr"><div> NJ - Atlantic City</div></li>
+					<li data-value="EWRthr"><div> NJ - Newark</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>New Mexico</div>
+				<ul>
+					<li data-value="ABQthr"><div> NM - Albuquerque</div></li>
+					<li data-value="CAOthr"><div> NM - Clayton</div></li>
+					<li data-value="ROWthr"><div> NM - Roswell</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>New York</div>
+				<ul>
+					<li data-value="ALBthr"><div> NY - Albany</div></li>
+					<li data-value="BGMthr"><div> NY - Binghamton</div></li>
+					<li data-value="BUFthr"><div> NY - Buffalo</div></li>
+					<li data-value="ISPthr"><div> NY - Islip</div></li>
+					<li data-value="NYCthr"><div> NY - New York-Central Park</div></li>
+					<li data-value="JFKthr"><div> NY - New York-Kennedy Airport</div></li>
+					<li data-value="LGAthr"><div> NY - New York-Laguardia Airport</div></li>
+					<li data-value="ROCthr"><div> NY - Rochester</div></li>
+					<li data-value="SYRthr"><div> NY - Syracuse</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>North Carolina</div>
+				<ul>
+					<li data-value="AVLthr"><div> NC - Asheville</div></li>
+					<li data-value="HSEthr"><div> NC - Cape Hatteras</div></li>
+					<li data-value="CLTthr"><div> NC - Charlotte</div></li>
+					<li data-value="GSOthr"><div> NC - Greensboro</div></li>
+					<li data-value="RDUthr"><div> NC - Raleigh</div></li>
+					<li data-value="ILMthr"><div> NC - Wilmington</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>North Dakota</div>
+				<ul>
+					<li data-value="BISthr"><div> ND - Bismarck</div></li>
+					<li data-value="FARthr"><div> ND - Fargo</div></li>
+					<li data-value="GFKthr"><div> ND - Grand Forks</div></li>
+					<li data-value="ISNthr"><div> ND - Williston</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Ohio</div>
+				<ul>
+					<li data-value="CAKthr"><div> OH - Akron</div></li>
+					<li data-value="CVGthr"><div> OH - Cincinnati</div></li>
+					<li data-value="CLEthr"><div> OH - Cleveland</div></li>
+					<li data-value="CMHthr"><div> OH - Columbus</div></li>
+					<li data-value="DAYthr"><div> OH - Dayton</div></li>
+					<li data-value="MFDthr"><div> OH - Mansfield</div></li>
+					<li data-value="TOLthr"><div> OH - Toledo</div></li>
+					<li data-value="YNGthr"><div> OH - Youngstown</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Oklahoma</div>
+				<ul>
+					<li data-value="OKCthr"><div> OK - Oklahoma City</div></li>
+					<li data-value="TULthr"><div> OK - Tulsa</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Oregon</div>
+				<ul>
+					<li data-value="ASTthr"><div> OR - Astoria</div></li>
+					<li data-value="BNOthr"><div> OR - Burns</div></li>
+					<li data-value="EUGthr"><div> OR - Eugene</div></li>
+					<li data-value="MFRthr"><div> OR - Medford</div></li>
+					<li data-value="PDTthr"><div> OR - Pendleton</div></li>
+					<li data-value="PDXthr"><div> OR - Portland</div></li>
+					<li data-value="SLEthr"><div> OR - Salem</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Pacific Islands</div>
+				<ul>
+					<li data-value="STUthr"><div> AS - Pago Pago</div></li>
+					<li data-value="TYAthr"><div> FM - Yap</div></li>
+					<li data-value="TTPthr"><div> FM - Pohnpei</div></li>
+					<li data-value="TKKthr"><div> FM - Chuuk</div></li>
+					<li data-value="GUMthr"><div> GU - Guam</div></li>
+					<li data-value="KMRthr"><div> MH - Majuro</div></li>
+					<li data-value="KWAthr"><div> MH - Kwajalein</div></li>
+					<li data-value="GSNthr"><div> MP - Saipan</div></li>
+					<li data-value="TKRthr"><div> PW - Koror</div></li>
+					<li data-value="WAKthr"><div> UM - Wake Island</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Pennsylvania</div>
+				<ul>
+					<li data-value="ABEthr"><div> PA - Allentown</div></li>
+					<li data-value="AVPthr"><div> PA - Avoca</div></li>
+					<li data-value="ERIthr"><div> PA - Erie</div></li>
+					<li data-value="MDTthr"><div> PA - Middletown-Harrisburg</div></li>
+					<li data-value="PHLthr"><div> PA - Philadelphia</div></li>
+					<li data-value="PITthr"><div> PA - Pittsburgh</div></li>
+					<li data-value="IPTthr"><div> PA - Williamsport</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Puerto Rico</div>
+				<ul>
+					<li data-value="SJUthr"><div> PR - San Juan</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Rhode Island</div>
+				<ul>
+					<li data-value="PVDthr"><div> RI - Providence</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>South Carolina</div>
+				<ul>
+					<li data-value="CHSthr"><div> SC - Charleston</div></li>
+					<li data-value="CAEthr"><div> SC - Columbia</div></li>
+					<li data-value="GSPthr"><div> SC - Greenville-Spartanburg</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>South Dakota</div>
+				<ul>
+					<li data-value="ABRthr"><div> SD - Aberdeen</div></li>
+					<li data-value="HONthr"><div> SD - Huron</div></li>
+					<li data-value="RAPthr"><div> SD - Rapid City</div></li>
+					<li data-value="FSDthr"><div> SD - Sioux Falls</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Tennessee</div>
+				<ul>
+					<li data-value="TRIthr"><div> TN - Bristol-Johnson City</div></li>
+					<li data-value="CHAthr"><div> TN - Chattanooga</div></li>
+					<li data-value="TYSthr"><div> TN - Knoxville</div></li>
+					<li data-value="MEMthr"><div> TN - Memphis</div></li>
+					<li data-value="BNAthr"><div> TN - Nashville</div></li>
+					<li data-value="OQTthr"><div> TN - Oak Ridge</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Texas</div>
+				<ul>
+					<li data-value="ABIthr"><div> TX - Abilene</div></li>
+					<li data-value="AMAthr"><div> TX - Amarillo</div></li>
+					<li data-value="ATTthr"><div> TX - Austin</div></li>
+					<li data-value="AUSthr"><div> TX - Austin-Bergstrom Airport</div></li>
+					<li data-value="BPTthr"><div> TX - Beaumont-Port Arthur</div></li>
+					<li data-value="BROthr"><div> TX - Brownsville</div></li>
+					<li data-value="CDSthr"><div> TX - Childress</div></li>
+					<li data-value="CRPthr"><div> TX - Corpus Christi</div></li>
+					<li data-value="DALthr"><div> TX - Dallas</div></li>
+					<li data-value="DFWthr"><div> TX - Dallas-Fort Worth</div></li>
+					<li data-value="DRTthr"><div> TX - Del Rio</div></li>
+					<li data-value="ELPthr"><div> TX - El Paso</div></li>
+					<li data-value="GLSthr"><div> TX - Galveston</div></li>
+					<li data-value="IAHthr"><div> TX - Houston</div></li>
+					<li data-value="LBBthr"><div> TX - Lubbock</div></li>
+					<li data-value="MAFthr"><div> TX - Midland-Odessa</div></li>
+					<li data-value="SJTthr"><div> TX - San Angelo</div></li>
+					<li data-value="SATthr"><div> TX - San Antonio</div></li>
+					<li data-value="VCTthr"><div> TX - Victoria</div></li>
+					<li data-value="ACTthr"><div> TX - Waco</div></li>
+					<li data-value="SPSthr"><div> TX - Wichita Falls</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Utah</div>
+				<ul>
+					<li data-value="SLCthr"><div> UT - Salt Lake City</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Vermont</div>
+				<ul>
+					<li data-value="BTVthr"><div> VT - Burlington</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Virginia</div>
+				<ul>
+					<li data-value="LYHthr"><div> VA - Lynchburg</div></li>
+					<li data-value="ORFthr"><div> VA - Norfolk</div></li>
+					<li data-value="RICthr"><div> VA - Richmond</div></li>
+					<li data-value="ROAthr"><div> VA - Roanoke</div></li>
+					<li data-value="IADthr"><div> VA - Sterling-Dulles Airport</div></li>
+					<li data-value="WALthr"><div> VA - Wallops Island</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Washington</div>
+				<ul>
+					<li data-value="OLMthr"><div> WA - Olympia</div></li>
+					<li data-value="UILthr"><div> WA - Quillayute</div></li>
+					<li data-value="SEAthr"><div> WA - Seattle</div></li>
+					<li data-value="GEGthr"><div> WA - Spokane</div></li>
+					<li data-value="YKMthr"><div> WA - Yakima</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>West Virginia</div>
+				<ul>
+					<li data-value="BKWthr"><div> WV - Beckley</div></li>
+					<li data-value="CRWthr"><div> WV - Charleston</div></li>
+					<li data-value="EKNthr"><div> WV - Elkins</div></li>
+					<li data-value="HTSthr"><div> WV - Huntington</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Wisconsin</div>
+				<ul>
+					<li data-value="GRBthr"><div> WI - Green Bay</div></li>
+					<li data-value="LSEthr"><div> WI - La Crosse</div></li>
+					<li data-value="MSNthr"><div> WI - Madison</div></li>
+					<li data-value="MKEthr"><div> WI - Milwaukee</div></li>
+				</ul>
+			</li>
+			<li class="noselect"><div>Wyoming</div>
+				<ul>
+					<li data-value="CPRthr"><div> WY - Casper</div></li>
+					<li data-value="CYSthr"><div> WY - Cheyenne</div></li>
+					<li data-value="LNDthr"><div> WY - Lander</div></li>
+					<li data-value="SHRthr"><div> WY - Sheridan</div></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="menu-container" style="margin-left:2em;">
+		<b>Report:</b>
+		<span id="selected_report">None selected</span>
+		<span id="report_info" class="ui-icon ui-icon-info"></span>
+		<br><button id="show_reports" class="show_menu">Select report</button>
+		<ul id="report">
+			<li class="ui-widget-header"><div>--- Current Records ---</div></li>
+			<li data-value="himaxt"><div>Highest maximum temperatures </div></li>
+			<li data-value="lomaxt"><div>Lowest maximum temperatures </div></li>
+			<li data-value="himint"><div>Highest minimum temperatures </div></li>
+			<li data-value="lomint"><div>Lowest minimum temperatures </div></li>
+			<li data-value="hipcpn"><div>Highest precipitation </div></li>
+			<li data-value="recentchanges"><div>Changes from latest archive version </div></li>
+			<li class="ui-widget-header"><div>--- Latest Archive Version of Records ---</div></li>
+			<li data-value="archivehimaxt"><div>Highest maximum temperatures </div></li>
+			<li data-value="archivelomaxt"><div>Lowest maximum temperatures </div></li>
+			<li data-value="archivehimint"><div>Highest minimum temperatures </div></li>
+			<li data-value="archivelomint"><div>Lowest minimum temperatures </div></li>
+			<li data-value="archivehipcpn"><div>Highest precipitation </div></li>
+			<li data-value="changes"><div>Changes from previous archive version </div></li>
+			<li class="ui-widget-header"><div>--- Current Data Coverage ---</div></li>
+			<li data-value="covmaxt"><div>Maximum temperature data coverage </div></li>
+			<li data-value="covmint"><div>Minimum temperature data coverage </div></li>
+			<li data-value="covpcpn"><div>Precipitation data coverage </div></li>
+			<li class="ui-widget-header"><div>--- Thread info ---</div></li>
+			<li data-value="thread"><div>Station thread </div></li>
+		</ul>
+	</div>
+	<br />
+	<div style="margin-top:1em;">
+		<button id="go" style="margin-right:1em;">Go</button>  
+		<button id="about" style="margin-left:1em;">About</button>
+	</div>
+</div>
+
+<div id="results_area"></div>
+<div id="progressbar"></div>
+
+<div id="logo_area">
+	<a href="http://threadex.rcc-acis.org"><img src="./images/ThreadEx-logo-106.png" alt="ThreadEx"></a>
+	<a href="http://www.ncei.noaa.gov"><img src="./images/noaa-ncei-logo.png" alt="NOAA NCEI"></a>
+	<a href="http://www.nws.noaa.gov"><img src="./images/nws-logo.png" alt="NWS"></a>
+	<a href="http://www.ncdc.noaa.gov/oa/climate/regionalclimatecenters.html"><img src="./images/rcc-logo-97.png" alt="RCC"></a>
+</div>
+
+<div id="info"></div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://code.highcharts.com/highcharts.js"></script>
+<script type="text/javascript" src="https://code.highcharts.com/highcharts-more.js"></script>
+<script type="text/javascript" src="https://code.highcharts.com/modules/exporting.js"></script>
+<script type="text/javascript" src="./threadex.min.js"></script>
+
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-12968901-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

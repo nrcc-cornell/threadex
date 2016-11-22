@@ -1,0 +1,428 @@
+def display_records [html] (threads,records,name,var,hilo,thr_id,syr,eyr):
+	from mx import DateTime
+	'''
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+	<html>
+	<head>
+	<title>Threaded Extremes</title>
+	<STYLE TYPE="text/css">
+	<!--
+	TD, TH
+	   {
+	   font-family: 'Arial', 'Helvetica', sans-serif;
+	   font-size: small;
+	   }
+	-->
+	</STYLE>
+	</head>
+	<body>
+	<table width="100%">
+	<tr>
+		<td align="left"><img src="http://threadex.rcc-acis.org/ThreadEx-Logo.jpg" width="274" height="106" alt="ThreadEx">
+		<td align="right">
+		<a href="http://www.noaa.gov"><img src="http://threadex.rcc-acis.org/noaalogo.gif" width="97" height="97" alt="NOAA"></a>&nbsp;&nbsp;
+		<a href="http://www.ncdc.noaa.gov"><img src="http://threadex.rcc-acis.org/ncdc-smlogo.gif" alt="NCDC"></a>&nbsp;&nbsp;
+		   <a href="http://www.nws.noaa.gov"><img src="http://threadex.rcc-acis.org/nws-smlogo.jpg" alt="NWS"></a>&nbsp;&nbsp;
+		   <a href="http://www.ncdc.noaa.gov/oa/climate/regionalclimatecenters.html" alt="RCC"><img src="http://www.nrcc.cornell.edu/images/rcc-transparent.png" height=97></a>
+	</tr>
+	</table>
+	'''
+	'<h3>Threaded Climate Extremes for %s</h3>' % name
+ 	'<h4>Period of record: %s - %s</h4>' % (syr,eyr)
+	if records:
+		'<table border="1" cellspacing="0" cellpadding="3">'
+		'<tr>'
+		'   <th rowspan="2">Date'
+		
+		if var == 'maxt':
+			var_name = "Maximum Temperatures (degrees F)"
+		elif var == 'mint':
+			var_name = "Minimum Temperatures (degrees F)"
+		elif var == 'pcpn':
+			var_name = "Precipitation (inches)"
+		
+		if hilo == '-hi':
+			'   <th colspan="3">Highest %s' % var_name
+		else:
+			'   <th colspan="3">Lowest %s' % var_name
+		'</tr>'
+
+		'<tr>'
+		'   <th>Top Record'
+		'   <th>2nd Record'
+		'   <th>3rd Record'
+		'</tr>'
+
+		
+		firstDate = DateTime.DateTime(2001,1,1)
+		for tt in range(1,60):
+			if records[tt][3] == 1:
+				more = '+'
+			else:
+				more = ' '
+			theDate = firstDate + DateTime.RelativeDate(days=+tt-1)
+			'<tr>'
+			'   <td align="center">%d/%d' % (theDate.month,theDate.day)
+			if var == 'pcpn':
+				if records[tt][0][0] == -1.00:
+					trec = 'Trace'
+				else:
+					trec = '%5.2f' % records[tt][0][0]
+				'   <td align="center">%s in %d' % (trec,records[tt][0][1])
+				if records[tt][1][0] == -1.00:
+					trec = 'Trace'
+				else:
+					trec = '%5.2f' % records[tt][1][0]
+				'   <td align="center">%s in %d' % (trec,records[tt][1][1])
+				if records[tt][2][0] == -1.00:
+					trec = 'Trace'
+				else:
+					trec = '%5.2f' % records[tt][2][0]
+				'   <td align="center">%s in %d%s' % (trec,records[tt][2][1],more)
+			else:
+				'   <td align="center">%d in %d' % (records[tt][0][0],records[tt][0][1])
+				'   <td align="center">%d in %d' % (records[tt][1][0],records[tt][1][1])
+				'   <td align="center">%d in %d%s' % (records[tt][2][0],records[tt][2][1],more)
+			'</tr>'
+	
+		tt = 366
+		if records[tt][3] == 1:
+			more = '+'
+		else:
+			more = ' '
+		'<tr>'
+		'   <td align="center">2/29'
+		if var == 'pcpn':
+				if records[tt][0][0] == -1.00:
+					trec = 'Trace'
+				else:
+					trec = '%5.2f' % records[tt][0][0]
+				'   <td align="center">%s in %d' % (trec,records[tt][0][1])
+				if records[tt][1][0] == -1.00:
+					trec = 'Trace'
+				else:
+					trec = '%5.2f' % records[tt][1][0]
+				'   <td align="center">%s in %d' % (trec,records[tt][1][1])
+				if records[tt][2][0] == -1.00:
+					trec = 'Trace'
+				else:
+					trec = '%5.2f' % records[tt][2][0]
+				'   <td align="center">%s in %d%s' % (trec,records[tt][2][1],more)
+		else:
+			'   <td align="center">%d in %d' % (records[tt][0][0],records[tt][0][1])
+			'   <td align="center">%d in %d' % (records[tt][1][0],records[tt][1][1])
+			'   <td align="center">%d in %d%s' % (records[tt][2][0],records[tt][2][1],more)
+		'</tr>'
+	
+		for tt in range(60,366):
+			if records[tt][3] == 1:
+				more = '+'
+			else:
+				more = ' '
+			theDate = firstDate + DateTime.RelativeDate(days=+tt-1)
+			'<tr>'
+			'   <td align="center">%d/%d' % (theDate.month,theDate.day)
+			if var == 'pcpn':
+				if records[tt][0][0] == -1.00:
+					trec = 'Trace'
+				else:
+					trec = '%5.2f' % records[tt][0][0]
+				'   <td align="center">%s in %d' % (trec,records[tt][0][1])
+				if records[tt][1][0] == -1.00:
+					trec = 'Trace'
+				else:
+					trec = '%5.2f' % records[tt][1][0]
+				'   <td align="center">%s in %d' % (trec,records[tt][1][1])
+				if records[tt][2][0] == -1.00:
+					trec = 'Trace'
+				else:
+					trec = '%5.2f' % records[tt][2][0]
+				'   <td align="center">%s in %d%s' % (trec,records[tt][2][1],more)
+			else:
+				'   <td align="center">%d in %d' % (records[tt][0][0],records[tt][0][1])
+				'   <td align="center">%d in %d' % (records[tt][1][0],records[tt][1][1])
+				'   <td align="center">%d in %d%s' % (records[tt][2][0],records[tt][2][1],more)
+			'</tr>'
+	
+		'''
+		</table>
+		<font size="-2">+ indicates same value also occurred in a previous year.</font>
+		<p>
+		'''
+	else:
+		'<P>Records unavailable.'
+	
+	'<FORM ACTION="/threadex/process_coverage" METHOD="post">'
+	'<INPUT type="hidden" name="variable" value="%s">' % var
+	'<INPUT type="hidden" name="thr_id" value="%s">' % thr_id
+	'<INPUT type="submit" value="View data coverage">'
+	'</FORM>'
+
+	'''
+	<table border="0" celpadding="3" width="100%">
+	<tr>
+		<td align="left">
+		<h3>Station Thread</h3>
+		<table border=1 cellspacing="0" cellpadding="3" bgcolor="tan">
+		<tr>
+			<th> </th>
+			<th>Name</th>
+			<th>Period in Thread</th>
+<!-- 
+			<th>NCDC Detail</th>
+ -->
+		</tr>
+	'''
+	for seq,station,srchmthd,name,pot in threads:
+		'<tr><td align="center">%s</td>' % seq
+		'<td>%s</td>' % name
+		'<td align="center">%s</td>' % pot
+#		'<td align="center">'
+#		'<a HREF="http://www4.ncdc.noaa.gov/cgi-win/wwcgi.dll?WWDI~StnSrch~%s~%s" target="_new">More info</a>' % (srchmthd,station)
+#		'</td>'
+		'</tr>'
+	'''
+		</table>
+		<td align="center" valign="bottom">
+		   <a href="http://rcc-acis.org"><img src="http://www.nrcc.cornell.edu/images/PoweredbyACIS.gif" alt="Powered by ACIS"></a>
+	</tr>
+	</table>
+	</body>
+	</html>	
+	'''
+
+def display_coverage [html] (coverage,name,var):
+	from mx import DateTime
+	'''
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+	<html>
+	<head>
+	<title>Threaded Extremes</title>
+	<STYLE TYPE="text/css">
+	<!--
+	TD, TH
+	   {
+	   font-family: 'Arial', 'Helvetica', sans-serif;
+	   font-size: small;
+	   }
+	-->
+	</STYLE>
+	</head>
+	<body>
+	<table width="100%">
+	<tr>
+		<td align="left">
+		<img src="http://threadex.rcc-acis.org/ThreadEx-Logo.jpg" width="274" height="106" alt="ThreadEx">
+		<td align="right">
+		<a href="http://www.noaa.gov"><img src="http://threadex.rcc-acis.org/noaalogo.gif" width="97" height="97" alt="NOAA"></a>&nbsp;&nbsp;
+		<a href="http://www.ncdc.noaa.gov"><img src="http://threadex.rcc-acis.org/ncdc-smlogo.gif" alt="NCDC"></a>&nbsp;&nbsp;
+		   <a href="http://www.nws.noaa.gov"><img src="http://threadex.rcc-acis.org/nws-smlogo.jpg" alt="NWS"></a>&nbsp;&nbsp;
+		   <a href="http://www.ncdc.noaa.gov/oa/climate/regionalclimatecenters.html" alt="RCC"><img src="http://www.nrcc.cornell.edu/images/rcc-transparent.png" height=97></a>
+	</tr>
+	</table>
+	'''
+	'<h3>ThreadEx Data Coverage for %s</h3>' % name
+	if coverage:
+		'<table border="1" cellspacing="0" cellpadding="0">'
+		'<tr>'
+		'   <th rowspan="2">Year'
+		
+		if var == 'maxt':
+			var_name = "Maximum Temperature - Missing Days per Month"
+		elif var == 'mint':
+			var_name = "Minimum Temperatures - Missing Days per Month"
+		elif var == 'pcpn':
+			var_name = "Precipitation - Missing Days per Month"
+		
+		'   <th colspan="12">%s' % var_name
+		'</tr>'
+		'<tr>'
+		'<th>&nbsp;Jan&nbsp;'
+		'<th>&nbsp;Feb&nbsp;'
+		'<th>&nbsp;Mar&nbsp;'
+		'<th>&nbsp;Apr&nbsp;'
+		'<th>&nbsp;May&nbsp;'
+		'<th>&nbsp;Jun&nbsp;'
+		'<th>&nbsp;Jul&nbsp;'
+		'<th>&nbsp;Aug&nbsp;'
+		'<th>&nbsp;Sep&nbsp;'
+		'<th>&nbsp;Oct&nbsp;'
+		'<th>&nbsp;Nov&nbsp;'
+		'<th>&nbsp;Dec&nbsp;'
+		'</tr>'
+	
+		cnt = 0
+		start_yr = coverage['start_yr']
+		end_yr = coverage['end_yr']
+		for yr in range(start_yr,end_yr+1):
+			'<tr>'
+			'   <td align="center">%s' % yr
+			for i in range(0,12):
+				mcnt = coverage['counts'][cnt][i]
+				if mcnt == 0:
+					cmcnt = " -"
+					color = "green"
+				else:
+					cmcnt = "%2d" % mcnt
+					dt = DateTime.DateTime(yr,i+1,1)
+					dim = dt.days_in_month
+					if dim == mcnt:
+						color = "red"
+					else:
+						color = "yellow"
+				'   <td align="center" bgcolor="%s">%2s' % (color,cmcnt)
+			cnt = cnt+1
+			'</tr>'
+	
+		'</table>'
+		'<p><a href="http://rcc-acis.org"><img src="http://www.nrcc.cornell.edu/images/PoweredbyACIS.gif" alt="Powered by ACIS"></a>'	
+	else:
+		'<P>Data coverage unavailable.'
+	'''
+	</body>
+	</html>	
+	'''
+	
+def display_thread [html] (threads,name):
+	'''
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+	<html>
+	<head>
+	<title>Threaded Extremes</title>
+	<STYLE TYPE="text/css">
+	<!--
+	TD, TH
+	   {
+	   font-family: 'Arial', 'Helvetica', sans-serif;
+	   font-size: small;
+	   }
+	-->
+	</STYLE>
+	</head>
+	<body>
+	<table width="100%">
+	<tr>
+		<td align="left"><img src="http://threadex.rcc-acis.org/ThreadEx-Logo.jpg" width="274" height="106" alt="ThreadEx">
+		<td align="right">
+		<a href="http://www.noaa.gov"><img src="http://threadex.rcc-acis.org/noaalogo.gif" width="97" height="97" alt="NOAA"></a>&nbsp;&nbsp;
+		<a href="http://www.ncdc.noaa.gov"><img src="http://threadex.rcc-acis.org/ncdc-smlogo.gif" alt="NCDC"></a>&nbsp;&nbsp;
+		   <a href="http://www.nws.noaa.gov"><img src="http://threadex.rcc-acis.org/nws-smlogo.jpg" alt="NWS"></a>&nbsp;&nbsp;
+		   <a href="http://www.ncdc.noaa.gov/oa/climate/regionalclimatecenters.html" alt="RCC"><img src="http://www.nrcc.cornell.edu/images/rcc-transparent.png" height=97></a>
+	</tr>
+	</table>
+	'''
+	'<h3>Station Thread for %s</h3>' % name
+	'''
+	<table border=1 cellspacing="0" cellpadding="3" bgcolor="tan">
+	<tr>
+		<th> </th>
+		<th align="left">Name</th>
+		<th>Period in Thread</th>
+<!-- 
+		<th>NCDC Detail</th>
+ -->
+	</tr>
+	'''
+	for seq,station,srchmthd,name,pot in threads:
+		'<tr><td align="center">%s</td>' % seq
+		'<td>%s</td>' % name
+		'<td align="center">%s</td>' % pot
+#		'<td align="center">'
+#		'<a HREF="http://www4.ncdc.noaa.gov/cgi-win/wwcgi.dll?WWDI~StnSrch~%s~%s" target="_new">More info</a>' % (srchmthd,station)
+#		'</td>'
+		'</tr>'
+	'''
+	</table>
+	<p><a href="http://rcc-acis.org"><img src="http://www.nrcc.cornell.edu/images/PoweredbyACIS.gif" alt="Powered by ACIS"></a>
+	</body>
+	</html>	
+	'''
+
+def display_changes [html] (crnt,prev,name,crnt_por,prev_por,changes,):
+	record_types = {'maxt-hi':'Highest max temperature','mint-lo':'Lowest min temperature','maxt-lo':'Lowest max temperature','mint-hi':'Highest min temperature',
+					'pcpn-hi':'Highest precipitation'}
+	'''
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+	<html>
+	<head>
+	<title>Threaded Extremes</title>
+	<STYLE TYPE="text/css">
+	<!--
+	TD, TH
+	   {
+	   font-family: 'Arial', 'Helvetica', sans-serif;
+	   font-size: medium;
+	   }
+	-->
+	</STYLE>
+	</head>
+	<body>
+	<table width="100%">
+	<tr>
+		<td align="left"><img src="http://threadex.rcc-acis.org/ThreadEx-Logo.jpg" width="274" height="106" alt="ThreadEx">
+		<td align="right">
+		<a href="http://www.noaa.gov"><img src="http://threadex.rcc-acis.org/noaalogo.gif" width="97" height="97" alt="NOAA"></a>&nbsp;&nbsp;
+		<a href="http://www.ncdc.noaa.gov"><img src="http://threadex.rcc-acis.org/ncdc-smlogo.gif" alt="NCDC"></a>&nbsp;&nbsp;
+		   <a href="http://www.nws.noaa.gov"><img src="http://threadex.rcc-acis.org/nws-smlogo.jpg" alt="NWS"></a>&nbsp;&nbsp;
+		   <a href="http://www.ncdc.noaa.gov/oa/climate/regionalclimatecenters.html" alt="RCC"><img src="http://www.nrcc.cornell.edu/images/rcc-transparent.png" height=97></a>
+	</tr>
+	</table>
+	'''
+	'<h3>ThreadEx Record Changes From Version %s to Version %s for %s</h3>' % (prev,crnt,name)
+	'<p>Version %s Period of Record: %s - %s' % (prev,prev_por[0],prev_por[1])
+	'<br>Version %s Period of Record: %s - %s' % (crnt,crnt_por[0],crnt_por[1])
+	if len(changes) > 0:
+		'''
+		<table border=1 cellspacing="0" cellpadding="3">
+		'''
+		for var in ['maxt-hi','mint-lo','maxt-lo','mint-hi','pcpn-hi']:
+			if changes.has_key(var): 
+				'<tr><th colspan=5 bgcolor="tan">%s</th></th>' % record_types[var]
+				'''
+				<tr>
+					<th>Date</th>
+					<th>Current Record</th>
+					<th>Year</th>
+					<th>Previous Record</th>
+					<th>Year</th>
+				</tr>
+				'''
+				for rec in changes[var]:
+					'<tr><td align="center">%s</td>' % rec[0]
+					'<td align="center">%s</td>' % rec[1]
+					'<td align="center">%s</td>' % rec[2]
+					'<td align="center">%s</td>' % rec[3]
+					'<td align="center">%s</td>' % rec[4]
+					'</tr>'
+		'</table>'
+	else:
+		'<p>No changes found'
+	'''
+	<p><a href="http://rcc-acis.org"><img src="http://www.nrcc.cornell.edu/images/PoweredbyACIS.gif" alt="Powered by ACIS"></a>
+	</body>
+	</html>	
+	'''
+
+def threadex_input [html] ():
+	'''
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Threaded Extremes</title>
+</head>
+<body>
+To access the ThreadEx web site, go to <a href="http://threadex.rcc-acis.org">http://threadex.rcc-acis.org</a>
+</body>
+</html>
+	'''
+def bad_input [html] (moreinfo):
+	'<html>\n'
+	'<head>\n'
+	'<title>Input error</title>\n'
+	'</head>\n'
+	'<body>\n'
+	'Bad input. Check values and try again.'
+	if moreinfo : '<br>&nbsp;&nbsp;&nbsp; - %s' % moreinfo
+	'</body>\n'
+	'</html>'

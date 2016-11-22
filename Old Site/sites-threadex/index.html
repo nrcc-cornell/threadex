@@ -1,0 +1,363 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Threaded Extremes</title>
+<STYLE TYPE="text/css">
+<!--
+.smallertext
+   {
+   font-family: 'Arial', 'Helvetica', sans-serif;
+   font-size: 8pt;
+   }
+-->
+</STYLE>
+</head>
+<body>
+	<table width="100%">
+	<tr>
+		<td align="left">
+		<img src="ThreadEx-Logo.jpg" width="274" height="106" alt="ThreadEx">
+		<td align="right">
+		<a href="http://www.noaa.gov"><img src="noaalogo.gif" width="97" height="97" alt="NOAA"></a>&nbsp;&nbsp;
+		<a href="http://www.ncdc.noaa.gov"><img src="ncdc-smlogo.gif" height=97 alt="NCEI"></a>&nbsp;&nbsp;
+		   <a href="http://www.nws.noaa.gov"><img src="nws-smlogo.jpg" alt="NWS"></a>&nbsp;&nbsp;
+		   <a href="http://www.ncdc.noaa.gov/oa/climate/regionalclimatecenters.html" alt="RCC"><img src="http://www.nrcc.cornell.edu/images/rcc-transparent.png" height=97></a>
+	</tr>
+	</table>
+	
+<table cellpadding="5" cellspacing="0">
+<tr><td width="35%" valign="top">
+<h3 align="center">Threaded Station Extremes</h3>
+<P>
+<FORM ACTION="/threadex/process_records" METHOD="post">
+<P>View records for:  
+<SELECT SIZE="1" NAME="thr_id">
+<OPTION SELECTED>- Select location -</OPTION>
+<OPTION value="BHMthr"> AL - Birmingham</OPTION>
+<OPTION value="HSVthr"> AL - Huntsville</OPTION>
+<OPTION value="MOBthr"> AL - Mobile</OPTION>
+<OPTION value="MGMthr"> AL - Montgomery</OPTION>
+<OPTION value="FSMthr"> AR - Fort Smith</OPTION>
+<OPTION value="LITthr"> AR - Little Rock</OPTION>
+<OPTION value="FLGthr"> AZ - Flagstaff</OPTION>
+<OPTION value="PHXthr"> AZ - Phoenix</OPTION>
+<OPTION value="TUSthr"> AZ - Tucson</OPTION>
+<OPTION value="INWthr"> AZ - Winslow</OPTION>
+<OPTION value="YUMthr"> AZ - Yuma</OPTION>
+<OPTION value="BFLthr"> CA - Bakersfield</OPTION>
+<OPTION value="BIHthr"> CA - Bishop</OPTION>
+<OPTION value="EKAthr"> CA - Eureka</OPTION>
+<OPTION value="FATthr"> CA - Fresno</OPTION>
+<OPTION value="LGBthr"> CA - Long Beach</OPTION>
+<OPTION value="LAXthr"> CA - Los Angeles Airport</OPTION>
+<OPTION value="CQTthr"> CA - Los Angeles Downtown</OPTION>
+<OPTION value="RDDthr"> CA - Redding</OPTION>
+<OPTION value="SACthr"> CA - Sacramento</OPTION>
+<OPTION value="SANthr"> CA - San Diego</OPTION>
+<OPTION value="SFOthr"> CA - San Francisco Airport</OPTION>
+<OPTION value="SMXthr"> CA - Santa Maria</OPTION>
+<OPTION value="SCKthr"> CA - Stockton</OPTION>
+<OPTION value="ALSthr"> CO - Alamosa</OPTION>
+<OPTION value="COSthr"> CO - Colorado Springs</OPTION>
+<OPTION value="DENthr"> CO - Denver</OPTION>
+<OPTION value="GJTthr"> CO - Grand Junction</OPTION>
+<OPTION value="PUBthr"> CO - Pueblo</OPTION>
+<OPTION value="BDRthr"> CT - Bridgeport</OPTION>
+<OPTION value="BDLthr"> CT - Hartford</OPTION>
+<OPTION value="DCAthr"> DC - Washington</OPTION>
+<OPTION value="ILGthr"> DE - Wilmington</OPTION>
+<OPTION value="DABthr"> FL - Daytona Beach</OPTION>
+<OPTION value="FMYthr"> FL - Fort Myers</OPTION>
+<OPTION value="GNVthr"> FL - Gainesville</OPTION>
+<OPTION value="JAXthr"> FL - Jacksonville</OPTION>
+<OPTION value="EYWthr"> FL - Key West</OPTION>
+<OPTION value="MLBthr"> FL - Melbourne</OPTION>
+<OPTION value="MIAthr"> FL - Miami</OPTION>
+<OPTION value="MCOthr"> FL - Orlando</OPTION>
+<OPTION value="PNSthr"> FL - Pensacola</OPTION>
+<OPTION value="TLHthr"> FL - Tallahassee</OPTION>
+<OPTION value="TPAthr"> FL - Tampa</OPTION>
+<OPTION value="VRBthr"> FL - Vero Beach</OPTION>
+<OPTION value="PBIthr"> FL - West Palm Beach</OPTION>
+<OPTION value="AHNthr"> GA - Athens</OPTION>
+<OPTION value="ATLthr"> GA - Atlanta</OPTION>
+<OPTION value="AGSthr"> GA - Augusta</OPTION>
+<OPTION value="CSGthr"> GA - Columbus</OPTION>
+<OPTION value="MCNthr"> GA - Macon</OPTION>
+<OPTION value="SAVthr"> GA - Savannah</OPTION>
+<OPTION value="DSMthr"> IA - Des Moines</OPTION>
+<OPTION value="DBQthr"> IA - Dubuque</OPTION>
+<OPTION value="SUXthr"> IA - Sioux City</OPTION>
+<OPTION value="ALOthr"> IA - Waterloo</OPTION>
+<OPTION value="BOIthr"> ID - Boise</OPTION>
+<OPTION value="LWSthr"> ID - Lewiston</OPTION>
+<OPTION value="PIHthr"> ID - Pocatello</OPTION>
+<OPTION value="ORDthr"> IL - Chicago</OPTION>
+<OPTION value="MLIthr"> IL - Moline</OPTION>
+<OPTION value="PIAthr"> IL - Peoria</OPTION>
+<OPTION value="RFDthr"> IL - Rockford</OPTION>
+<OPTION value="SPIthr"> IL - Springfield</OPTION>
+<OPTION value="EVVthr"> IN - Evansville</OPTION>
+<OPTION value="FWAthr"> IN - Fort Wayne</OPTION>
+<OPTION value="INDthr"> IN - Indianapolis</OPTION>
+<OPTION value="SBNthr"> IN - South Bend</OPTION>
+<OPTION value="CNKthr"> KS - Concordia</OPTION>
+<OPTION value="DDCthr"> KS - Dodge City</OPTION>
+<OPTION value="GLDthr"> KS - Goodland</OPTION>
+<OPTION value="TOPthr"> KS - Topeka</OPTION>
+<OPTION value="ICTthr"> KS - Wichita</OPTION>
+<OPTION value="JKLthr"> KY - Jackson</OPTION>
+<OPTION value="LEXthr"> KY - Lexington</OPTION>
+<OPTION value="SDFthr"> KY - Louisville</OPTION>
+<OPTION value="PAHthr"> KY - Paducah</OPTION>
+<OPTION value="BTRthr"> LA - Baton Rouge</OPTION>
+<OPTION value="LCHthr"> LA - Lake Charles</OPTION>
+<OPTION value="MSYthr"> LA - New Orleans</OPTION>
+<OPTION value="SHVthr"> LA - Shreveport</OPTION>
+<OPTION value="BOSthr"> MA - Boston</OPTION>
+<OPTION value="MQEthr"> MA - Milton</OPTION>
+<OPTION value="ORHthr"> MA - Worcester</OPTION>
+<OPTION value="BWIthr"> MD - Baltimore</OPTION>
+<OPTION value="BGRthr"> ME - Bangor</OPTION>
+<OPTION value="CARthr"> ME - Caribou</OPTION>
+<OPTION value="PWMthr"> ME - Portland</OPTION>
+<OPTION value="APNthr"> MI - Alpena</OPTION>
+<OPTION value="DTWthr"> MI - Detroit</OPTION>
+<OPTION value="FNTthr"> MI - Flint</OPTION>
+<OPTION value="GRRthr"> MI - Grand Rapids</OPTION>
+<OPTION value="HTLthr"> MI - Houghton Lake</OPTION>
+<OPTION value="LANthr"> MI - Lansing</OPTION>
+<OPTION value="MQTthr"> MI - Marquette</OPTION>
+<OPTION value="MKGthr"> MI - Muskegon</OPTION>
+<OPTION value="ANJthr"> MI - Sault Ste Marie</OPTION>
+<OPTION value="DLHthr"> MN - Duluth</OPTION>
+<OPTION value="INLthr"> MN - International Falls</OPTION>
+<OPTION value="MSPthr"> MN - Minneapolis-St Paul</OPTION>
+<OPTION value="RSTthr"> MN - Rochester</OPTION>
+<OPTION value="STCthr"> MN - Saint Cloud</OPTION>
+<OPTION value="COUthr"> MO - Columbia</OPTION>
+<OPTION value="MCIthr"> MO - Kansas City</OPTION>
+<OPTION value="SGFthr"> MO - Springfield</OPTION>
+<OPTION value="STLthr"> MO - St Louis</OPTION>
+<OPTION value="JANthr"> MS - Jackson</OPTION>
+<OPTION value="MEIthr"> MS - Meridian</OPTION>
+<OPTION value="TUPthr"> MS - Tupelo</OPTION>
+<OPTION value="BILthr"> MT - Billings</OPTION>
+<OPTION value="GGWthr"> MT - Glasgow</OPTION>
+<OPTION value="GTFthr"> MT - Great Falls</OPTION>
+<OPTION value="HVRthr"> MT - Havre</OPTION>
+<OPTION value="HLNthr"> MT - Helena</OPTION>
+<OPTION value="FCAthr"> MT - Kalispell</OPTION>
+<OPTION value="MSOthr"> MT - Missoula</OPTION>
+<OPTION value="AVLthr"> NC - Asheville</OPTION>
+<OPTION value="HSEthr"> NC - Cape Hatteras</OPTION>
+<OPTION value="CLTthr"> NC - Charlotte</OPTION>
+<OPTION value="GSOthr"> NC - Greensboro</OPTION>
+<OPTION value="RDUthr"> NC - Raleigh</OPTION>
+<OPTION value="ILMthr"> NC - Wilmington</OPTION>
+<OPTION value="BISthr"> ND - Bismarck</OPTION>
+<OPTION value="FARthr"> ND - Fargo</OPTION>
+<OPTION value="GFKthr"> ND - Grand Forks</OPTION>
+<OPTION value="ISNthr"> ND - Williston</OPTION>
+<OPTION value="GRIthr"> NE - Grand Island</OPTION>
+<OPTION value="LNKthr"> NE - Lincoln</OPTION>
+<OPTION value="OFKthr"> NE - Norfolk</OPTION>
+<OPTION value="LBFthr"> NE - North Platte</OPTION>
+<OPTION value="OMAthr"> NE - Omaha</OPTION>
+<OPTION value="BFFthr"> NE - Scottsbluff</OPTION>
+<OPTION value="VTNthr"> NE - Valentine</OPTION>
+<OPTION value="CONthr"> NH - Concord</OPTION>
+<OPTION value="ACYthr"> NJ - Atlantic City</OPTION>
+<OPTION value="EWRthr"> NJ - Newark</OPTION>
+<OPTION value="ABQthr"> NM - Albuquerque</OPTION>
+<OPTION value="CAOthr"> NM - Clayton</OPTION>
+<OPTION value="ROWthr"> NM - Roswell</OPTION>
+<OPTION value="EKOthr"> NV - Elko</OPTION>
+<OPTION value="ELYthr"> NV - Ely</OPTION>
+<OPTION value="LASthr"> NV - Las Vegas</OPTION>
+<OPTION value="RNOthr"> NV - Reno</OPTION>
+<OPTION value="WMCthr"> NV - Winnemucca</OPTION>
+<OPTION value="ALBthr"> NY - Albany</OPTION>
+<OPTION value="BGMthr"> NY - Binghamton</OPTION>
+<OPTION value="BUFthr"> NY - Buffalo</OPTION>
+<OPTION value="ISPthr"> NY - Islip</OPTION>
+<OPTION value="NYCthr"> NY - New York-Central Park</OPTION>
+<OPTION value="JFKthr"> NY - New York-Kennedy Airport</OPTION>
+<OPTION value="LGAthr"> NY - New York-Laguardia Airport</OPTION>
+<OPTION value="ROCthr"> NY - Rochester</OPTION>
+<OPTION value="SYRthr"> NY - Syracuse</OPTION>
+<OPTION value="CAKthr"> OH - Akron</OPTION>
+<OPTION value="CVGthr"> OH - Cincinnati</OPTION>
+<OPTION value="CLEthr"> OH - Cleveland</OPTION>
+<OPTION value="CMHthr"> OH - Columbus</OPTION>
+<OPTION value="DAYthr"> OH - Dayton</OPTION>
+<OPTION value="MFDthr"> OH - Mansfield</OPTION>
+<OPTION value="TOLthr"> OH - Toledo</OPTION>
+<OPTION value="YNGthr"> OH - Youngstown</OPTION>
+<OPTION value="OKCthr"> OK - Oklahoma City</OPTION>
+<OPTION value="TULthr"> OK - Tulsa</OPTION>
+<OPTION value="ASTthr"> OR - Astoria</OPTION>
+<OPTION value="BNOthr"> OR - Burns</OPTION>
+<OPTION value="EUGthr"> OR - Eugene</OPTION>
+<OPTION value="MFRthr"> OR - Medford</OPTION>
+<OPTION value="PDTthr"> OR - Pendleton</OPTION>
+<OPTION value="PDXthr"> OR - Portland</OPTION>
+<OPTION value="SLEthr"> OR - Salem</OPTION>
+<OPTION value="ABEthr"> PA - Allentown</OPTION>
+<OPTION value="AVPthr"> PA - Avoca</OPTION>
+<OPTION value="ERIthr"> PA - Erie</OPTION>
+<OPTION value="MDTthr"> PA - Middletown-Harrisburg</OPTION>
+<OPTION value="PHLthr"> PA - Philadelphia</OPTION>
+<OPTION value="PITthr"> PA - Pittsburgh</OPTION>
+<OPTION value="IPTthr"> PA - Williamsport</OPTION>
+<OPTION value="PVDthr"> RI - Providence</OPTION>
+<OPTION value="CHSthr"> SC - Charleston</OPTION>
+<OPTION value="CAEthr"> SC - Columbia</OPTION>
+<OPTION value="GSPthr"> SC - Greenville-Spartanburg</OPTION>
+<OPTION value="ABRthr"> SD - Aberdeen</OPTION>
+<OPTION value="HONthr"> SD - Huron</OPTION>
+<OPTION value="RAPthr"> SD - Rapid City</OPTION>
+<OPTION value="FSDthr"> SD - Sioux Falls</OPTION>
+<OPTION value="TRIthr"> TN - Bristol-Johnson City</OPTION>
+<OPTION value="CHAthr"> TN - Chattanooga</OPTION>
+<OPTION value="TYSthr"> TN - Knoxville</OPTION>
+<OPTION value="MEMthr"> TN - Memphis</OPTION>
+<OPTION value="BNAthr"> TN - Nashville</OPTION>
+<OPTION value="OQTthr"> TN - Oak Ridge</OPTION>
+<OPTION value="ABIthr"> TX - Abilene</OPTION>
+<OPTION value="AMAthr"> TX - Amarillo</OPTION>
+<OPTION value="ATTthr"> TX - Austin</OPTION>
+<OPTION value="AUSthr"> TX - Austin-Bergstrom Airport</OPTION>
+<OPTION value="BPTthr"> TX - Beaumont-Port Arthur</OPTION>
+<OPTION value="BROthr"> TX - Brownsville</OPTION>
+<OPTION value="CDSthr"> TX - Childress</OPTION>
+<OPTION value="CRPthr"> TX - Corpus Christi</OPTION>
+<OPTION value="DALthr"> TX - Dallas</OPTION>
+<OPTION value="DFWthr"> TX - Dallas-Fort Worth</OPTION>
+<OPTION value="DRTthr"> TX - Del Rio</OPTION>
+<OPTION value="ELPthr"> TX - El Paso</OPTION>
+<OPTION value="GLSthr"> TX - Galveston</OPTION>
+<OPTION value="IAHthr"> TX - Houston</OPTION>
+<OPTION value="LBBthr"> TX - Lubbock</OPTION>
+<OPTION value="MAFthr"> TX - Midland-Odessa</OPTION>
+<OPTION value="SJTthr"> TX - San Angelo</OPTION>
+<OPTION value="SATthr"> TX - San Antonio</OPTION>
+<OPTION value="VCTthr"> TX - Victoria</OPTION>
+<OPTION value="ACTthr"> TX - Waco</OPTION>
+<OPTION value="SPSthr"> TX - Wichita Falls</OPTION>
+<OPTION value="SLCthr"> UT - Salt Lake City</OPTION>
+<OPTION value="LYHthr"> VA - Lynchburg</OPTION>
+<OPTION value="ORFthr"> VA - Norfolk</OPTION>
+<OPTION value="RICthr"> VA - Richmond</OPTION>
+<OPTION value="ROAthr"> VA - Roanoke</OPTION>
+<OPTION value="IADthr"> VA - Sterling-Dulles Airport</OPTION>
+<OPTION value="WALthr"> VA - Wallops Island</OPTION>
+<OPTION value="BTVthr"> VT - Burlington</OPTION>
+<OPTION value="OLMthr"> WA - Olympia</OPTION>
+<OPTION value="UILthr"> WA - Quillayute</OPTION>
+<OPTION value="SEAthr"> WA - Seattle</OPTION>
+<OPTION value="GEGthr"> WA - Spokane</OPTION>
+<OPTION value="YKMthr"> WA - Yakima</OPTION>
+<OPTION value="GRBthr"> WI - Green Bay</OPTION>
+<OPTION value="LSEthr"> WI - La Crosse</OPTION>
+<OPTION value="MSNthr"> WI - Madison</OPTION>
+<OPTION value="MKEthr"> WI - Milwaukee</OPTION>
+<OPTION value="BKWthr"> WV - Beckley</OPTION>
+<OPTION value="CRWthr"> WV - Charleston</OPTION>
+<OPTION value="EKNthr"> WV - Elkins</OPTION>
+<OPTION value="HTSthr"> WV - Huntington</OPTION>
+<OPTION value="CPRthr"> WY - Casper</OPTION>
+<OPTION value="CYSthr"> WY - Cheyenne</OPTION>
+<OPTION value="LNDthr"> WY - Lander</OPTION>
+<OPTION value="SHRthr"> WY - Sheridan</OPTION>
+<OPTION value="ANCthr"> AK - Anchorage</OPTION>
+<OPTION value="ANNthr"> AK - Annette</OPTION>
+<OPTION value="BRWthr"> AK - Barrow</OPTION>
+<OPTION value="BETthr"> AK - Bethel</OPTION>
+<OPTION value="BTTthr"> AK - Bettles</OPTION>
+<OPTION value="CDBthr"> AK - Cold Bay</OPTION>
+<OPTION value="BIGthr"> AK - Delta Junction</OPTION>
+<OPTION value="FAIthr"> AK - Fairbanks</OPTION>
+<OPTION value="GKNthr"> AK - Gulkana</OPTION>
+<OPTION value="HOMthr"> AK - Homer</OPTION>
+<OPTION value="JNUthr"> AK - Juneau</OPTION>
+<OPTION value="AKNthr"> AK - King Salmon</OPTION>
+<OPTION value="ADQthr"> AK - Kodiak</OPTION>
+<OPTION value="OTZthr"> AK - Kotzebue</OPTION>
+<OPTION value="MCGthr"> AK - Mcgrath</OPTION>
+<OPTION value="OMEthr"> AK - Nome</OPTION>
+<OPTION value="SNPthr"> AK - St Paul Island</OPTION>
+<OPTION value="TKAthr"> AK - Talkeetna</OPTION>
+<OPTION value="YAKthr"> AK - Yakutat</OPTION>
+<OPTION value="ITOthr"> HI - Hilo</OPTION>
+<OPTION value="HNLthr"> HI - Honolulu</OPTION>
+<OPTION value="OGGthr"> HI - Kahului</OPTION>
+<OPTION value="LIHthr"> HI - Lihue</OPTION>
+<OPTION value="SJUthr"> PR - San Juan</OPTION>
+<OPTION value="STUthr"> AS - Pago Pago</OPTION>
+<OPTION value="TYAthr"> FM - Yap</OPTION>
+<OPTION value="TTPthr"> FM - Pohnpei</OPTION>
+<OPTION value="TKKthr"> FM - Chuuk</OPTION>
+<OPTION value="GUMthr"> GU - Guam</OPTION>
+<OPTION value="KMRthr"> MH - Majuro</OPTION>
+<OPTION value="KWAthr"> MH - Kwajalein</OPTION>
+<OPTION value="GSNthr"> MP - Saipan</OPTION>
+<OPTION value="TKRthr"> PW - Koror</OPTION>
+<OPTION value="WAKthr"> UM - Wake Island</OPTION>
+</SELECT>
+
+<P>Report:  
+<SELECT SIZE="1" NAME="variable">
+<OPTION SELECTED>- Select variable -</OPTION>
+<OPTION value="-himaxt"> Highest maximum temperatures </OPTION>
+<OPTION value="-lomaxt"> Lowest maximum temperatures </OPTION>
+<OPTION value="-himint"> Highest minimum temperatures </OPTION>
+<OPTION value="-lomint"> Lowest minimum temperatures </OPTION>
+<OPTION value="-hipcpn"> Highest precipitation </OPTION>
+<OPTION value="Select">------------------</OPTION>
+<OPTION value="maxt"> Maximum temperature data coverage </OPTION>
+<OPTION value="mint"> Minimum temperature data coverage </OPTION>
+<OPTION value="pcpn"> Precipitation data coverage </OPTION>
+<OPTION value="Select">------------------</OPTION>
+<OPTION value="changes"> Changes from previous version </OPTION>
+<OPTION value="thread"> Station thread </OPTION>
+</SELECT>
+
+<P><input type="submit" value="Submit">
+</form>
+</td>
+
+<td>
+<P><TABLE border="1" bordercolor="orange" cellpadding="5" cellspacing="0">
+<TR>
+<TH>Project Background
+</TH>
+</TR>
+<TR>
+<TD>
+<b>Summary</b>
+<p class=smallertext><i>ThreadEx</i> is a project designed to address the fragmentation of station information over time due to station relocations for the express purpose of calculating daily extremes of temperature and precipitation.  There are often changes in the siting of instrumentation for any given National Weather Service/Weather Bureau location over the observational history in a given city/region. As a result, obtaining a long time series (i.e., one hundred years or more) for computation of extremes is difficult, unless records from the various locations are <i>"threaded"</i> or put together.  This has been done, but different approaches and combinations of stations have resulted in confusion among data users and the general public about what constitutes an official daily extreme record. 
+<p class=smallertext>In consultation with NOAA's National Centers for Environmental Information (NCEI) and the National Weather Service (NWS), the Northeast Regional Climate Center (NRCC) has evaluated station relocations and built <i>"threads"</i> for 270 locations that are published in NCEI's <i>Local Climatological Data</i> using NOAA daily data sets. The data sets used for this project include NCEI GHCN-Daily, NCEI DSI3210, DSI3200, DSI3206 and DSI3205. In addition, NRCC has been able to extend over sixty station threads back further in time using daily data contributed by local NWS offices, state climate offices and regional climate centers. An ongoing process of adding daily data from the old NWS Climate Record Books continues. These data have been digitized, passed through quality control and used to extend threads back even further in time for over fifty stations to date (see <a href="revisions.html">revision history</a> for details).
+<p><b>Methodology for Developing Threads</b>
+<p class=smallertext>The record of a currently active station was used as the starting point for a station thread. This station's current record was used as far back in time as possible, taking precedence over a closed station's record during any periods of overlap. A search was conducted to identify other weather stations in the area that could be used to extend the thread further back in time. In this process, preference was given to Weather Service/Bureau stations (that were not themselves LCD stations). The thread was extended back in time as far as possible using NOAA daily data available in digital form. Partner input was solicited and this local expertise was used to fine-tune the station threads. 
+<P><b>Contacts</b>
+<p class=smallertext>If you have any questions, contact Keith Eggleston at NRCC (<a href="mailto:KLE1@cornell.edu" target="_top">KLE1@cornell.edu</a>) or Bryant Korzeniewski at NCEI (<a href="mailto:Bryant.Korzeniewski@noaa.gov" target="_top">Bryant.Korzeniewski@noaa.gov</a>).
+<P><font size="-1"><I>Version 11.0 - released 17-Feb-2016.</i>
+<BR><a href="revisions.html">Revision History</a>.
+<BR><a href="links.html">Links</a>.</font>
+</TR>
+</TABLE>
+</td></tr>
+</table>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-12968901-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

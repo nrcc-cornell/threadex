@@ -1,0 +1,58 @@
+h3, #results_area {
+	text-align: center; }
+h3 {
+	margin: 0.5em 0; }
+#results_table {
+	border-collapse: collapse;
+	white-space: nowrap;
+	text-align: center;
+	font-size: 90%;
+	margin: 0 auto; }
+#results_table tr td, #results_table tr th {
+	border: 1pt solid gray;
+	padding: 2pt 1em; }
+#results_table caption {
+	font-weight: bold;
+	font-size: 110%;
+	padding: 0.5em; }
+#results_table.coverage_table {
+	font-size: 80%; }
+#results_table.coverage_table tr td, #results_table.coverage_table tr th {
+	padding: 1pt 0.5em; }
+#results_table.threads_table {
+	text-align: left; }
+#chart-container {
+	width:400px;
+	height:1000px;
+	display:inline-block;
+	margin:3.2em auto 0 2em;
+	vertical-align:top; }
+table.abreast {
+	display:inline-block; }
+.subcaption {
+	font-weight: normal;
+	font-size: 90%; }
+div.option-container {
+	text-align: center;
+	border: 1pt solid lightblue;
+	padding: 0.5em; }
+div.menu-container {
+	display:inline-block;
+	vertical-align: top; }
+div.menu-container span {
+	font-style:italic; }
+div.menu-container ul, #progressbar {
+	display: none; }
+#info {
+	font-size: 75%; }
+#logo_area {
+	width: 615px;
+	margin: 1em auto; }
+#logo_area a {
+	margin-right: 10px; }
+#logo_area a:last-child{
+	margin-right: 0; }
+.ui-menu, .ui-button {
+	font-size: 80%; }
+.ui-button {
+	padding: 0.3em 0.75em; }

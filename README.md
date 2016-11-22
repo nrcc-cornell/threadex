@@ -1,2 +1,2 @@
 # threadex
-All the pieces needed for the ThreadEx web site.
+The new (November 2016) ThreadEx web site.
