@@ -1,5 +1,5 @@
-var latest_version_directory = "data/v11.1",
-	prev_version_directory = "data/v10.1";
+var latest_version_directory = "data/v12.0",
+	prev_version_directory = "data/v11.1";
 /* Standard ACIS data acquisition
 ----------------------------------------------------------*/
 function postSuccess(results, cbf) {
