@@ -74,7 +74,7 @@ function fixTraces(results) {
 			return ((yr % 4 === 0) && (yr % 100 !== 0)) || (yr % 400 === 0);
 		},
 		processDay = function(dly_results) {
-			var j, rn, date, prcp, ymd, newval, newText,
+			var j, rn, date, prcp, ymd, newval, newText, nxtval,
 				flgyr = [],
 				zeroyr = [],
 				rest = [],
@@ -473,23 +473,28 @@ function getChanges() {
 			latest_start_yr = Math.min(latest_start_yr, parseInt(latest_results.start_yr));
 			latest_end_yr = Math.max(latest_end_yr, parseInt(latest_results.end_yr));
 			$.get("./" + prev_version_directory + "/" + tvar + "_records.json", function (jpres) {
-				prev_results = jpres[sid];
-				prev_start_yr = Math.min(prev_start_yr, prev_results.start_yr);
-				prev_end_yr = Math.max(prev_end_yr, prev_results.end_yr);
-				for (i = 0; i < 366; i += 1) {
-					latest_value = latest_results.data[i][0][0];
-					if (tvar === 'hipcpn' && latest_value === -1) {
-						latest_value = 'Trace';
+				if (jpres.hasOwnProperty(sid)) {
+					prev_results = jpres[sid];
+					prev_start_yr = Math.min(prev_start_yr, prev_results.start_yr);
+					prev_end_yr = Math.max(prev_end_yr, prev_results.end_yr);
+					for (i = 0; i < 366; i += 1) {
+						latest_value = latest_results.data[i][0][0];
+						if (tvar === 'hipcpn' && latest_value === -1) {
+							latest_value = 'Trace';
+						}
+						latest_date = latest_results.data[i][0][1].split("-");
+						prev_value = prev_results.data[i][0][0];
+						if (tvar === 'hipcpn' && prev_value === -1) {
+							prev_value = 'Trace';
+						}
+						prev_date = prev_results.data[i][0][1].split("-");
+						if ((latest_value !== prev_value) || (latest_date[0] !== prev_date[0])) {
+							changes.push([tvar, latest_value, latest_date, prev_value, prev_date]);
+						}
 					}
-					latest_date = latest_results.data[i][0][1].split("-");
-					prev_value = prev_results.data[i][0][0];
-					if (tvar === 'hipcpn' && prev_value === -1) {
-						prev_value = 'Trace';
-					}
-					prev_date = prev_results.data[i][0][1].split("-");
-					if ((latest_value !== prev_value) || (latest_date[0] !== prev_date[0])) {
-						changes.push([tvar, latest_value, latest_date, prev_value, prev_date]);
-					}
+				} else {
+					prev_start_yr = "-";
+					prev_end_yr = "-";
 				}
 				yr_arr = [prev_start_yr, prev_end_yr, latest_start_yr, latest_end_yr];
 				displayChanges(tvar, changes, yr_arr);
@@ -521,7 +526,7 @@ function getRecentChanges() {
 	initChangeTable(latest_version_directory.substr(6), "Current");
 	$.each(['himaxt', 'lomint', 'lomaxt', 'himint', 'hipcpn'], function(j, tvar) {
 		var i, latest_results, latest_value, latest_date,crnt_value, crnt_date,
-			changes = [], yrarr = [];
+			changes = [], yr_arr = [];
 		$.get("./" + latest_version_directory + "/" + tvar + "_records.json", function (jlres) {
 			latest_results = jlres[sid];
 			latest_start_yr = Math.min(latest_start_yr, parseInt(latest_results.start_yr));
