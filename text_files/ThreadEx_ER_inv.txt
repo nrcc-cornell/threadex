@@ -33,14 +33,14 @@ GSP SC Greenville-Spartanburg Area    1884 2016 1884 2016
 HLG WV Wheeling Area                  1881 2016 1878 2016
 HSE NC Cape Hatteras Area             1893 2016 1893 2016
 HTS WV Huntington Area                1891 2016 1891 2016
-IAD VA Sterling-Dulles Airport Area   1962 2016 1962 2016
+IAD VA Sterling-Dulles Airport Area   1960 2016 1960 2016
 ILG DE Wilmington Area                1894 2016 1894 2016
 ILM NC Wilmington Area                1874 2016 1871 2016
 IPT PA Williamsport Area              1895 2016 1895 2016
-ISP NY Islip Area                     1984 2016 1984 2016
+ISP NY Islip Area                     1963 2016 1963 2016
 JFK NY New York-Kennedy Airport Area  1948 2016 1948 2016
 LBT NC Lumberton Area                 1903 2016 1903 2016
-LGA NY New York-LGA Area              1940 2016 1944 2016
+LGA NY New York-LGA Area              1939 2016 1940 2016
 LYH VA Lynchburg Area                 1893 2016 1893 2016
 MDT PA Middletown-Harrisburg Area     1888 2016 1888 2016
 MFD OH Mansfield Area                 1916 2016 1899 2016
