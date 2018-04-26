@@ -5,9 +5,11 @@ ANJ MI Sault Ste Marie Area           1888 2017 1888 2017
 APN MI Alpena Area                    1916 2017 1916 2017
 ASX WI Ashland Area                   1893 2017 1893 2017
 AUW WI Wausau Area                    1895 2017 1895 2017
+AZO MI Kalamazoo Area                 1887 2017 1887 2017
 BFF NE Scottsbluff Area               1893 2017 1893 2017
 BIS ND Bismarck Area                  1874 2017 1874 2017
 BRD MN Brainerd Area                  1899 2017 1908 2017
+CID IA Cedar Rapids Area              1893 2017 1893 2017
 CNK KS Concordia Area                 1885 2017 1885 2017
 COS CO Colorado Springs Area          1894 2017 1894 2017
 COU MO Columbia Area                  1889 2017 1889 2017
@@ -40,6 +42,7 @@ ICT KS Wichita Area                   1888 2017 1888 2017
 IND IN Indianapolis Area              1871 2017 1871 2017
 INL MN International Falls Area       1897 2017 1895 2017
 ISN ND Williston Area                 1894 2017 1894 2017
+JEF MO Jefferson City Area            1894 2017 1894 2017
 JKL KY Jackson Area                   1981 2017 1981 2017
 LAN MI Lansing Area                   1863 2017 1863 2017
 LBF NE North Platte Area              1874 2017 1874 2017
@@ -49,6 +52,7 @@ LNK NE Lincoln Area                   1887 2017 1887 2017
 LSE WI La Crosse Area                 1872 2017 1872 2017
 MBS MI Saginaw Area                   1898 2017 1898 2017
 MCI MO Kansas City Area               1888 2017 1888 2017
+MCK NE McCook Area                    1896 2017 1894 2017
 MHE SD Mitchell Area                  1893 2017 1893 2017
 MKE WI Milwaukee Area                 1871 2017 1871 2017
 MKG MI Muskegon Area                  1896 2017 1896 2017
@@ -77,4 +81,5 @@ STL MO St Louis Area                  1874 2017 1874 2017
 SUX IA Sioux City Area                1889 2017 1889 2017
 TOP KS Topeka Area                    1887 2017 1887 2017
 UIN IL Quincy Area                    1901 2017 1901 2017
+UNR SD Rapid City Downtown Area       1888 2017 1888 2017
 VTN NE Valentine Area                 1889 2017 1889 2017
