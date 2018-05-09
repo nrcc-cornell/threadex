@@ -34,7 +34,7 @@ ECG NC Elizabeth City Area            1934 2017 1934 2017
 EKN WV Elkins Area                    1899 2017 1899 2017
 ERI PA Erie Area                      1873 2017 1873 2017
 EWR NJ Newark Area                    1931 2017 1931 2017
-FAY NC Fayetteville Area              1899 2017 1871 2017
+FAY NC Fayetteville Area              1910 2017 1910 2017
 GED DE Georgetown Area                1945 2017 1945 2017
 GFL NY Glens Falls Area               1893 2017 1893 2017
 GSO NC Greensboro Area                1903 2017 1903 2017
