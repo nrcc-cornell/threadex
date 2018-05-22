@@ -1,14 +1,14 @@
-GSN MP Saipan Area                    1945 2017 1945 2017
-GUM GU Guam Area                      1945 2017 1945 2017
-HNL HI Honolulu Area                  1890 2017 1877 2017
-ITO HI Hilo Area                      1949 2017 1949 2017
-KMR MH Majuro Area                    1951 2017 1951 2017
-KWA MH Kwajalein Area                 1949 2017 1949 2017
-LIH HI Lihue Area                     1905 2017 1905 2017
-OGG HI Kahului Area                   1954 2017 1905 2017
-STU AS Pago Pago Area                 1957 2017 1956 2017
-TKK FM Chuuk Area                     1946 2017 1946 2017
-TKR PW Koror Area                     1947 2017 1947 2017
-TTP FM Pohnpei Area                   1949 2017 1949 2017
-TYA FM Yap Area                       1948 2017 1948 2017
-WAK UM Wake Island Area               1949 2004 1949 2004
+GSNthr   MP Saipan Area                    1945 2017 1945 2017
+GUMthr   GU Guam Area                      1945 2017 1945 2017
+HNLthr   HI Honolulu Area                  1890 2017 1877 2017
+ITOthr   HI Hilo Area                      1949 2017 1949 2017
+KMRthr   MH Majuro Area                    1951 2017 1951 2017
+KWAthr   MH Kwajalein Area                 1949 2017 1949 2017
+LIHthr   HI Lihue Area                     1905 2017 1905 2017
+OGGthr   HI Kahului Area                   1954 2017 1905 2017
+STUthr   AS Pago Pago Area                 1957 2017 1956 2017
+TKKthr   FM Chuuk Area                     1946 2017 1946 2017
+TKRthr   PW Koror Area                     1947 2017 1947 2017
+TTPthr   FM Pohnpei Area                   1949 2017 1949 2017
+TYAthr   FM Yap Area                       1948 2017 1948 2017
+WAKthr   UM Wake Island Area               1949 2004 1949 2004

@@ -1,92 +1,92 @@
-ABI TX Abilene Area                   1885 2017 1885 2017
-ABQ NM Albuquerque Area               1891 2017 1891 2017
-ACT TX Waco Area                      1901 2017 1901 2017
-AGS GA Augusta Area                   1874 2017 1871 2017
-AHN GA Athens Area                    1893 2017 1857 2017
-AMA TX Amarillo Area                  1892 2017 1892 2017
-ATL GA Atlanta Area                   1878 2017 1878 2017
-ATT TX Austin Area                    1897 2017 1897 2017
-AUS TX Austin-Bergstrom Airport Area  1942 2017 1942 2017
-BGD TX Borger Area                    1949 2017 1949 2017
-BHM AL Birmingham Area                1895 2017 1895 2017
-BNA TN Nashville Area                 1873 2017 1871 2017
-BPT TX Beaumont-Port Arthur Area      1901 2017 1901 2017
-BRO TX Brownsville Area               1878 2017 1878 2017
-BTR LA Baton Rouge Area               1892 2017 1892 2017
-CAO NM Clayton Area                   1896 2017 1896 2017
-CDS TX Childress Area                 1893 2017 1893 2017
-CHA TN Chattanooga Area               1879 2017 1879 2017
-CLL TX College Station Area           1888 2017 1882 2017
-CRP TX Corpus Christi Area            1887 2017 1887 2017
-CSG GA Columbus Area                  1891 2017 1891 2017
-CUS MS Columbus Area                  1903 1981 1903 1981
-DAB FL Daytona Beach Area             1923 2017 1923 2017
-DAL TX Dallas Area                    1913 2017 1913 2017
-DFW TX Dallas-Fort Worth Area         1898 2017 1898 2017
-DRT TX Del Rio Area                   1905 2017 1905 2017
-ELP TX El Paso Area                   1887 2017 1879 2017
-EYW FL Key West Area                  1872 2017 1871 2017
-FLL FL Fort Lauderdale Area           1912 2017 1912 2017
-FMY FL Fort Myers Area                1892 2017 1892 2017
-FPR FL Fort Pierce Area               1901 2017 1901 2017
-FSM AR Fort Smith Area                1882 2017 1882 2017
-GLH MS Greenville Area                1903 2017 1903 2017
-GLS TX Galveston Area                 1874 2017 1871 2017
-GNV FL Gainesville Area               1890 2017 1890 2017
-GPT MS Gulfport Area                  1893 2017 1893 2017
-HBG MS Hattiesburg Area               1893 2017 1893 2017
-HRO AR Harrison Area                  1892 2017 1892 2017
-HSV AL Huntsville Area                1907 2017 1894 2017
-IAH TX Houston Area                   1889 2017 1888 2017
-ICH LA Natchitoches Area              1893 2017 1893 2017
-JAN MS Jackson Area                   1896 2017 1896 2017
-JAX FL Jacksonville Area              1871 2017 1871 2017
-JBR AR Jonesboro Area                 1890 2017 1893 2017
-LAL FL Lakeland Area                  1948 2017 1948 2017
-LAW OK Lawton Area                    1912 2017 1912 2017
-LBB TX Lubbock Area                   1911 2017 1911 2017
-LCH LA Lake Charles Area              1895 2017 1895 2017
-LEE FL Leesburg Area                  1958 2017 1958 2017
-LIT AR Little Rock Area               1879 2017 1875 2017
-LRD TX Laredo Area                    1900 2017 1900 2017
-MAF TX Midland-Odessa Area            1930 2017 1930 2017
-MCN GA Macon Area                     1892 2017 1892 2017
-MCO FL Orlando Area                   1892 2017 1892 2017
-MEI MS Meridian Area                  1889 2017 1889 2017
-MEM TN Memphis Area                   1875 2017 1872 2017
-MFE TX McAllen Area                   1941 2017 1941 2017
-MGM AL Montgomery Area                1872 2017 1872 2017
-MIA FL Miami Area                     1895 2017 1895 2017
-MLB FL Melbourne Area                 1937 2017 1937 2017
-MLU LA Monroe Area                    1893 2017 1892 2017
-MOB AL Mobile Area                    1872 2017 1871 2017
-MSL AL Muscle Shoals Area             1893 2017 1893 2017
-MSY LA New Orleans Area               1946 2017 1946 2017
-MTH FL Marathon Area                  1950 2017 1950 2017
-OKC OK Oklahoma City Area             1890 2017 1890 2017
-OQT TN Oak Ridge Area                 1947 2017 1947 2017
-PBF AR Pine Bluff Area                1884 2017 1884 2017
-PBI FL West Palm Beach Area           1888 2017 1888 2017
-PGD FL Punta Gorda Area               1914 2017 1914 2017
-PNS FL Pensacola Area                 1879 2017 1879 2017
-ROW NM Roswell Area                   1893 2017 1893 2017
-RUE AR Russellville Area              1892 2017 1892 2017
-SAT TX San Antonio Area               1885 2017 1885 2017
-SAV GA Savannah Area                  1874 2017 1871 2017
-SFB FL Sanford Area                   1948 2017 1948 2017
-SHV LA Shreveport Area                1874 2017 1871 2017
-SJT TX San Angelo Area                1907 2017 1907 2017
-SJU PR San Juan Area                  1898 2017 1898 2017
-SPS TX Wichita Falls Area             1923 2017 1897 2017
-SRQ FL Sarasota-Bradenton Area        1911 2017 1911 2017
-SWO OK Stillwater Area                1893 2017 1893 2017
-TLH FL Tallahassee Area               1892 2017 1892 2017
-TPA FL Tampa Area                     1890 2017 1890 2017
-TRI TN Bristol-Johnson City Area      1937 2017 1937 2017
-TUL OK Tulsa Area                     1905 2017 1893 2017
-TUP MS Tupelo Area                    1930 2017 1930 2017
-TVR LA Tallulah-Vicksburg Area        1948 2017 1948 2017
-TYR TX Tyler Area                     1883 2017 1883 2017
-TYS TN Knoxville Area                 1871 2017 1871 2017
-VCT TX Victoria Area                  1902 2017 1946 2017
-VRB FL Vero Beach Area                1942 2017 1942 2017
+ABIthr   TX Abilene Area                   1885 2017 1885 2017
+ABQthr   NM Albuquerque Area               1891 2017 1891 2017
+ACTthr   TX Waco Area                      1901 2017 1901 2017
+AGSthr   GA Augusta Area                   1874 2017 1871 2017
+AHNthr   GA Athens Area                    1893 2017 1857 2017
+AMAthr   TX Amarillo Area                  1892 2017 1892 2017
+ATLthr   GA Atlanta Area                   1878 2017 1878 2017
+ATTthr   TX Austin Area                    1897 2017 1897 2017
+AUSthr   TX Austin-Bergstrom Airport Area  1942 2017 1942 2017
+BGDthr   TX Borger Area                    1949 2017 1949 2017
+BHMthr   AL Birmingham Area                1895 2017 1895 2017
+BNAthr   TN Nashville Area                 1873 2017 1871 2017
+BPTthr   TX Beaumont-Port Arthur Area      1901 2017 1901 2017
+BROthr   TX Brownsville Area               1878 2017 1878 2017
+BTRthr   LA Baton Rouge Area               1892 2017 1892 2017
+CAOthr   NM Clayton Area                   1896 2017 1896 2017
+CDSthr   TX Childress Area                 1893 2017 1893 2017
+CHAthr   TN Chattanooga Area               1879 2017 1879 2017
+CLLthr   TX College Station Area           1888 2017 1882 2017
+CRPthr   TX Corpus Christi Area            1887 2017 1887 2017
+CSGthr   GA Columbus Area                  1891 2017 1891 2017
+CUSM6thr MS Columbus Area                  1903 1981 1903 1981
+DABthr   FL Daytona Beach Area             1923 2017 1923 2017
+DALthr   TX Dallas Area                    1913 2017 1913 2017
+DFWthr   TX Dallas-Fort Worth Area         1898 2017 1898 2017
+DRTthr   TX Del Rio Area                   1905 2017 1905 2017
+ELPthr   TX El Paso Area                   1887 2017 1879 2017
+EYWthr   FL Key West Area                  1872 2017 1871 2017
+FLLthr   FL Fort Lauderdale Area           1912 2017 1912 2017
+FMYthr   FL Fort Myers Area                1892 2017 1892 2017
+FPRthr   FL Fort Pierce Area               1901 2017 1901 2017
+FSMthr   AR Fort Smith Area                1882 2017 1882 2017
+GLHthr   MS Greenville Area                1903 2017 1903 2017
+GLSthr   TX Galveston Area                 1874 2017 1871 2017
+GNVthr   FL Gainesville Area               1890 2017 1890 2017
+GPTthr   MS Gulfport Area                  1893 2017 1893 2017
+HBGthr   MS Hattiesburg Area               1893 2017 1893 2017
+HROthr   AR Harrison Area                  1892 2017 1892 2017
+HSVthr   AL Huntsville Area                1907 2017 1894 2017
+IAHthr   TX Houston Area                   1889 2017 1888 2017
+ICHL1thr LA Natchitoches Area              1893 2017 1893 2017
+JANthr   MS Jackson Area                   1896 2017 1896 2017
+JAXthr   FL Jacksonville Area              1871 2017 1871 2017
+JBRthr   AR Jonesboro Area                 1890 2017 1893 2017
+LALthr   FL Lakeland Area                  1948 2017 1948 2017
+LAWthr   OK Lawton Area                    1912 2017 1912 2017
+LBBthr   TX Lubbock Area                   1911 2017 1911 2017
+LCHthr   LA Lake Charles Area              1895 2017 1895 2017
+LEEthr   FL Leesburg Area                  1958 2017 1958 2017
+LITthr   AR Little Rock Area               1879 2017 1875 2017
+LRDthr   TX Laredo Area                    1900 2017 1900 2017
+MAFthr   TX Midland-Odessa Area            1930 2017 1930 2017
+MCNthr   GA Macon Area                     1892 2017 1892 2017
+MCOthr   FL Orlando Area                   1892 2017 1892 2017
+MEIthr   MS Meridian Area                  1889 2017 1889 2017
+MEMthr   TN Memphis Area                   1875 2017 1872 2017
+MFEthr   TX McAllen Area                   1941 2017 1941 2017
+MGMthr   AL Montgomery Area                1872 2017 1872 2017
+MIAthr   FL Miami Area                     1895 2017 1895 2017
+MLBthr   FL Melbourne Area                 1937 2017 1937 2017
+MLUthr   LA Monroe Area                    1893 2017 1892 2017
+MOBthr   AL Mobile Area                    1872 2017 1871 2017
+MSLthr   AL Muscle Shoals Area             1893 2017 1893 2017
+MSYthr   LA New Orleans Area               1946 2017 1946 2017
+MTHthr   FL Marathon Area                  1950 2017 1950 2017
+OKCthr   OK Oklahoma City Area             1890 2017 1890 2017
+OQTthr   TN Oak Ridge Area                 1947 2017 1947 2017
+PBFthr   AR Pine Bluff Area                1884 2017 1884 2017
+PBIthr   FL West Palm Beach Area           1888 2017 1888 2017
+PGDthr   FL Punta Gorda Area               1914 2017 1914 2017
+PNSthr   FL Pensacola Area                 1879 2017 1879 2017
+ROWthr   NM Roswell Area                   1893 2017 1893 2017
+RUEthr   AR Russellville Area              1892 2017 1892 2017
+SATthr   TX San Antonio Area               1885 2017 1885 2017
+SAVthr   GA Savannah Area                  1874 2017 1871 2017
+SFBthr   FL Sanford Area                   1948 2017 1948 2017
+SHVthr   LA Shreveport Area                1874 2017 1871 2017
+SJTthr   TX San Angelo Area                1907 2017 1907 2017
+SJUthr   PR San Juan Area                  1898 2017 1898 2017
+SPSthr   TX Wichita Falls Area             1923 2017 1897 2017
+SRQthr   FL Sarasota-Bradenton Area        1911 2017 1911 2017
+SWOthr   OK Stillwater Area                1893 2017 1893 2017
+TLHthr   FL Tallahassee Area               1892 2017 1892 2017
+TPAthr   FL Tampa Area                     1890 2017 1890 2017
+TRIthr   TN Bristol-Johnson City Area      1937 2017 1937 2017
+TULthr   OK Tulsa Area                     1905 2017 1893 2017
+TUPthr   MS Tupelo Area                    1930 2017 1930 2017
+TVRthr   LA Tallulah-Vicksburg Area        1948 2017 1948 2017
+TYRthr   TX Tyler Area                     1883 2017 1883 2017
+TYSthr   TN Knoxville Area                 1871 2017 1871 2017
+VCTthr   TX Victoria Area                  1902 2017 1946 2017
+VRBthr   FL Vero Beach Area                1942 2017 1942 2017

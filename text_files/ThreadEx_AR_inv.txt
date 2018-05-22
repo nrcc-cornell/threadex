@@ -1,20 +1,20 @@
-ADQ AK Kodiak Area                    1913 2017 1913 2017
-AGY AK Skagway Area                   1898 2017 1898 2017
-AKN AK King Salmon Area               1917 2017 1917 2017
-ANC AK Anchorage Area                 1953 2017 1953 2017
-ANN AK Annette Area                   1941 2017 1941 2017
-BET AK Bethel Area                    1923 2017 1923 2017
-BIG AK Delta Junction Area            1917 2017 1919 2017
-BRW AK Barrow Area                    1920 2017 1920 2017
-BTT AK Bettles Area                   1944 2017 1944 2017
-CDB AK Cold Bay Area                  1942 2017 1942 2017
-FAI AK Fairbanks Area                 1904 2017 1904 2017
-GKN AK Gulkana Area                   1909 2017 1909 2017
-HOM AK Homer Area                     1932 2017 1932 2017
-JNU AK Juneau Area                    1890 2017 1890 2017
-MCG AK Mcgrath Area                   1941 2017 1939 2017
-OME AK Nome Area                      1906 2017 1906 2017
-OTZ AK Kotzebue Area                  1902 2017 1902 2017
-SNP AK St Paul Island Area            1892 2017 1892 2017
-TKA AK Talkeetna Area                 1918 2017 1918 2017
-YAK AK Yakutat Area                   1917 2017 1917 2017
+ADQthr   AK Kodiak Area                    1913 2017 1913 2017
+AGYthr   AK Skagway Area                   1898 2017 1898 2017
+AKNthr   AK King Salmon Area               1917 2017 1917 2017
+ANCthr   AK Anchorage Area                 1953 2017 1953 2017
+ANNthr   AK Annette Area                   1941 2017 1941 2017
+BETthr   AK Bethel Area                    1923 2017 1923 2017
+BIGthr   AK Delta Junction Area            1917 2017 1919 2017
+BRWthr   AK Barrow Area                    1920 2017 1920 2017
+BTTthr   AK Bettles Area                   1944 2017 1944 2017
+CDBthr   AK Cold Bay Area                  1942 2017 1942 2017
+FAIthr   AK Fairbanks Area                 1904 2017 1904 2017
+GKNthr   AK Gulkana Area                   1909 2017 1909 2017
+HOMthr   AK Homer Area                     1932 2017 1932 2017
+JNUthr   AK Juneau Area                    1890 2017 1890 2017
+MCGthr   AK Mcgrath Area                   1941 2017 1939 2017
+OMEthr   AK Nome Area                      1906 2017 1906 2017
+OTZthr   AK Kotzebue Area                  1902 2017 1902 2017
+SNPthr   AK St Paul Island Area            1892 2017 1892 2017
+TKAthr   AK Talkeetna Area                 1918 2017 1918 2017
+YAKthr   AK Yakutat Area                   1917 2017 1917 2017

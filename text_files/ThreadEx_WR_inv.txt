@@ -1,73 +1,73 @@
-AST OR Astoria Area                   1892 2017 1892 2017
-BFL CA Bakersfield Area               1893 2017 1893 2017
-BIH CA Bishop Area                    1943 2017 1943 2017
-BIL MT Billings Area                  1934 2017 1934 2017
-BKE OR Baker City Area                1928 2017 1928 2017
-BNO OR Burns Area                     1939 2017 1939 2017
-BOI ID Boise Area                     1875 2017 1878 2017
-BRO OR Brookings Area                 1913 2017 1913 2017
-BUR CA Burbank Glendale Pasadena Area 1939 2017 1939 2017
-BYI ID Burley Area                    1917 2017 1917 2017
-CEC CA Crescent City Area             1894 2017 1894 2017
-CMA CA Camarillo Area                 1923 2017 1923 2017
-CQT CA Los Angeles Downtown Area      1877 2017 1877 2017
-EED CA Needles Area                   1888 2017 1888 2017
-EKA CA Eureka Area                    1886 2017 1886 2017
-EKO NV Elko Area                      1890 2017 1888 2017
-ELY NV Ely Area                       1893 2017 1888 2017
-ESC CA Escondido Area                 1893 2017 1893 2017
-EUG OR Eugene Area                    1912 2017 1892 2017
-FAT CA Fresno Area                    1887 2017 1881 2017
-FCA MT Kalispell Area                 1899 2017 1899 2017
-FLG AZ Flagstaff Area                 1898 2017 1898 2017
-GEG WA Spokane Area                   1881 2017 1881 2017
-GGW MT Glasgow Area                   1893 2017 1894 2017
-GTF MT Great Falls Area               1891 2017 1891 2017
-HLN MT Helena Area                    1880 2017 1880 2017
-HVR MT Havre Area                     1880 2017 1880 2017
-IGM AZ Kingman Area                   1901 2017 1901 2017
-INW AZ Winslow Area                   1915 2017 1915 2017
-LAS NV Las Vegas Area                 1937 2017 1937 2017
-LAX CA Los Angeles Airport Area       1944 2017 1944 2017
-LGB CA Long Beach Area                1958 2017 1958 2017
-LHU AZ Lake Havasu City Area          1968 2017 1967 2017
-LMT OR Klamath Falls Area             1897 2017 1897 2017
-LOX CA Oxnard Area                    1923 2017 1923 2017
-LWS ID Lewiston Area                  1881 2017 1881 2017
-MFR OR Medford Area                   1911 2017 1911 2017
-MSO MT Missoula Area                  1893 2017 1893 2017
-MYL ID McCall Area                    1906 2017 1905 2017
-OLM WA Olympia Area                   1948 2017 1948 2017
-OMK WA Omak Area                      1909 2017 1909 2017
-ONO OR Ontario Area                   1945 2017 1945 2017
-PDT OR Pendleton Area                 1892 2017 1892 2017
-PDX OR Portland Area                  1940 2017 1940 2017
-PGW OR Portland Downtown Area         1874 2017 1872 2017
-PHX AZ Phoenix Area                   1895 2017 1895 2017
-PIH ID Pocatello Area                 1939 2017 1939 2017
-PSC WA Tri-Cities Area                1894 2017 1894 2017
-PSP CA Palm Springs Area              1922 2017 1922 2017
-PUW WA Pullman Area                   1893 2017 1893 2017
-RAL CA Riverside Area                 1893 2017 1893 2017
-RDD CA Redding Area                   1893 2017 1893 2017
-RNM CA Ramona Area                    1974 2017 1974 2017
-RNO NV Reno Area                      1893 2017 1893 2017
-SAC CA Sacramento Area                1941 2017 1941 2017
-SAN CA San Diego Area                 1874 2017 1850 2017
-SCK CA Stockton Area                  1948 2017 1948 2017
-SEA WA Seattle Area                   1894 2017 1894 2017
-SFO CA San Francisco Airport Area     1945 2017 1945 2017
-SLC UT Salt Lake City Area            1874 2017 1874 2017
-SLE OR Salem Area                     1893 2017 1892 2017
-SLN ID Salmon Area                    1905 2017 1905 2017
-SMT CA Sacramento Downtown Area       1877 2017 1877 2017
-SMX CA Santa Maria Area               1906 2017 1906 2017
-SNT ID Stanley Area                   1916 2017 1916 2017
-TAH CA Tahoe City Area                1909 2017 1909 2017
-TUS AZ Tucson Area                    1894 2017 1894 2017
-UIL WA Quillayute Area                1966 2017 1966 2017
-UKI CA Ukiah Area                     1893 2017 1893 2017
-VUO WA Vancouver Area                 1891 2017 1856 2017
-WMC NV Winnemucca Area                1877 2017 1877 2017
-YKM WA Yakima Area                    1946 2017 1946 2017
-YUM AZ Yuma Area                      1878 2017 1876 2017
+ASTthr   OR Astoria Area                   1892 2017 1892 2017
+BFLthr   CA Bakersfield Area               1893 2017 1893 2017
+BIHthr   CA Bishop Area                    1943 2017 1943 2017
+BILthr   MT Billings Area                  1934 2017 1934 2017
+BKEthr   OR Baker City Area                1928 2017 1928 2017
+BNOthr   OR Burns Area                     1939 2017 1939 2017
+BOIthr   ID Boise Area                     1875 2017 1878 2017
+BROO3thr OR Brookings Area                 1913 2017 1913 2017
+BURthr   CA Burbank Glendale Pasadena Area 1939 2017 1939 2017
+BYIthr   ID Burley Area                    1917 2017 1917 2017
+CECthr   CA Crescent City Area             1894 2017 1894 2017
+CMAthr   CA Camarillo Area                 1923 2017 1923 2017
+CQTthr   CA Los Angeles Downtown Area      1877 2017 1877 2017
+EEDthr   CA Needles Area                   1888 2017 1888 2017
+EKAthr   CA Eureka Area                    1886 2017 1886 2017
+EKOthr   NV Elko Area                      1890 2017 1888 2017
+ELYthr   NV Ely Area                       1893 2017 1888 2017
+ESCC1thr CA Escondido Area                 1893 2017 1893 2017
+EUGthr   OR Eugene Area                    1912 2017 1892 2017
+FATthr   CA Fresno Area                    1887 2017 1881 2017
+FCAthr   MT Kalispell Area                 1899 2017 1899 2017
+FLGthr   AZ Flagstaff Area                 1898 2017 1898 2017
+GEGthr   WA Spokane Area                   1881 2017 1881 2017
+GGWthr   MT Glasgow Area                   1893 2017 1894 2017
+GTFthr   MT Great Falls Area               1891 2017 1891 2017
+HLNthr   MT Helena Area                    1880 2017 1880 2017
+HVRthr   MT Havre Area                     1880 2017 1880 2017
+IGMthr   AZ Kingman Area                   1901 2017 1901 2017
+INWthr   AZ Winslow Area                   1915 2017 1915 2017
+LASthr   NV Las Vegas Area                 1937 2017 1937 2017
+LAXthr   CA Los Angeles Airport Area       1944 2017 1944 2017
+LGBthr   CA Long Beach Area                1958 2017 1958 2017
+LHUthr   AZ Lake Havasu City Area          1968 2017 1967 2017
+LMTthr   OR Klamath Falls Area             1897 2017 1897 2017
+LOXthr   CA Oxnard Area                    1923 2017 1923 2017
+LWSthr   ID Lewiston Area                  1881 2017 1881 2017
+MFRthr   OR Medford Area                   1911 2017 1911 2017
+MSOthr   MT Missoula Area                  1893 2017 1893 2017
+MYLthr   ID McCall Area                    1906 2017 1905 2017
+OLMthr   WA Olympia Area                   1948 2017 1948 2017
+OMKthr   WA Omak Area                      1909 2017 1909 2017
+ONOthr   OR Ontario Area                   1945 2017 1945 2017
+PDTthr   OR Pendleton Area                 1892 2017 1892 2017
+PDXthr   OR Portland Area                  1940 2017 1940 2017
+PGWO3thr OR Portland Downtown Area         1874 2017 1872 2017
+PHXthr   AZ Phoenix Area                   1895 2017 1895 2017
+PIHthr   ID Pocatello Area                 1939 2017 1939 2017
+PSCthr   WA Tri-Cities Area                1894 2017 1894 2017
+PSPthr   CA Palm Springs Area              1922 2017 1922 2017
+PUWthr   WA Pullman Area                   1893 2017 1893 2017
+RALthr   CA Riverside Area                 1893 2017 1893 2017
+RDDthr   CA Redding Area                   1893 2017 1893 2017
+RNMthr   CA Ramona Area                    1974 2017 1974 2017
+RNOthr   NV Reno Area                      1893 2017 1893 2017
+SACthr   CA Sacramento Area                1941 2017 1941 2017
+SANthr   CA San Diego Area                 1874 2017 1850 2017
+SCKthr   CA Stockton Area                  1948 2017 1948 2017
+SEAthr   WA Seattle Area                   1894 2017 1894 2017
+SFOthr   CA San Francisco Airport Area     1945 2017 1945 2017
+SLCthr   UT Salt Lake City Area            1874 2017 1874 2017
+SLEthr   OR Salem Area                     1893 2017 1892 2017
+SLNI1thr ID Salmon Area                    1905 2017 1905 2017
+SMTC1thr CA Sacramento Downtown Area       1877 2017 1877 2017
+SMXthr   CA Santa Maria Area               1906 2017 1906 2017
+SNTthr   ID Stanley Area                   1916 2017 1916 2017
+TAHC1thr CA Tahoe City Area                1909 2017 1909 2017
+TUSthr   AZ Tucson Area                    1894 2017 1894 2017
+UILthr   WA Quillayute Area                1966 2017 1966 2017
+UKIthr   CA Ukiah Area                     1893 2017 1893 2017
+VUOthr   WA Vancouver Area                 1891 2017 1856 2017
+WMCthr   NV Winnemucca Area                1877 2017 1877 2017
+YKMthr   WA Yakima Area                    1946 2017 1946 2017
+YUMthr   AZ Yuma Area                      1878 2017 1876 2017
