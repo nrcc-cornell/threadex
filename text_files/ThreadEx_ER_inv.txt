@@ -1,87 +1,99 @@
-ABEthr   PA Allentown Area                 1922 2017 1912 2017
-ACYthr   NJ Atlantic City Area             1943 2017 1943 2017
-AKIS1thr SC Aiken Area                     1893 2017 1893 2017
-ALBthr   NY Albany Area                    1874 2017 1874 2017
-AVLthr   NC Asheville Area                 1876 2017 1869 2017
-AVPthr   PA Avoca Area                     1901 2017 1901 2017
-BAFthr   MA Westfield Area                 1926 2017 1926 2017
-BDLthr   CT Hartford Area                  1905 2017 1905 2017
-BDRthr   CT Bridgeport Area                1948 2017 1948 2017
-BELN4thr NJ Belvidere Area                 1893 2017 1893 2017
-BGMthr   NY Binghamton Area                1951 2017 1951 2017
-BGRthr   ME Bangor Area                    1925 2017 1925 2017
-BKWthr   WV Beckley Area                   1896 2017 1893 2017
-BLFthr   WV Bluefield Area                 1891 2017 1891 2017
-BOSthr   MA Boston Area                    1872 2017 1872 2017
-BTVthr   VT Burlington Area                1883 2017 1884 2017
-BUFthr   NY Buffalo Area                   1873 2017 1871 2017
-BWIthr   MD Baltimore Area                 1872 2017 1871 2017
-CAEthr   SC Columbia Area                  1887 2017 1887 2017
-CAKthr   OH Akron Area                     1887 2017 1896 2017
-CARthr   ME Caribou Area                   1939 2017 1939 2017
-CHSthr   SC Charleston Area                1938 2017 1938 2017
-CKBthr   WV Clarksburg Area                1922 2017 1922 2017
-CLEthr   OH Cleveland Area                 1871 2017 1871 2017
-CLTthr   NC Charlotte Area                 1878 2017 1878 2017
-CMHthr   OH Columbus Area                  1878 2017 1878 2017
-CONthr   NH Concord Area                   1868 2017 1868 2017
-CRWthr   WV Charleston Area                1892 2017 1892 2017
-CVGthr   OH Cincinnati Area                1872 2017 1871 2017
-DANthr   VA Danville Area                  1916 2017 1916 2017
-DAYthr   OH Dayton Area                    1893 2017 1893 2017
-DCAthr   DC Washington Area                1872 2017 1871 2017
-ECGthr   NC Elizabeth City Area            1934 2017 1934 2017
-EKNthr   WV Elkins Area                    1899 2017 1899 2017
-ERIthr   PA Erie Area                      1873 2017 1873 2017
-EWRthr   NJ Newark Area                    1931 2017 1931 2017
-FAYthr   NC Fayetteville Area              1910 2017 1910 2017
-GEDthr   DE Georgetown Area                1945 2017 1945 2017
-GFLthr   NY Glens Falls Area               1893 2017 1893 2017
-GSOthr   NC Greensboro Area                1903 2017 1903 2017
-GSPthr   SC Greenville-Spartanburg Area    1884 2017 1884 2017
-HLGthr   WV Wheeling Area                  1881 2017 1878 2017
-HSEthr   NC Cape Hatteras Area             1893 2017 1893 2017
-HTSthr   WV Huntington Area                1891 2017 1891 2017
-IADthr   VA Sterling-Dulles Airport Area   1960 2017 1960 2017
-ILGthr   DE Wilmington Area                1894 2017 1894 2017
-ILMthr   NC Wilmington Area                1874 2017 1871 2017
-IPTthr   PA Williamsport Area              1895 2017 1895 2017
-ISPthr   NY Islip Area                     1963 2017 1963 2017
-JFKthr   NY New York-Kennedy Airport Area  1948 2017 1948 2017
-LBTthr   NC Lumberton Area                 1903 2017 1903 2017
-LGAthr   NY New York-LGA Area              1939 2017 1940 2017
-LYHthr   VA Lynchburg Area                 1893 2017 1893 2017
-MDTthr   PA Middletown-Harrisburg Area     1888 2017 1888 2017
-MFDthr   OH Mansfield Area                 1916 2017 1899 2017
-MGWthr   WV Morgantown Area                1874 2017 1872 2017
-MHTthr   NH Manchester Area                1885 2017 1885 2017
-MLTthr   ME Millinocket Area               1903 2017 1902 2017
-MPOthr   PA Mount Pocono Area              1901 2017 1901 2017
-MQEthr   MA Milton Area                    1893 2017 1893 2017
-NBRN4thr NJ New Brunswick Area             1893 2017 1893 2017
-NYCthr   NY New York-Central Park Area     1869 2017 1869 2017
-ORFthr   VA Norfolk Area                   1874 2017 1874 2017
-ORHthr   MA Worcester Area                 1892 2017 1892 2017
-PBGthr   NY Plattsburgh Area               1945 2017 1945 2017
-PHDthr   OH New Philadelphia Area          1948 2017 1948 2017
-PHLthr   PA Philadelphia Area              1873 2017 1872 2017
-PICS1thr SC Pickens Area                   1941 2017 1941 2017
-PITthr   PA Pittsburgh Area                1875 2017 1871 2017
-PKBthr   WV Parkersburg Area               1926 2017 1926 2017
-POUthr   NY Poughkeepsie Area              1931 2017 1931 2017
-PTDN6thr NY Fredonia Area                  1914 2017 1914 2017
-PVDthr   RI Providence Area                1904 2017 1904 2017
-PWMthr   ME Portland Area                  1940 2017 1871 2017
-RDGthr   PA Reading Area                   1903 2017 1894 2017
-RDUthr   NC Raleigh Area                   1887 2017 1887 2017
-RICthr   VA Richmond Area                  1897 2017 1887 2017
-ROAthr   VA Roanoke Area                   1912 2017 1912 2017
-ROCthr   NY Rochester Area                 1872 2017 1871 2017
-SBYthr   MD Salisbury Area                 1906 2017 1906 2017
-SLKthr   NY Saranac Lake Area              1903 2017 1903 2017
-SYRthr   NY Syracuse Area                  1902 2017 1902 2017
-TOLthr   OH Toledo Area                    1873 2017 1871 2017
-TTNthr   NJ Trenton Area                   1865 2017 1865 2017
-WALthr   VA Wallops Island Area            1966 2017 1948 2017
-YNGthr   OH Youngstown Area                1897 2017 1896 2017
-ZZVthr   OH Zanesville Area                1895 2017 1895 2017
+55Nthr   NJ Atlantic City Marina Area      1873 2018 1873 2018
+ABEthr   PA Allentown Area                 1922 2018 1912 2018
+ACYthr   NJ Atlantic City Area             1943 2018 1943 2018
+AKIS1thr SC Aiken Area                     1893 2018 1893 2018
+ALBthr   NY Albany Area                    1874 2018 1874 2018
+AVLthr   NC Asheville Area                 1876 2018 1869 2018
+AVPthr   PA Avoca Area                     1901 2018 1901 2018
+BAFthr   MA Westfield Area                 1926 2018 1926 2018
+BDLthr   CT Hartford Area                  1905 2018 1905 2018
+BDRthr   CT Bridgeport Area                1948 2018 1948 2018
+BELN4thr NJ Belvidere Area                 1893 2018 1893 2018
+BGMthr   NY Binghamton Area                1951 2018 1951 2018
+BGRthr   ME Bangor Area                    1925 2018 1925 2018
+BKWthr   WV Beckley Area                   1896 2018 1893 2018
+BLFthr   WV Bluefield Area                 1909 2018 1909 2018
+BOSthr   MA Boston Area                    1872 2018 1872 2018
+BTVthr   VT Burlington Area                1883 2018 1884 2018
+BUFthr   NY Buffalo Area                   1873 2018 1871 2018
+BWIthr   MD Baltimore Area                 1872 2018 1871 2018
+CAES1thr SC Caesars Head Area              1925 2018 1924 2018
+CAEthr   SC Columbia Area                  1887 2018 1887 2018
+CAKthr   OH Akron Area                     1887 2018 1896 2018
+CARthr   ME Caribou Area                   1939 2018 1939 2018
+CHSthr   SC Charleston Area                1938 2018 1938 2018
+CKBthr   WV Clarksburg Area                1922 2018 1922 2018
+CLEthr   OH Cleveland Area                 1871 2018 1871 2018
+CLTthr   NC Charlotte Area                 1878 2018 1878 2018
+CMHthr   OH Columbus Area                  1878 2018 1878 2018
+CONthr   NH Concord Area                   1868 2018 1868 2018
+CREthr   SC Myrtle Beach Area              1931 2018 1931 2018
+CRWthr   WV Charleston Area                1892 2018 1892 2018
+CVGthr   OH Cincinnati Area                1872 2018 1871 2018
+CXMthr   SC Charleston Downtown Area       1893 2018 1893 2018
+DANthr   VA Danville Area                  1916 2018 1916 2018
+DAYthr   OH Dayton Area                    1893 2018 1893 2018
+DCAthr   DC Washington Area                1872 2018 1871 2018
+DMHthr   MD Baltimore Downtown Area        1950 2018 1950 2018
+ECGthr   NC Elizabeth City Area            1934 2018 1934 2018
+EKNthr   WV Elkins Area                    1899 2018 1899 2018
+ERIthr   PA Erie Area                      1873 2018 1873 2018
+EWRthr   NJ Newark Area                    1931 2018 1931 2018
+FAYthr   NC Fayetteville Area              1910 2018 1910 2018
+GEDthr   DE Georgetown Area                1945 2018 1945 2018
+GFLthr   NY Glens Falls Area               1893 2018 1893 2018
+GSOthr   NC Greensboro Area                1903 2018 1903 2018
+GSPthr   SC Greenville-Spartanburg Area    1884 2018 1884 2018
+HGRthr   MD Hagerstown Area                1899 2018 1899 2018
+HLGthr   WV Wheeling Area                  1881 2018 1878 2018
+HSEthr   NC Cape Hatteras Area             1893 2018 1893 2018
+HTSthr   WV Huntington Area                1891 2018 1891 2018
+IADthr   VA Sterling-Dulles Airport Area   1960 2018 1960 2018
+ILGthr   DE Wilmington Area                1894 2018 1894 2018
+ILMthr   NC Wilmington Area                1874 2018 1871 2018
+IPTthr   PA Williamsport Area              1895 2018 1895 2018
+ISPthr   NY Islip Area                     1963 2018 1963 2018
+JFKthr   NY New York-Kennedy Airport Area  1948 2018 1948 2018
+JSTN6thr NY Jamestown Area                 1895 2018 1895 2018
+LBTthr   NC Lumberton Area                 1903 2018 1903 2018
+LGAthr   NY New York-LGA Area              1939 2018 1940 2018
+LYHthr   VA Lynchburg Area                 1893 2018 1893 2018
+MDTthr   PA Middletown-Harrisburg Area     1888 2018 1888 2018
+MFDthr   OH Mansfield Area                 1916 2018 1899 2018
+MGWthr   WV Morgantown Area                1874 2018 1872 2018
+MHTthr   NH Manchester Area                1885 2018 1885 2018
+MLTthr   ME Millinocket Area               1903 2018 1902 2018
+MMTN7thr NC Mount Mitchell Area            1925 2018 1925 2018
+MPOthr   PA Mount Pocono Area              1901 2018 1901 2018
+MQEthr   MA Milton Area                    1893 2018 1893 2018
+MRBthr   WV Martinsburg Area               1891 2018 1891 2018
+NAKthr   MD Annapolis Area                 1894 2018 1894 2018
+NBRN4thr NJ New Brunswick Area             1893 2018 1893 2018
+NYCthr   NY New York-Central Park Area     1869 2018 1869 2018
+ORFthr   VA Norfolk Area                   1874 2018 1874 2018
+ORHthr   MA Worcester Area                 1892 2018 1892 2018
+OSWN6thr NY Oswego Area                    1926 2018 1926 2018
+PBGthr   NY Plattsburgh Area               1945 2018 1945 2018
+PFIP1thr PA Philadelphia Center City Area  1942 2018 1942 2018
+PHDthr   OH New Philadelphia Area          1948 2018 1948 2018
+PHLthr   PA Philadelphia Area              1873 2018 1872 2018
+PICS1thr SC Pickens Area                   1941 2018 1941 2018
+PITthr   PA Pittsburgh Area                1875 2018 1871 2018
+PKBthr   WV Parkersburg Area               1926 2018 1926 2018
+POUthr   NY Poughkeepsie Area              1931 2018 1931 2018
+PTDN6thr NY Fredonia Area                  1914 2018 1914 2018
+PVDthr   RI Providence Area                1904 2018 1904 2018
+PWMthr   ME Portland Area                  1940 2018 1871 2018
+RDGthr   PA Reading Area                   1888 2018 1858 2018
+RDUthr   NC Raleigh Area                   1887 2018 1887 2018
+RICthr   VA Richmond Area                  1897 2018 1887 2018
+ROAthr   VA Roanoke Area                   1912 2018 1912 2018
+ROCthr   NY Rochester Area                 1872 2018 1871 2018
+SBYthr   MD Salisbury Area                 1906 2018 1906 2018
+SLKthr   NY Saranac Lake Area              1903 2018 1903 2018
+SYRthr   NY Syracuse Area                  1902 2018 1902 2018
+TOLthr   OH Toledo Area                    1873 2018 1871 2018
+TTNthr   NJ Trenton Area                   1865 2018 1865 2018
+WALthr   VA Wallops Island Area            1966 2018 1948 2018
+YNGthr   OH Youngstown Area                1897 2018 1896 2018
+ZZVthr   OH Zanesville Area                1895 2018 1895 2018

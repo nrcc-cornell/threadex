@@ -1,85 +1,89 @@
-ABRthr   SD Aberdeen Area                  1893 2017 1893 2017
-ALOthr   IA Waterloo Area                  1895 2017 1895 2017
-ALSthr   CO Alamosa Area                   1906 2017 1906 2017
-ANJthr   MI Sault Ste Marie Area           1888 2017 1888 2017
-APNthr   MI Alpena Area                    1916 2017 1916 2017
-ASXthr   WI Ashland Area                   1893 2017 1893 2017
-AUWthr   WI Wausau Area                    1895 2017 1895 2017
-AZOthr   MI Kalamazoo Area                 1887 2017 1887 2017
-BFFthr   NE Scottsbluff Area               1893 2017 1893 2017
-BISthr   ND Bismarck Area                  1874 2017 1874 2017
-BRDthr   MN Brainerd Area                  1899 2017 1908 2017
-CIDthr   IA Cedar Rapids Area              1893 2017 1893 2017
-CNKthr   KS Concordia Area                 1885 2017 1885 2017
-COSthr   CO Colorado Springs Area          1894 2017 1894 2017
-COUthr   MO Columbia Area                  1889 2017 1889 2017
-CPRthr   WY Casper Area                    1939 2017 1939 2017
-CYSthr   WY Cheyenne Area                  1872 2017 1871 2017
-DBQthr   IA Dubuque Area                   1874 2017 1873 2017
-DDCthr   KS Dodge City Area                1874 2017 1874 2017
-DENthr   CO Denver Area                    1872 2017 1872 2017
-DLHthr   MN Duluth Area                    1874 2017 1871 2017
-DSMthr   IA Des Moines Area                1878 2017 1878 2017
-DTWthr   MI Detroit Area                   1874 2017 1874 2017
-EAUthr   WI Eau Claire Area                1893 2017 1893 2017
-EVVthr   IN Evansville Area                1897 2017 1897 2017
-FARthr   ND Fargo Area                     1881 2017 1881 2017
-FNTthr   MI Flint Area                     1921 2017 1921 2017
-FSDthr   SD Sioux Falls Area               1893 2017 1893 2017
-FWAthr   IN Fort Wayne Area                1897 2017 1897 2017
-GFKthr   ND Grand Forks Area               1893 2017 1893 2017
-GJTthr   CO Grand Junction Area            1893 2017 1893 2017
-GLDthr   KS Goodland Area                  1895 2017 1895 2017
-GRBthr   WI Green Bay Area                 1886 2017 1886 2017
-GRIthr   NE Grand Island Area              1895 2017 1895 2017
-GRRthr   MI Grand Rapids Area              1892 2017 1892 2017
-HIBthr   MN Hibbing Area                   1938 2017 1931 2017
-HONthr   SD Huron Area                     1881 2017 1881 2017
-HSIthr   NE Hastings Area                  1907 2017 1894 2017
-HTLthr   MI Houghton Lake Area             1913 2017 1913 2017
-HYRthr   WI Hayward Area                   1893 2017 1893 2017
-ICTthr   KS Wichita Area                   1888 2017 1888 2017
-INDthr   IN Indianapolis Area              1871 2017 1871 2017
-INLthr   MN International Falls Area       1897 2017 1895 2017
-ISNthr   ND Williston Area                 1894 2017 1894 2017
-JEFthr   MO Jefferson City Area            1894 2017 1894 2017
-JKLthr   KY Jackson Area                   1981 2017 1981 2017
-LANthr   MI Lansing Area                   1863 2017 1863 2017
-LBFthr   NE North Platte Area              1874 2017 1874 2017
-LEXthr   KY Lexington Area                 1872 2017 1872 2017
-LNDthr   WY Lander Area                    1891 2017 1891 2017
-LNKthr   NE Lincoln Area                   1887 2017 1887 2017
-LSEthr   WI La Crosse Area                 1872 2017 1872 2017
-MBSthr   MI Saginaw Area                   1898 2017 1898 2017
-MCIthr   MO Kansas City Area               1888 2017 1888 2017
-MCKthr   NE McCook Area                    1896 2017 1894 2017
-MHEthr   SD Mitchell Area                  1893 2017 1893 2017
-MKEthr   WI Milwaukee Area                 1871 2017 1871 2017
-MKGthr   MI Muskegon Area                  1896 2017 1896 2017
-MLIthr   IL Moline Area                    1874 2017 1871 2017
-MQTthr   MI Marquette County Area          1875 2017 1871 2017
-MSNthr   WI Madison Area                   1869 2017 1869 2017
-MSPthr   MN Minneapolis-St Paul Area       1872 2017 1871 2017
-OFKthr   NE Norfolk Area                   1893 2017 1893 2017
-OMAthr   NE Omaha Area                     1871 2017 1871 2017
-ORDthr   IL Chicago Area                   1872 2017 1871 2017
-PAHthr   KY Paducah Area                   1937 2017 1937 2017
-PIAthr   IL Peoria Area                    1883 2017 1883 2017
-PUBthr   CO Pueblo Area                    1888 2017 1888 2017
-RAPthr   SD Rapid City Area                1942 2017 1942 2017
-RFDthr   IL Rockford Area                  1893 2017 1893 2017
-RSTthr   MN Rochester Area                 1886 2017 1886 2017
-SBNthr   IN South Bend Area                1893 2017 1893 2017
-SDFthr   KY Louisville Area                1872 2017 1872 2017
-SGFthr   MO Springfield Area               1888 2017 1888 2017
-SHRthr   WY Sheridan Area                  1907 2017 1907 2017
-SLNthr   KS Salina Area                    1948 2017 1948 2017
-SPIthr   IL Springfield Area               1879 2017 1879 2017
-SPWthr   IA Spencer Area                   1895 2017 1895 2017
-STCthr   MN Saint Cloud Area               1894 2017 1893 2017
-STLthr   MO St Louis Area                  1874 2017 1874 2017
-SUXthr   IA Sioux City Area                1889 2017 1889 2017
-TOPthr   KS Topeka Area                    1887 2017 1887 2017
-UINthr   IL Quincy Area                    1901 2017 1901 2017
-UNRS2thr SD Rapid City Downtown Area       1888 2017 1888 2017
-VTNthr   NE Valentine Area                 1889 2017 1889 2017
+8D3thr   SD Sisseton Area                  1931 2018 1931 2018
+ABRthr   SD Aberdeen Area                  1893 2018 1893 2018
+ALOthr   IA Waterloo Area                  1895 2018 1895 2018
+ALSthr   CO Alamosa Area                   1906 2018 1906 2018
+ANJthr   MI Sault Ste Marie Area           1888 2018 1888 2018
+APNthr   MI Alpena Area                    1916 2018 1916 2018
+ASXthr   WI Ashland Area                   1893 2018 1893 2018
+AUWthr   WI Wausau Area                    1895 2018 1895 2018
+AZOthr   MI Kalamazoo Area                 1887 2018 1887 2018
+BFFthr   NE Scottsbluff Area               1893 2018 1893 2018
+BISthr   ND Bismarck Area                  1874 2018 1874 2018
+BRDthr   MN Brainerd Area                  1899 2018 1908 2018
+CIDthr   IA Cedar Rapids Area              1893 2018 1893 2018
+CNKthr   KS Concordia Area                 1885 2018 1885 2018
+COSthr   CO Colorado Springs Area          1894 2018 1894 2018
+COUthr   MO Columbia Area                  1889 2018 1889 2018
+CPRthr   WY Casper Area                    1939 2018 1939 2018
+CYSthr   WY Cheyenne Area                  1872 2018 1871 2018
+DBQthr   IA Dubuque Area                   1874 2018 1873 2018
+DDCthr   KS Dodge City Area                1874 2018 1874 2018
+DENthr   CO Denver Area                    1872 2018 1872 2018
+DLHthr   MN Duluth Area                    1874 2018 1871 2018
+DSMthr   IA Des Moines Area                1878 2018 1878 2018
+DTWthr   MI Detroit Area                   1874 2018 1874 2018
+EAUthr   WI Eau Claire Area                1893 2018 1893 2018
+EVVthr   IN Evansville Area                1897 2018 1897 2018
+FARthr   ND Fargo Area                     1881 2018 1881 2018
+FNTthr   MI Flint Area                     1921 2018 1921 2018
+FSDthr   SD Sioux Falls Area               1893 2018 1893 2018
+FWAthr   IN Fort Wayne Area                1897 2018 1897 2018
+GFKthr   ND Grand Forks Area               1893 2018 1893 2018
+GJTthr   CO Grand Junction Area            1893 2018 1893 2018
+GLDthr   KS Goodland Area                  1895 2018 1895 2018
+GRBthr   WI Green Bay Area                 1886 2018 1886 2018
+GRIthr   NE Grand Island Area              1895 2018 1895 2018
+GRRthr   MI Grand Rapids Area              1892 2018 1892 2018
+HIBthr   MN Hibbing Area                   1938 2018 1931 2018
+HONthr   SD Huron Area                     1881 2018 1881 2018
+HSIthr   NE Hastings Area                  1907 2018 1894 2018
+HTLthr   MI Houghton Lake Area             1913 2018 1913 2018
+HYRthr   WI Hayward Area                   1893 2018 1893 2018
+ICTthr   KS Wichita Area                   1888 2018 1888 2018
+INDthr   IN Indianapolis Area              1871 2018 1871 2018
+INLthr   MN International Falls Area       1897 2018 1895 2018
+ISNthr   ND Williston Area                 1894 2018 1894 2018
+JEFthr   MO Jefferson City Area            1894 2018 1894 2018
+JKLthr   KY Jackson Area                   1981 2018 1981 2018
+LANthr   MI Lansing Area                   1863 2018 1863 2018
+LBFthr   NE North Platte Area              1874 2018 1874 2018
+LEXthr   KY Lexington Area                 1872 2018 1872 2018
+LNDthr   WY Lander Area                    1891 2018 1891 2018
+LNKthr   NE Lincoln Area                   1887 2018 1887 2018
+LSEthr   WI La Crosse Area                 1872 2018 1872 2018
+MBGthr   SD Mobridge Area                  1911 2018 1911 2018
+MBSthr   MI Saginaw Area                   1898 2018 1898 2018
+MCIthr   MO Kansas City Area               1888 2018 1888 2018
+MCKthr   NE McCook Area                    1896 2018 1894 2018
+MDHthr   IL Carbondale Area                1898 2018 1898 2018
+MHEthr   SD Mitchell Area                  1893 2018 1893 2018
+MKEthr   WI Milwaukee Area                 1871 2018 1871 2018
+MKGthr   MI Muskegon Area                  1896 2018 1896 2018
+MLIthr   IL Moline Area                    1874 2018 1871 2018
+MQTthr   MI Marquette County Area          1875 2018 1871 2018
+MSNthr   WI Madison Area                   1869 2018 1869 2018
+MSPthr   MN Minneapolis-St Paul Area       1872 2018 1871 2018
+OFKthr   NE Norfolk Area                   1893 2018 1893 2018
+OMAthr   NE Omaha Area                     1871 2018 1871 2018
+ORDthr   IL Chicago Area                   1872 2018 1871 2018
+PAHthr   KY Paducah Area                   1937 2018 1937 2018
+PIAthr   IL Peoria Area                    1883 2018 1883 2018
+POFthr   MO Poplar Bluff Area              1893 2018 1893 2018
+PUBthr   CO Pueblo Area                    1888 2018 1888 2018
+RAPthr   SD Rapid City Area                1942 2018 1942 2018
+RFDthr   IL Rockford Area                  1893 2018 1893 2018
+RSTthr   MN Rochester Area                 1886 2018 1886 2018
+SBNthr   IN South Bend Area                1893 2018 1893 2018
+SDFthr   KY Louisville Area                1872 2018 1872 2018
+SGFthr   MO Springfield Area               1888 2018 1888 2018
+SHRthr   WY Sheridan Area                  1907 2018 1907 2018
+SLNthr   KS Salina Area                    1948 2018 1948 2018
+SPIthr   IL Springfield Area               1879 2018 1879 2018
+SPWthr   IA Spencer Area                   1895 2018 1895 2018
+STCthr   MN Saint Cloud Area               1894 2018 1893 2018
+STLthr   MO St Louis Area                  1874 2018 1874 2018
+SUXthr   IA Sioux City Area                1889 2018 1889 2018
+TOPthr   KS Topeka Area                    1887 2018 1887 2018
+UINthr   IL Quincy Area                    1901 2018 1901 2018
+UNRS2thr SD Rapid City Downtown Area       1888 2018 1888 2018
+VTNthr   NE Valentine Area                 1889 2018 1889 2018
