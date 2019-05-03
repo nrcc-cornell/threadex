@@ -60,7 +60,7 @@ RALthr   CA Riverside Area                 1893 2018 1893 2018
 RDDthr   CA Redding Area                   1893 2018 1893 2018
 RNMthr   CA Ramona Area                    1974 2018 1974 2018
 RNOthr   NV Reno Area                      1893 2018 1893 2018
-SACthr   CA Sacramento Area                1877 2018 1856 2018
+SACthr   CA Sacramento Area                1941 2018 1941 2018
 SANthr   CA San Diego Area                 1874 2018 1850 2018
 SCKthr   CA Stockton Area                  1948 2018 1948 2018
 SEAthr   WA Seattle Area                   1894 2018 1894 2018
