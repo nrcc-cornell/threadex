@@ -52,7 +52,7 @@ LNDthr   WY Lander Area                    1891 2018 1891 2018
 LNKthr   NE Lincoln Area                   1887 2018 1887 2018
 LSEthr   WI La Crosse Area                 1872 2018 1872 2018
 MBGthr   SD Mobridge Area                  1911 2018 1911 2018
-MBSthr   MI Saginaw Area                   1898 2018 1898 2018
+MBSthr   MI Saginaw Area                   1912 2018 1912 2018
 MCIthr   MO Kansas City Area               1888 2018 1888 2018
 MCKthr   NE McCook Area                    1896 2018 1894 2018
 MDHthr   IL Carbondale Area                1898 2018 1898 2018
