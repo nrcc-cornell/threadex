@@ -1,99 +1,100 @@
-ABIthr   TX Abilene Area                   1885 2018 1885 2018
-ABQthr   NM Albuquerque Area               1891 2018 1891 2018
-ACTthr   TX Waco Area                      1901 2018 1901 2018
-AGSthr   GA Augusta Area                   1874 2018 1871 2018
-AHNthr   GA Athens Area                    1893 2018 1857 2018
-AMAthr   TX Amarillo Area                  1892 2018 1892 2018
-ATLthr   GA Atlanta Area                   1878 2018 1878 2018
-ATTthr   TX Austin Area                    1897 2018 1897 2018
-AUSthr   TX Austin-Bergstrom Airport Area  1942 2018 1942 2018
-BGDthr   TX Borger Area                    1949 2018 1949 2018
-BHMthr   AL Birmingham Area                1895 2018 1895 2018
-BKVthr   FL Brooksville Area               1892 2018 1892 2018
-BNAthr   TN Nashville Area                 1873 2018 1871 2018
-BPTthr   TX Beaumont-Port Arthur Area      1901 2018 1901 2018
-BROthr   TX Brownsville Area               1878 2018 1878 2018
-BTRthr   LA Baton Rouge Area               1892 2018 1892 2018
-BVLA4thr AR Booneville Area                1915 2018 1915 2018
-CAOthr   NM Clayton Area                   1896 2018 1896 2018
-CDSthr   TX Childress Area                 1893 2018 1893 2018
-CHAthr   TN Chattanooga Area               1879 2018 1879 2018
-CLLthr   TX College Station Area           1888 2018 1882 2018
-CRPthr   TX Corpus Christi Area            1887 2018 1887 2018
-CSGthr   GA Columbus Area                  1891 2018 1891 2018
-CUSM6thr MS Columbus Area                  1903 2018 1903 2018
-DABthr   FL Daytona Beach Area             1923 2018 1923 2018
-DALthr   TX Dallas Area                    1913 2018 1913 2018
-DEQthr   AR Dequeen Area                   1902 2018 1902 2018
-DFWthr   TX Dallas-Fort Worth Area         1898 2018 1898 2018
-DRTthr   TX Del Rio Area                   1905 2018 1905 2018
-ELPthr   TX El Paso Area                   1887 2018 1879 2018
-EYWthr   FL Key West Area                  1872 2018 1871 2018
-FLLthr   FL Fort Lauderdale Area           1912 2018 1912 2018
-FMYthr   FL Fort Myers Area                1892 2018 1892 2018
-FPRthr   FL Fort Pierce Area               1901 2018 1901 2018
-FSMthr   AR Fort Smith Area                1882 2018 1882 2018
-GGGthr   TX Longview Area                  1902 2018 1902 2018
-GIFthr   FL Winter Haven Area              1941 2018 1941 2018
-GLHthr   MS Greenville Area                1903 2018 1903 2018
-GLSthr   TX Galveston Area                 1874 2018 1871 2018
-GNVthr   FL Gainesville Area               1890 2018 1890 2018
-GPTthr   MS Gulfport Area                  1893 2018 1893 2018
-GWOthr   MS Greenwood Area                 1948 2018 1948 2018
-HBGthr   MS Hattiesburg Area               1893 2018 1893 2018
-HROthr   AR Harrison Area                  1892 2018 1892 2018
-HSVthr   AL Huntsville Area                1907 2018 1894 2018
-IAHthr   TX Houston Area                   1889 2018 1888 2018
-ICHL1thr LA Natchitoches Area              1893 2018 1893 2018
-JANthr   MS Jackson Area                   1896 2018 1896 2018
-JAXthr   FL Jacksonville Area              1871 2018 1871 2018
-JBRthr   AR Jonesboro Area                 1890 2018 1893 2018
-LALthr   FL Lakeland Area                  1948 2018 1948 2018
-LAWthr   OK Lawton Area                    1912 2018 1912 2018
-LBBthr   TX Lubbock Area                   1911 2018 1911 2018
-LCHthr   LA Lake Charles Area              1895 2018 1895 2018
-LEEthr   FL Leesburg Area                  1958 2018 1958 2018
-LITthr   AR Little Rock Area               1879 2018 1875 2018
-LRDthr   TX Laredo Area                    1900 2018 1900 2018
-MAFthr   TX Midland-Odessa Area            1930 2018 1930 2018
-MCNthr   GA Macon Area                     1892 2018 1892 2018
-MCOthr   FL Orlando Area                   1892 2018 1892 2018
-MEIthr   MS Meridian Area                  1889 2018 1889 2018
-MEMthr   TN Memphis Area                   1875 2018 1872 2018
-MFEthr   TX McAllen Area                   1941 2018 1941 2018
-MGMthr   AL Montgomery Area                1872 2018 1872 2018
-MIAthr   FL Miami Area                     1895 2018 1895 2018
-MLBthr   FL Melbourne Area                 1937 2018 1937 2018
-MLUthr   LA Monroe Area                    1893 2018 1892 2018
-MOBthr   AL Mobile Area                    1872 2018 1871 2018
-MSLthr   AL Muscle Shoals Area             1893 2018 1893 2018
-MSYthr   LA New Orleans Area               1946 2018 1946 2018
-MTHthr   FL Marathon Area                  1950 2018 1950 2018
-MWTthr   AR Mount Ida Area                 1883 2018 1872 2018
-OKCthr   OK Oklahoma City Area             1890 2018 1890 2018
-OQTthr   TN Oak Ridge Area                 1947 2018 1947 2018
-PBFthr   AR Pine Bluff Area                1884 2018 1884 2018
-PBIthr   FL West Palm Beach Area           1888 2018 1888 2018
-PGDthr   FL Punta Gorda Area               1914 2018 1914 2018
-PNSthr   FL Pensacola Area                 1879 2018 1879 2018
-ROWthr   NM Roswell Area                   1893 2018 1893 2018
-RUEthr   AR Russellville Area              1892 2018 1892 2018
-SATthr   TX San Antonio Area               1885 2018 1885 2018
-SAVthr   GA Savannah Area                  1874 2018 1871 2018
-SFBthr   FL Sanford Area                   1948 2018 1948 2018
-SHVthr   LA Shreveport Area                1874 2018 1871 2018
-SJTthr   TX San Angelo Area                1907 2018 1907 2018
-SJUthr   PR San Juan Area                  1898 2018 1898 2018
-SPSthr   TX Wichita Falls Area             1923 2018 1897 2018
-SRQthr   FL Sarasota-Bradenton Area        1911 2018 1911 2018
-SWOthr   OK Stillwater Area                1893 2018 1893 2018
-TLHthr   FL Tallahassee Area               1892 2018 1892 2018
-TPAthr   FL Tampa Area                     1890 2018 1890 2018
-TRIthr   TN Bristol-Johnson City Area      1937 2018 1937 2018
-TULthr   OK Tulsa Area                     1905 2018 1893 2018
-TUPthr   MS Tupelo Area                    1930 2018 1930 2018
-TVRthr   LA Tallulah-Vicksburg Area        1948 2018 1948 2018
-TYRthr   TX Tyler Area                     1883 2018 1883 2018
-TYSthr   TN Knoxville Area                 1871 2018 1871 2018
-VCTthr   TX Victoria Area                  1902 2018 1946 2018
-VRBthr   FL Vero Beach Area                1942 2018 1942 2018
+ABIthr   TX Abilene Area                   1885 2019 1885 2019
+ABQthr   NM Albuquerque Area               1891 2019 1891 2019
+ABYthr   GA Albany Area                    1892 2019 1892 2019
+ACTthr   TX Waco Area                      1901 2019 1901 2019
+AGSthr   GA Augusta Area                   1874 2019 1871 2019
+AHNthr   GA Athens Area                    1893 2019 1857 2019
+AMAthr   TX Amarillo Area                  1892 2019 1892 2019
+ATLthr   GA Atlanta Area                   1878 2019 1878 2019
+ATTthr   TX Austin Area                    1897 2019 1897 2019
+AUSthr   TX Austin-Bergstrom Airport Area  1942 2019 1942 2019
+BGDthr   TX Borger Area                    1949 2019 1949 2019
+BHMthr   AL Birmingham Area                1895 2019 1895 2019
+BKVthr   FL Brooksville Area               1892 2019 1892 2019
+BNAthr   TN Nashville Area                 1873 2019 1871 2019
+BPTthr   TX Beaumont-Port Arthur Area      1901 2019 1901 2019
+BROthr   TX Brownsville Area               1878 2019 1878 2019
+BTRthr   LA Baton Rouge Area               1892 2019 1892 2019
+BVLA4thr AR Booneville Area                1915 2019 1915 2019
+CAOthr   NM Clayton Area                   1896 2019 1896 2019
+CDSthr   TX Childress Area                 1893 2019 1893 2019
+CHAthr   TN Chattanooga Area               1879 2019 1879 2019
+CLLthr   TX College Station Area           1888 2019 1882 2019
+CRPthr   TX Corpus Christi Area            1887 2019 1887 2019
+CSGthr   GA Columbus Area                  1891 2019 1891 2019
+CUSM6thr MS Columbus Area                  1903 2019 1903 2019
+DABthr   FL Daytona Beach Area             1923 2019 1923 2019
+DALthr   TX Dallas Area                    1913 2019 1913 2019
+DEQthr   AR Dequeen Area                   1902 2019 1902 2019
+DFWthr   TX Dallas-Fort Worth Area         1898 2019 1898 2019
+DRTthr   TX Del Rio Area                   1905 2019 1905 2019
+ELPthr   TX El Paso Area                   1887 2019 1879 2019
+EYWthr   FL Key West Area                  1872 2019 1871 2019
+FLLthr   FL Fort Lauderdale Area           1912 2019 1912 2019
+FMYthr   FL Fort Myers Area                1892 2019 1892 2019
+FPRthr   FL Fort Pierce Area               1901 2019 1901 2019
+FSMthr   AR Fort Smith Area                1882 2019 1882 2019
+GGGthr   TX Longview Area                  1902 2019 1902 2019
+GIFthr   FL Winter Haven Area              1941 2019 1941 2019
+GLHthr   MS Greenville Area                1903 2019 1903 2019
+GLSthr   TX Galveston Area                 1874 2019 1871 2019
+GNVthr   FL Gainesville Area               1890 2019 1890 2019
+GPTthr   MS Gulfport Area                  1893 2019 1893 2019
+GWOthr   MS Greenwood Area                 1948 2019 1948 2019
+HBGthr   MS Hattiesburg Area               1893 2019 1893 2019
+HROthr   AR Harrison Area                  1892 2019 1892 2019
+HSVthr   AL Huntsville Area                1907 2019 1894 2019
+IAHthr   TX Houston Area                   1889 2019 1888 2019
+ICHL1thr LA Natchitoches Area              1893 2019 1893 2019
+JANthr   MS Jackson Area                   1896 2019 1896 2019
+JAXthr   FL Jacksonville Area              1871 2019 1871 2019
+JBRthr   AR Jonesboro Area                 1890 2019 1893 2019
+LALthr   FL Lakeland Area                  1948 2019 1948 2019
+LAWthr   OK Lawton Area                    1912 2019 1912 2019
+LBBthr   TX Lubbock Area                   1911 2019 1911 2019
+LCHthr   LA Lake Charles Area              1895 2019 1895 2019
+LEEthr   FL Leesburg Area                  1958 2019 1958 2019
+LITthr   AR Little Rock Area               1879 2019 1875 2019
+LRDthr   TX Laredo Area                    1902 2019 1902 2019
+MAFthr   TX Midland-Odessa Area            1930 2019 1930 2019
+MCNthr   GA Macon Area                     1892 2019 1892 2019
+MCOthr   FL Orlando Area                   1892 2019 1892 2019
+MEIthr   MS Meridian Area                  1889 2019 1889 2019
+MEMthr   TN Memphis Area                   1875 2019 1872 2019
+MFEthr   TX McAllen Area                   1941 2019 1941 2019
+MGMthr   AL Montgomery Area                1872 2019 1872 2019
+MIAthr   FL Miami Area                     1895 2019 1895 2019
+MLBthr   FL Melbourne Area                 1937 2019 1937 2019
+MLUthr   LA Monroe Area                    1893 2019 1892 2019
+MOBthr   AL Mobile Area                    1872 2019 1871 2019
+MSLthr   AL Muscle Shoals Area             1893 2019 1893 2019
+MSYthr   LA New Orleans Area               1946 2019 1946 2019
+MTHthr   FL Marathon Area                  1950 2019 1950 2019
+MWTthr   AR Mount Ida Area                 1883 2019 1872 2019
+OKCthr   OK Oklahoma City Area             1890 2019 1890 2019
+OQTthr   TN Oak Ridge Area                 1947 2019 1947 2019
+PBFthr   AR Pine Bluff Area                1884 2019 1884 2019
+PBIthr   FL West Palm Beach Area           1888 2019 1888 2019
+PGDthr   FL Punta Gorda Area               1914 2019 1914 2019
+PNSthr   FL Pensacola Area                 1879 2019 1879 2019
+ROWthr   NM Roswell Area                   1893 2019 1893 2019
+RUEthr   AR Russellville Area              1892 2019 1892 2019
+SATthr   TX San Antonio Area               1885 2019 1885 2019
+SAVthr   GA Savannah Area                  1874 2019 1871 2019
+SFBthr   FL Sanford Area                   1948 2019 1948 2019
+SHVthr   LA Shreveport Area                1874 2019 1871 2019
+SJTthr   TX San Angelo Area                1907 2019 1907 2019
+SJUthr   PR San Juan Area                  1898 2019 1898 2019
+SPSthr   TX Wichita Falls Area             1923 2019 1897 2019
+SRQthr   FL Sarasota-Bradenton Area        1911 2019 1911 2019
+SWOthr   OK Stillwater Area                1893 2019 1893 2019
+TLHthr   FL Tallahassee Area               1892 2019 1892 2019
+TPAthr   FL Tampa Area                     1890 2019 1890 2019
+TRIthr   TN Bristol-Johnson City Area      1937 2019 1937 2019
+TULthr   OK Tulsa Area                     1905 2019 1893 2019
+TUPthr   MS Tupelo Area                    1930 2019 1930 2019
+TVRthr   LA Tallulah-Vicksburg Area        1948 2019 1948 2019
+TYRthr   TX Tyler Area                     1883 2019 1883 2019
+TYSthr   TN Knoxville Area                 1871 2019 1871 2019
+VCTthr   TX Victoria Area                  1902 2019 1946 2019
+VRBthr   FL Vero Beach Area                1942 2019 1942 2019

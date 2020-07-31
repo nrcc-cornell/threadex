@@ -1,11 +1,11 @@
-var latest_version_directory = "data/v14.3",
-	prev_version_directory = "data/v13.3";
+var latest_version_directory = "data/v15.3",
+	prev_version_directory = "data/v14.5";
 /* Standard ACIS data acquisition
 ----------------------------------------------------------*/
 function postSuccess(results, cbf) {
 	$("#progressbar").hide();
 	if (!results) {
-		alert("No results for request");
+		("No results for request");alert
 	} else if (results.error) {
 		alert(results.error);
 	} else {
@@ -58,7 +58,7 @@ function urlopts() {
 		arr = params.split('&');
 	for (i = 0; i < arr.length; i += 1) {
 		sa = arr[i].split('=');
-		if ((sa[0] === 'thr_id' && sa[1].length === 6) ||
+		if ((sa[0] === 'thr_id' && (sa[1].length === 6 || sa[1].length === 8)) ||
 			(sa[0] === 'variable' && $.inArray(sa[1].toLowerCase(), validVariables) >= 0)) {
 			pobj[sa[0]] = sa[1];
 		}
@@ -198,8 +198,10 @@ function addGraph(grfdata, ytitle) {
             },
             valueDecimals: ytitle.search("precipitation") >= 0 ? 2 : 0,
             formatter: function () {
+				var low = ytitle.search("temperature") >= 0 ? Math.round(this.point.low) : this.point.low, 
+					high = ytitle.search("temperature") >= 0 ? Math.round(this.point.high) : this.point.high;
 //				return 'Range of records for ' + Highcharts.dateFormat('%b %e', new Date(this.x)) + ': ' + (this.point.low === 0.001 ? "Trace" : this.point.low) + ' to ' + (this.point.high === 0.001 ? "Trace" : this.point.high);
-				return 'Range of records for ' + Highcharts.dateFormat('%b %e', new Date(this.x)) + ': ' + this.point.low + ' to ' + this.point.high;
+				return 'Range of records for ' + Highcharts.dateFormat('%b %e', new Date(this.x)) + ': ' + low + ' to ' + high;
             }
         },
         series: [{
@@ -212,9 +214,14 @@ function addGraph(grfdata, ytitle) {
 }
 
 function addToGraphSeries(data, graphSeriesData, varhead) {
-	var startval = data[0][0],
-		endval = data[2][0];
-	if (startval === endval && varhead.search("temperature") >= 0) {
+	var data0 = data.length > 0 ? data[0][0] : null,
+		data1 = data.length > 1 ? data[1][0] : null,
+		data2 = data.length > 2 ? data[2][0] : null,
+		startval = data0,
+		endval = data2 || data1 || data0;
+	if (!startval) {
+		graphSeriesData.push([null,null]);
+	} else if (startval === endval && varhead.search("temperature") >= 0) {
 		if (varhead.search("Highest") >= 0) {
 			graphSeriesData.push([parseFloat(startval) + 0.2, parseFloat(endval) - 0.2]);
 		} else {
@@ -230,7 +237,7 @@ function addToGraphSeries(data, graphSeriesData, varhead) {
 }
 
 function displayRecords(results) {
-	var i, data, ymd, row, background, more,
+	var i, data, ymd, row, background, more, data0, data1, data2, data3,
 		haveMore = false,
 		meta = results.meta,
 		sr = $("#selected_report").text(),
@@ -243,19 +250,25 @@ function displayRecords(results) {
 		'<tr><th>Top Record <th>2nd Record <th>3rd Record</tr>');
 	for (i = 0; i < 366; i += 1) {
 		data = results.smry[0][i];
-		ymd = data[0][1].split("-");
-		background = parseInt(ymd[1])%2 === 1 ? "WhiteSmoke" : "white";
-		if (data[2][0] === data[3][0]) {
-			more = '+';
-			haveMore = true;
-		} else {
-			more = '';
+		if (data.length > 0) {
+			data0 = data.length > 0 ? data[0] : ["-","   -"];
+			data1 = data.length > 1 ? data[1] : ["-","   -"];
+			data2 = data.length > 2 ? data[2] : ["-","   -"];
+			data3 = data.length > 3 ? data[3] : ["-","   -"];
+			ymd = data0[1].split("-");
+			background = parseInt(ymd[1])%2 === 1 ? "WhiteSmoke" : "white";
+			if (data2[0] !== "-" && data2[0] === data3[0]) {
+				more = '+';
+				haveMore = true;
+			} else {
+				more = '';
+			}
+			row = '<tr style="background-color: ' + background + ';"><td>' + parseInt(ymd[1]) + '/' + parseInt(ymd[2]);
+			row += '<td>' + (data0[0] === 'T' || data0[0] === '0.00' ? 'processing' : (data0[0]) + ' in ' + data0[1].slice(0, 4));
+			row += '<td>' + (data1[0] === 'T' || data1[0] === '0.00' ? 'processing' : (data1[0]) + ' in ' + data1[1].slice(0, 4));
+			row += '<td>' + (data2[0] === 'T' || data2[0] === '0.00' ? 'processing' : (data2[0]) + ' in ' + data2[1].slice(0, 4) + more) + '</tr>';
+			$("#results_table tbody").append(row);
 		}
-		row = '<tr style="background-color: ' + background + ';"><td>' + parseInt(ymd[1]) + '/' + parseInt(ymd[2]);
-		row += '<td>' + (data[0][0] === 'T' || data[0][0] === '0.00' ? 'processing' : (data[0][0]) + ' in ' + ymd[0]);
-		row += '<td>' + (data[1][0] === 'T' || data[1][0] === '0.00' ? 'processing' : (data[1][0]) + ' in ' + data[1][1].slice(0, 4));
-		row += '<td>' + (data[2][0] === 'T' || data[2][0] === '0.00' ? 'processing' : (data[2][0]) + ' in ' + data[2][1].slice(0, 4) + more) + '</tr>';
-		$("#results_table tbody").append(row);
 		graphSeriesData = addToGraphSeries(data, graphSeriesData, varhead);
 	}
 	if (haveMore) {
@@ -457,7 +470,11 @@ function getArchiveRecords() {
 		report = $("#report").val().replace('archive', '');
 	$.get("./" + latest_version_directory + "/" + report + "_records.json", function (jres) {
 		$("#progressbar").hide();
-		displayArchiveRecords(jres[sid], jres.version, jres.creationdate);
+		if (jres.hasOwnProperty(sid)) {
+			displayArchiveRecords(jres[sid], jres.version, jres.creationdate);
+		} else {
+			alert("No data available");
+		}
 	});
 }
 
@@ -469,36 +486,38 @@ function getChanges() {
 		var i, latest_results, latest_value, latest_date, prev_results, prev_value, prev_date,
 			changes = [], yr_arr = [];
 		$.get("./" + latest_version_directory + "/" + tvar + "_records.json", function (jlres) {
-			latest_results = jlres[sid];
-			latest_start_yr = Math.min(latest_start_yr, parseInt(latest_results.start_yr));
-			latest_end_yr = Math.max(latest_end_yr, parseInt(latest_results.end_yr));
-			$.get("./" + prev_version_directory + "/" + tvar + "_records.json", function (jpres) {
-				if (jpres.hasOwnProperty(sid)) {
-					prev_results = jpres[sid];
-					prev_start_yr = Math.min(prev_start_yr, prev_results.start_yr);
-					prev_end_yr = Math.max(prev_end_yr, prev_results.end_yr);
-					for (i = 0; i < 366; i += 1) {
-						latest_value = latest_results.data[i][0][0];
-						if (tvar === 'hipcpn' && latest_value === -1) {
-							latest_value = 'Trace';
+			if (jlres.hasOwnProperty(sid)) {
+				latest_results = jlres[sid];
+				latest_start_yr = latest_results.start_yr ? Math.min(latest_start_yr, parseInt(latest_results.start_yr)) : latest_start_yr;
+				latest_end_yr = latest_results.end_yr ? Math.max(latest_end_yr, parseInt(latest_results.end_yr)) : latest_end_yr;
+				$.get("./" + prev_version_directory + "/" + tvar + "_records.json", function (jpres) {
+					if (jpres.hasOwnProperty(sid)) {
+						prev_results = jpres[sid];
+						prev_start_yr = Math.min(prev_start_yr, prev_results.start_yr);
+						prev_end_yr = Math.max(prev_end_yr, prev_results.end_yr);
+						for (i = 0; i < 366; i += 1) {
+							latest_value = latest_results.data[i][0][0];
+							if (tvar === 'hipcpn' && latest_value === -1) {
+								latest_value = 'Trace';
+							}
+							latest_date = latest_results.data[i][0][1].split("-");
+							prev_value = prev_results.data[i][0][0];
+							if (tvar === 'hipcpn' && prev_value === -1) {
+								prev_value = 'Trace';
+							}
+							prev_date = prev_results.data[i][0][1].split("-");
+							if ((latest_value !== prev_value) || (latest_date[0] !== prev_date[0])) {
+								changes.push([tvar, latest_value, latest_date, prev_value, prev_date]);
+							}
 						}
-						latest_date = latest_results.data[i][0][1].split("-");
-						prev_value = prev_results.data[i][0][0];
-						if (tvar === 'hipcpn' && prev_value === -1) {
-							prev_value = 'Trace';
-						}
-						prev_date = prev_results.data[i][0][1].split("-");
-						if ((latest_value !== prev_value) || (latest_date[0] !== prev_date[0])) {
-							changes.push([tvar, latest_value, latest_date, prev_value, prev_date]);
-						}
+					} else {
+						prev_start_yr = "-";
+						prev_end_yr = "-";
 					}
-				} else {
-					prev_start_yr = "-";
-					prev_end_yr = "-";
-				}
-				yr_arr = [prev_start_yr, prev_end_yr, latest_start_yr, latest_end_yr];
-				displayChanges(tvar, changes, yr_arr);
-			});
+					yr_arr = [prev_start_yr, prev_end_yr, latest_start_yr, latest_end_yr];
+					displayChanges(tvar, changes, yr_arr);
+				});
+			}
 		});
 	});
 }
@@ -528,35 +547,37 @@ function getRecentChanges() {
 		var i, latest_results, latest_value, latest_date,crnt_value, crnt_date,
 			changes = [], yr_arr = [];
 		$.get("./" + latest_version_directory + "/" + tvar + "_records.json", function (jlres) {
-			latest_results = jlres[sid];
-			latest_start_yr = Math.min(latest_start_yr, parseInt(latest_results.start_yr));
-			latest_end_yr = Math.max(latest_end_yr, parseInt(latest_results.end_yr));
-			input_params.elems[0].name = tvar.slice(-4);
-			input_params.elems[0].smry.reduce = tvar.slice(-6,-4) === "hi" ? "max" : "min";
-			postResults(input_params, "/StnData", function (crnt_results) {
-				var csyr = crnt_results.meta.valid_daterange[0][0].split("-"),
-					ceyr = crnt_results.meta.valid_daterange[0][1].split("-");
-				crnt_start_yr = Math.min(crnt_start_yr, parseInt(csyr[0]));
-				crnt_end_yr = Math.max(crnt_end_yr, parseInt(ceyr[0]));
-				for (i = 0; i < 366; i += 1) {
-					latest_value = latest_results.data[i][0][0];
-					if (tvar === 'hipcpn' && latest_value === -1) {
-						latest_value = 'Trace';
+			if (jlres.hasOwnProperty(sid)) {
+				latest_results = jlres[sid];
+				latest_start_yr = Math.min(latest_start_yr, parseInt(latest_results.start_yr));
+				latest_end_yr = Math.max(latest_end_yr, parseInt(latest_results.end_yr));
+				input_params.elems[0].name = tvar.slice(-4);
+				input_params.elems[0].smry.reduce = tvar.slice(-6,-4) === "hi" ? "max" : "min";
+				postResults(input_params, "/StnData", function (crnt_results) {
+					var csyr = crnt_results.meta.valid_daterange[0][0].split("-"),
+						ceyr = crnt_results.meta.valid_daterange[0][1].split("-");
+					crnt_start_yr = Math.min(crnt_start_yr, parseInt(csyr[0]));
+					crnt_end_yr = Math.max(crnt_end_yr, parseInt(ceyr[0]));
+					for (i = 0; i < 366; i += 1) {
+						latest_value = latest_results.data[i][0][0];
+						if (tvar === 'hipcpn' && latest_value === -1) {
+							latest_value = 'Trace';
+						}
+						latest_date = latest_results.data[i][0][1].split("-");
+						if (tvar === 'hipcpn' && crnt_results.smry[0][i][0] === "T") {
+							crnt_value = 'Trace';
+						} else {
+							crnt_value = parseFloat(crnt_results.smry[0][i][0]);
+						}
+						crnt_date = crnt_results.smry[0][i][1].split("-");
+						if ((latest_value !== crnt_value) || (latest_date[0] !== crnt_date[0])) {
+							changes.push([tvar, crnt_value, crnt_date, latest_value, latest_date]);
+						}
 					}
-					latest_date = latest_results.data[i][0][1].split("-");
-					if (tvar === 'hipcpn' && crnt_results.smry[0][i][0] === "T") {
-						crnt_value = 'Trace';
-					} else {
-						crnt_value = parseFloat(crnt_results.smry[0][i][0]);
-					}
-					crnt_date = crnt_results.smry[0][i][1].split("-");
-					if ((latest_value !== crnt_value) || (latest_date[0] !== crnt_date[0])) {
-						changes.push([tvar, crnt_value, crnt_date, latest_value, latest_date]);
-					}
-				}
-				yr_arr = [latest_start_yr, latest_end_yr, crnt_start_yr, crnt_end_yr];
-				displayChanges(tvar, changes, yr_arr);
-			});
+					yr_arr = [latest_start_yr, latest_end_yr, crnt_start_yr, crnt_end_yr];
+					displayChanges(tvar, changes, yr_arr);
+				});
+			};
 		});
 	});
 }
@@ -640,7 +661,7 @@ $(function() {
 	$.ui.dialog.prototype._focusTabbable = $.noop;
 	var urlOptions = urlopts();
 	if ('thr_id' in urlOptions && 'variable' in urlOptions) {
-		urlOptions.thr_id = urlOptions.thr_id.substr(0,3).toUpperCase() + urlOptions.thr_id.substr(3).toLowerCase();
+		urlOptions.thr_id = urlOptions.thr_id.substr(0,urlOptions.thr_id.length - 3).toUpperCase() + urlOptions.thr_id.substr(urlOptions.thr_id.length - 3).toLowerCase();
 		$("#thr_id").val(urlOptions.thr_id);
 		$("#selected_station").text($("#thr_id li[data-value=" + urlOptions.thr_id + "]").text());
 		urlOptions.variable = urlOptions.variable.toLowerCase();
@@ -648,4 +669,4 @@ $(function() {
 		$("#selected_report").text($("#report li[data-value=" + urlOptions.variable + "]").text());
 		$("#go").trigger("click");
 	}
-});
+})
