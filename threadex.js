@@ -1,4 +1,4 @@
-var latest_version_directory = "data/v16.0",
+var latest_version_directory = "data/v16.3",
 	prev_version_directory = "data/v15.6";
 /* Standard ACIS data acquisition
 ----------------------------------------------------------*/
@@ -18,7 +18,7 @@ function postError() {
 }
 function postResults(input_params, process, cbf) {
 	var xdr, args, results,
-		url = "http://data.rcc-acis.org" + process;
+		url = "https://data.rcc-acis.org" + process;
 	if (window.XDomainRequest) {
 		xdr = new XDomainRequest();
 		xdr.open("GET", url + "?params=" + JSON.stringify(input_params));
@@ -169,7 +169,7 @@ function addGraph(grfdata, ytitle) {
         },
 		credits: {
 			text: "Powered by ACIS",
-			href: "http://www.rcc-acis.org"
+			href: "https://www.rcc-acis.org"
 		},
         xAxis: {
             type: 'datetime',
