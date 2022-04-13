@@ -1,4 +1,4 @@
-var latest_version_directory = "data/v17.0",
+var latest_version_directory = "data/v17.1",
 	prev_version_directory = "data/v16.3";
 /* Standard ACIS data acquisition
 ----------------------------------------------------------*/
