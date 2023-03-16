@@ -1,108 +1,108 @@
-55Nthr   NJ Atlantic City Marina Area      1873 2021 1873 2021
-ABEthr   PA Allentown Area                 1922 2021 1912 2021
-ACYthr   NJ Atlantic City Area             1943 2021 1943 2021
-AKIS1thr SC Aiken Area                     1893 2021 1893 2021
-ALBthr   NY Albany Area                    1874 2021 1874 2021
-ATHO1thr OH Athens Area                    1893 2020 1893 2021
-AVLthr   NC Asheville Area                 1876 2021 1869 2021
-AVPthr   PA Avoca Area                     1901 2021 1901 2021
-BAFthr   MA Westfield Area                 1926 2021 1926 2021
-BDLthr   CT Hartford Area                  1905 2021 1905 2021
-BDRthr   CT Bridgeport Area                1948 2021 1948 2021
-BELN4thr NJ Belvidere Area                 1893 2021 1893 2021
-BGMthr   NY Binghamton Area                1951 2021 1951 2021
-BGRthr   ME Bangor Area                    1925 2021 1925 2021
-BKWthr   WV Beckley Area                   1896 2021 1893 2021
-BLFthr   WV Bluefield Area                 1909 2021 1909 2021
-BOSthr   MA Boston Area                    1872 2021 1872 2021
-BRCN7thr NC Bryson City Area               2000 2021 2000 2021
-BTVthr   VT Burlington Area                1883 2021 1884 2021
-BUFthr   NY Buffalo Area                   1873 2021 1871 2021
-BWIthr   MD Baltimore Area                 1872 2021 1871 2021
-CAES1thr SC Caesars Head Area              1925 2021 1924 2021
-CAEthr   SC Columbia Area                  1887 2021 1887 2021
-CAKthr   OH Akron Area                     1887 2021 1896 2021
-CARthr   ME Caribou Area                   1939 2021 1939 2021
-CHOthr   VA Charlottesville Area           1893 2021 1893 2021
-CHSthr   SC Charleston Area                1937 2021 1937 2021
-CKBthr   WV Clarksburg Area                1922 2021 1922 2021
-CLEthr   OH Cleveland Area                 1871 2021 1871 2021
-CLTthr   NC Charlotte Area                 1878 2021 1878 2021
-CMHthr   OH Columbus Area                  1878 2021 1878 2021
-CONthr   NH Concord Area                   1868 2021 1868 2021
-CREthr   SC Myrtle Beach Area              1931 2021 1931 2021
-CRWthr   WV Charleston Area                1892 2021 1892 2021
-CVGthr   OH Cincinnati Area                1872 2021 1871 2021
-CXMthr   SC Charleston Downtown Area       1893 2021 1893 2021
-DANthr   VA Danville Area                  1916 2021 1916 2021
-DAYthr   OH Dayton Area                    1893 2021 1893 2021
-DCAthr   DC Washington Area                1872 2021 1871 2021
-DMHthr   MD Baltimore Downtown Area        1950 2020 1950 2020
-ECGthr   NC Elizabeth City Area            1934 2021 1934 2021
-EKNthr   WV Elkins Area                    1899 2021 1899 2021
-ERIthr   PA Erie Area                      1873 2021 1873 2021
-EWNthr   NC New Bern Area                  1933 2021 1933 2021
-EWRthr   NJ Newark Area                    1931 2021 1931 2021
-FAYthr   NC Fayetteville Area              1910 2021 1910 2021
-GEDthr   DE Georgetown Area                1945 2021 1945 2021
-GFLthr   NY Glens Falls Area               1893 2021 1893 2021
-GSOthr   NC Greensboro Area                1903 2021 1903 2021
-GSPthr   SC Greenville-Spartanburg Area    1884 2021 1884 2021
-HGRthr   MD Hagerstown Area                1899 2021 1899 2021
-HLGthr   WV Wheeling Area                  1881 2021 1878 2021
-HSEthr   NC Cape Hatteras Area             1893 2021 1893 2021
-HTSthr   WV Huntington Area                1891 2021 1891 2021
-IADthr   VA Sterling-Dulles Airport Area   1960 2021 1960 2021
-ILGthr   DE Wilmington Area                1894 2021 1894 2021
-ILMthr   NC Wilmington Area                1874 2021 1871 2021
-ILNthr   OH Wilmington Area                1917 2021 1915 2021
-IPTthr   PA Williamsport Area              1895 2021 1895 2021
-ISPthr   NY Islip Area                     1963 2021 1963 2021
-JFKthr   NY New York-Kennedy Airport Area  1948 2021 1948 2021
-JSTN6thr NY Jamestown Area                 1895 2021 1895 2021
-LBTthr   NC Lumberton Area                 1903 2021 1903 2021
-LGAthr   NY New York-LGA Area              1939 2021 1940 2021
-LYHthr   VA Lynchburg Area                 1893 2021 1893 2021
-MDTthr   PA Middletown-Harrisburg Area     1888 2021 1888 2021
-MFDthr   OH Mansfield Area                 1916 2021 1899 2021
-MGWthr   WV Morgantown Area                1874 2021 1872 2021
-MHTthr   NH Manchester Area                1885 2021 1885 2021
-MLTthr   ME Millinocket Area               1903 2021 1902 2021
-MMTN7thr NC Mount Mitchell Area            1925 2021 1925 2021
-MPOthr   PA Mount Pocono Area              1901 2021 1901 2021
-MQEthr   MA Milton Area                    1893 2021 1893 2021
-MRBthr   WV Martinsburg Area               1891 2021 1891 2021
-NAKthr   MD Annapolis Area                 1894 2021 1894 2021
-NBRN4thr NJ New Brunswick Area             1893 2021 1893 2021
-NCBN6thr NY Newcomb Area                   1940 2021 1940 2021
-NYCthr   NY New York-Central Park Area     1869 2021 1869 2021
-ORFthr   VA Norfolk Area                   1874 2021 1874 2021
-ORHthr   MA Worcester Area                 1892 2021 1892 2021
-OSWN6thr NY Oswego Area                    1926 2021 1926 2021
-PBGthr   NY Plattsburgh Area               1945 2021 1945 2021
-PFIP1thr PA Philadelphia Center City Area  1942 2021 1942 2021
-PHDthr   OH New Philadelphia Area          1948 2021 1948 2021
-PHLthr   PA Philadelphia Area              1873 2021 1871 2021
-PICS1thr SC Pickens Area                   1941 2021 1941 2021
-PITthr   PA Pittsburgh Area                1875 2021 1871 2021
-PKBthr   WV Parkersburg Area               1926 2021 1926 2021
-POUthr   NY Poughkeepsie Area              1931 2021 1931 2021
-PTDN6thr NY Fredonia Area                  1914 2021 1914 2021
-PVDthr   RI Providence Area                1904 2021 1904 2021
-PWMthr   ME Portland Area                  1874 2021 1871 2021
-RDGthr   PA Reading Area                   1888 2021 1858 2021
-RDUthr   NC Raleigh Area                   1887 2021 1887 2021
-RICthr   VA Richmond Area                  1897 2021 1887 2021
-RNKthr   VA Blacksburg Area                1893 2021 1893 2021
-ROAthr   VA Roanoke Area                   1912 2021 1912 2021
-ROCthr   NY Rochester Area                 1872 2021 1871 2021
-SBYthr   MD Salisbury Area                 1906 2021 1906 2021
-SLKthr   NY Saranac Lake Area              1903 2021 1903 2021
-SYRthr   NY Syracuse Area                  1902 2021 1902 2021
-TOLthr   OH Toledo Area                    1873 2021 1871 2021
-TTNthr   NJ Trenton Area                   1865 2021 1865 2021
-WALthr   VA Wallops Island Area            1966 2021 1948 2021
-WASS1thr SC Ware Shoals Area               0 0 1937 2021
+55Nthr   NJ Atlantic City Marina Area      1873 2022 1873 2022
+ABEthr   PA Allentown Area                 1922 2022 1912 2022
+ACYthr   NJ Atlantic City Area             1943 2022 1943 2022
+AKIS1thr SC Aiken Area                     1893 2022 1893 2022
+ALBthr   NY Albany Area                    1874 2022 1874 2022
+ATHO1thr OH Athens Area                    1893 2020 1893 2022
+AVLthr   NC Asheville Area                 1876 2022 1869 2022
+AVPthr   PA Avoca Area                     1901 2022 1901 2022
+BAFthr   MA Westfield Area                 1926 2022 1926 2022
+BDLthr   CT Hartford Area                  1905 2022 1905 2022
+BDRthr   CT Bridgeport Area                1948 2022 1948 2022
+BELN4thr NJ Belvidere Area                 1893 2022 1893 2022
+BGMthr   NY Binghamton Area                1951 2022 1951 2022
+BGRthr   ME Bangor Area                    1925 2022 1925 2022
+BKWthr   WV Beckley Area                   1896 2022 1893 2022
+BLFthr   WV Bluefield Area                 1909 2022 1909 2022
+BOSthr   MA Boston Area                    1872 2022 1872 2022
+BRCN7thr NC Bryson City Area               2000 2022 2000 2022
+BTVthr   VT Burlington Area                1883 2022 1884 2022
+BUFthr   NY Buffalo Area                   1873 2022 1871 2022
+BWIthr   MD Baltimore Area                 1872 2022 1871 2022
+CAES1thr SC Caesars Head Area              1925 2022 1924 2022
+CAEthr   SC Columbia Area                  1887 2022 1887 2022
+CAKthr   OH Akron Area                     1887 2022 1896 2022
+CARthr   ME Caribou Area                   1939 2022 1939 2022
+CHOthr   VA Charlottesville Area           1893 2022 1893 2022
+CHSthr   SC Charleston Area                1937 2022 1937 2022
+CKBthr   WV Clarksburg Area                1922 2022 1922 2022
+CLEthr   OH Cleveland Area                 1871 2022 1871 2022
+CLTthr   NC Charlotte Area                 1878 2022 1878 2022
+CMHthr   OH Columbus Area                  1878 2022 1878 2022
+CONthr   NH Concord Area                   1868 2022 1868 2022
+CREthr   SC Myrtle Beach Area              1931 2022 1931 2022
+CRWthr   WV Charleston Area                1892 2022 1892 2022
+CVGthr   OH Cincinnati Area                1872 2022 1871 2022
+CXMthr   SC Charleston Downtown Area       1893 2022 1893 2022
+DANthr   VA Danville Area                  1916 2022 1916 2022
+DAYthr   OH Dayton Area                    1893 2022 1893 2022
+DCAthr   DC Washington Area                1872 2022 1871 2022
+DMHthr   MD Baltimore Downtown Area        1950 2022 1950 2022
+ECGthr   NC Elizabeth City Area            1934 2022 1934 2022
+EKNthr   WV Elkins Area                    1899 2022 1899 2022
+ERIthr   PA Erie Area                      1873 2022 1873 2022
+EWNthr   NC New Bern Area                  1933 2022 1933 2022
+EWRthr   NJ Newark Area                    1893 2022 1893 2022
+FAYthr   NC Fayetteville Area              1910 2022 1910 2022
+GEDthr   DE Georgetown Area                1945 2022 1945 2022
+GFLthr   NY Glens Falls Area               1893 2022 1893 2022
+GSOthr   NC Greensboro Area                1903 2022 1903 2022
+GSPthr   SC Greenville-Spartanburg Area    1884 2022 1884 2022
+HGRthr   MD Hagerstown Area                1899 2022 1899 2022
+HLGthr   WV Wheeling Area                  1881 2022 1878 2022
+HSEthr   NC Cape Hatteras Area             1893 2022 1893 2022
+HTSthr   WV Huntington Area                1891 2022 1891 2022
+IADthr   VA Sterling-Dulles Airport Area   1960 2022 1960 2022
+ILGthr   DE Wilmington Area                1894 2022 1894 2022
+ILMthr   NC Wilmington Area                1874 2022 1871 2022
+ILNthr   OH Wilmington Area                1917 2022 1915 2022
+IPTthr   PA Williamsport Area              1895 2022 1895 2022
+ISPthr   NY Islip Area                     1963 2022 1963 2022
+JFKthr   NY New York-Kennedy Airport Area  1948 2022 1948 2022
+JSTN6thr NY Jamestown Area                 1895 2022 1895 2022
+LBTthr   NC Lumberton Area                 1903 2022 1903 2022
+LGAthr   NY New York-LGA Area              1939 2022 1940 2022
+LYHthr   VA Lynchburg Area                 1893 2022 1893 2022
+MDTthr   PA Middletown-Harrisburg Area     1888 2022 1888 2022
+MFDthr   OH Mansfield Area                 1916 2022 1899 2022
+MGWthr   WV Morgantown Area                1874 2022 1872 2022
+MHTthr   NH Manchester Area                1885 2022 1885 2022
+MLTthr   ME Millinocket Area               1903 2022 1902 2022
+MMTN7thr NC Mount Mitchell Area            1925 2022 1925 2022
+MPOthr   PA Mount Pocono Area              1901 2022 1901 2022
+MQEthr   MA Milton Area                    1893 2022 1893 2022
+MRBthr   WV Martinsburg Area               1891 2022 1891 2022
+NAKthr   MD Annapolis Area                 1894 2022 1894 2022
+NBRN4thr NJ New Brunswick Area             1893 2022 1893 2022
+NCBN6thr NY Newcomb Area                   1940 2022 1940 2022
+NYCthr   NY New York-Central Park Area     1869 2022 1869 2022
+ORFthr   VA Norfolk Area                   1874 2022 1874 2022
+ORHthr   MA Worcester Area                 1892 2022 1892 2022
+OSWN6thr NY Oswego Area                    1926 2022 1926 2022
+PBGthr   NY Plattsburgh Area               1945 2022 1945 2022
+PFIP1thr PA Philadelphia Center City Area  1942 2022 1942 2022
+PHDthr   OH New Philadelphia Area          1948 2022 1948 2022
+PHLthr   PA Philadelphia Area              1873 2022 1871 2022
+PICS1thr SC Pickens Area                   1941 2022 1941 2022
+PITthr   PA Pittsburgh Area                1875 2022 1871 2022
+PKBthr   WV Parkersburg Area               1926 2022 1926 2022
+POUthr   NY Poughkeepsie Area              1931 2022 1931 2022
+PTDN6thr NY Fredonia Area                  1914 2022 1914 2022
+PVDthr   RI Providence Area                1904 2022 1904 2022
+PWMthr   ME Portland Area                  1874 2022 1871 2022
+RDGthr   PA Reading Area                   1888 2022 1858 2022
+RDUthr   NC Raleigh Area                   1887 2022 1887 2022
+RICthr   VA Richmond Area                  1897 2022 1887 2022
+RNKthr   VA Blacksburg Area                1893 2022 1893 2022
+ROAthr   VA Roanoke Area                   1912 2022 1912 2022
+ROCthr   NY Rochester Area                 1872 2022 1871 2022
+SBYthr   MD Salisbury Area                 1906 2022 1906 2022
+SLKthr   NY Saranac Lake Area              1903 2022 1903 2022
+SYRthr   NY Syracuse Area                  1902 2022 1902 2022
+TOLthr   OH Toledo Area                    1873 2022 1871 2022
+TTNthr   NJ Trenton Area                   1865 2022 1865 2022
+WALthr   VA Wallops Island Area            1966 2022 1948 2022
+WASS1thr SC Ware Shoals Area               0 0 1937 2022
 WDSR1thr SC Woodruff Area                  0 0 1930 2021
-YNGthr   OH Youngstown Area                1897 2021 1896 2021
-ZZVthr   OH Zanesville Area                1895 2021 1895 2021
+YNGthr   OH Youngstown Area                1897 2022 1896 2022
+ZZVthr   OH Zanesville Area                1895 2022 1895 2022

@@ -1,20 +1,20 @@
-ADQthr   AK Kodiak Area                    1913 2021 1913 2021
-AGYthr   AK Skagway Area                   1898 2021 1898 2021
-AKNthr   AK King Salmon Area               1917 2021 1917 2021
-ANCthr   AK Anchorage Area                 1953 2021 1953 2021
+ADQthr   AK Kodiak Area                    1913 2022 1913 2022
+AGYthr   AK Skagway Area                   1898 2022 1898 2022
+AKNthr   AK King Salmon Area               1917 2022 1917 2022
+ANCthr   AK Anchorage Area                 1953 2022 1953 2022
 ANNthr   AK Annette Area                   1941 2019 1941 2019
-BETthr   AK Bethel Area                    1923 2021 1923 2021
-BIGthr   AK Delta Junction Area            1917 2021 1919 2021
-BRWthr   AK Barrow Area                    1920 2021 1920 2021
-BTTthr   AK Bettles Area                   1944 2021 1944 2021
-CDBthr   AK Cold Bay Area                  1942 2021 1942 2021
-FAIthr   AK Fairbanks Area                 1904 2021 1904 2021
-GKNthr   AK Gulkana Area                   1909 2021 1909 2021
-HOMthr   AK Homer Area                     1932 2021 1932 2021
-JNUthr   AK Juneau Area                    1890 2021 1890 2021
-MCGthr   AK Mcgrath Area                   1941 2021 1939 2021
-OMEthr   AK Nome Area                      1906 2021 1906 2021
-OTZthr   AK Kotzebue Area                  1902 2021 1902 2021
-SNPthr   AK St Paul Island Area            1892 2021 1892 2021
-TKAthr   AK Talkeetna Area                 1918 2021 1918 2021
-YAKthr   AK Yakutat Area                   1917 2021 1917 2021
+BETthr   AK Bethel Area                    1923 2022 1923 2022
+BIGthr   AK Delta Junction Area            1917 2022 1919 2022
+BRWthr   AK Barrow Area                    1920 2022 1920 2022
+BTTthr   AK Bettles Area                   1944 2022 1944 2022
+CDBthr   AK Cold Bay Area                  1942 2022 1942 2022
+FAIthr   AK Fairbanks Area                 1904 2022 1904 2022
+GKNthr   AK Gulkana Area                   1909 2022 1909 2022
+HOMthr   AK Homer Area                     1932 2022 1932 2022
+JNUthr   AK Juneau Area                    1890 2022 1890 2022
+MCGthr   AK Mcgrath Area                   1941 2022 1939 2022
+OMEthr   AK Nome Area                      1906 2022 1906 2022
+OTZthr   AK Kotzebue Area                  1902 2022 1902 2022
+SNPthr   AK St Paul Island Area            1892 2022 1892 2022
+TKAthr   AK Talkeetna Area                 1918 2022 1918 2022
+YAKthr   AK Yakutat Area                   1917 2022 1917 2022

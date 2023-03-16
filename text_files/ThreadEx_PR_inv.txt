@@ -1,14 +1,14 @@
-GSNthr   MP Saipan Area                    1945 2021 1945 2021
-GUMthr   GU Guam Area                      1945 2021 1945 2021
-HNLthr   HI Honolulu Area                  1940 2021 1940 2021
-ITOthr   HI Hilo Area                      1949 2021 1949 2021
-KMRthr   MH Majuro Area                    1951 2021 1951 2021
-KWAthr   MH Kwajalein Area                 1949 2021 1949 2021
-LIHthr   HI Lihue Area                     1950 2021 1950 2021
-OGGthr   HI Kahului Area                   1954 2021 1905 2021
-STUthr   AS Pago Pago Area                 1957 2021 1956 2021
-TKKthr   FM Chuuk Area                     1946 2021 1946 2021
-TKRthr   PW Koror Area                     1947 2021 1947 2021
-TTPthr   FM Pohnpei Area                   1949 2021 1949 2021
-TYAthr   FM Yap Area                       1948 2021 1948 2021
+GSNthr   MP Saipan Area                    1945 2022 1945 2022
+GUMthr   GU Guam Area                      1945 2022 1945 2022
+HNLthr   HI Honolulu Area                  1940 2022 1940 2022
+ITOthr   HI Hilo Area                      1949 2022 1949 2022
+KMRthr   MH Majuro Area                    1951 2022 1951 2022
+KWAthr   MH Kwajalein Area                 1949 2022 1949 2022
+LIHthr   HI Lihue Area                     1950 2022 1950 2022
+OGGthr   HI Kahului Area                   1954 2022 1905 2022
+STUthr   AS Pago Pago Area                 1957 2022 1956 2022
+TKKthr   FM Chuuk Area                     1946 2022 1946 2022
+TKRthr   PW Koror Area                     1947 2022 1947 2022
+TTPthr   FM Pohnpei Area                   1949 2022 1949 2022
+TYAthr   FM Yap Area                       1948 2022 1948 2022
 WAKthr   UM Wake Island Area               1949 2004 1949 2004
