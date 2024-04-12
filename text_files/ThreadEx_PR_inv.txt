@@ -1,5 +1,5 @@
 GSNthr   MP Saipan Area                    1945 2023 1945 2023
-GUMthr   GU Guam Area                      1945 1998 1945 1998
+GUMthr   GU Guam Area                      1945 2023 1945 2023
 HNLthr   HI Honolulu Area                  1940 2023 1940 2023
 ITOthr   HI Hilo Area                      1949 2023 1949 2023
 KMRthr   MH Majuro Area                    1951 2023 1951 2023
