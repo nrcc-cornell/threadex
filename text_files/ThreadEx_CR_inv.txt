@@ -1,94 +1,94 @@
-8D3thr   SD Sisseton Area                  1931 2023 1931 2023
-ABRthr   SD Aberdeen Area                  1893 2023 1893 2023
-ALOthr   IA Waterloo Area                  1895 2023 1895 2023
-ALSthr   CO Alamosa Area                   1906 2023 1906 2023
-ANJthr   MI Sault Ste Marie Area           1888 2023 1888 2023
-APNthr   MI Alpena Area                    1916 2023 1916 2023
-ASXthr   WI Ashland Area                   1893 2023 1893 2023
-AUWthr   WI Wausau Area                    1895 2023 1895 2023
-AZOthr   MI Kalamazoo Area                 1887 2023 1887 2023
-BFFthr   NE Scottsbluff Area               1893 2023 1893 2023
-BISthr   ND Bismarck Area                  1874 2023 1874 2023
-BIVthr   MI Holland Area                   1905 2023 1905 2023
-BRDthr   MN Brainerd Area                  1898 2023 1887 2023
-BRLthr   IA Burlington Area                1897 2023 1897 2023
-BTLthr   MI Battle Creek Area              1895 2023 1895 2023
-CIDthr   IA Cedar Rapids Area              1893 2023 1893 2023
-CNKthr   KS Concordia Area                 1885 2023 1885 2023
-COSthr   CO Colorado Springs Area          1894 2023 1894 2023
-COUthr   MO Columbia Area                  1889 2023 1889 2023
-CPRthr   WY Casper Area                    1939 2023 1939 2023
-CYSthr   WY Cheyenne Area                  1872 2023 1871 2023
-DBQthr   IA Dubuque Area                   1874 2023 1873 2023
-DDCthr   KS Dodge City Area                1874 2023 1874 2023
-DENthr   CO Denver Area                    1872 2023 1872 2023
-DLHthr   MN Duluth Area                    1874 2023 1871 2023
-DSMthr   IA Des Moines Area                1878 2023 1878 2023
-DTWthr   MI Detroit Area                   1874 2023 1874 2023
-EAUthr   WI Eau Claire Area                1893 2023 1893 2023
-EVVthr   IN Evansville Area                1897 2023 1897 2023
-FARthr   ND Fargo Area                     1881 2023 1881 2023
-FNTthr   MI Flint Area                     1921 2023 1921 2023
-FSDthr   SD Sioux Falls Area               1893 2023 1893 2023
-FWAthr   IN Fort Wayne Area                1897 2023 1897 2023
-GFKthr   ND Grand Forks Area               1893 2023 1893 2023
-GJTthr   CO Grand Junction Area            1893 2023 1893 2023
-GLDthr   KS Goodland Area                  1895 2023 1895 2023
-GRBthr   WI Green Bay Area                 1886 2023 1886 2023
-GRIthr   NE Grand Island Area              1895 2023 1895 2023
-GRRthr   MI Grand Rapids Area              1892 2023 1892 2023
-HIBthr   MN Hibbing Area                   1938 2023 1931 2023
-HONthr   SD Huron Area                     1881 2023 1881 2023
-HSIthr   NE Hastings Area                  1907 2023 1894 2023
-HTLthr   MI Houghton Lake Area             1913 2023 1913 2023
-HYRthr   WI Hayward Area                   1893 2023 1893 2023
-ICTthr   KS Wichita Area                   1888 2023 1888 2023
-INDthr   IN Indianapolis Area              1871 2023 1871 2023
-INLthr   MN International Falls Area       1897 2023 1895 2023
-ISNthr   ND Williston Area                 1894 2023 1894 2023
-JEFthr   MO Jefferson City Area            1894 2023 1894 2023
-JKLthr   KY Jackson Area                   1981 2023 1981 2023
-LANthr   MI Lansing Area                   1863 2023 1863 2023
-LBFthr   NE North Platte Area              1874 2023 1874 2023
-LEXthr   KY Lexington Area                 1872 2023 1872 2023
-LNDthr   WY Lander Area                    1891 2023 1891 2023
-LNKthr   NE Lincoln Area                   1887 2023 1887 2023
-LSEthr   WI La Crosse Area                 1872 2023 1872 2023
-MBGthr   SD Mobridge Area                  1911 2023 1911 2023
-MBSthr   MI Saginaw Area                   1912 2023 1912 2023
-MCIthr   MO Kansas City Area               1888 2023 1888 2023
-MCKthr   NE McCook Area                    1896 2023 1894 2023
-MDHthr   IL Carbondale Area                1898 2023 1898 2023
-MHEthr   SD Mitchell Area                  1893 2023 1893 2023
-MKEthr   WI Milwaukee Area                 1871 2023 1871 2023
-MKGthr   MI Muskegon Area                  1896 2023 1896 2023
-MLIthr   IL Moline Area                    1874 2023 1871 2023
-MQTthr   MI Marquette County Area          1961 2023 1961 2023
-MSNthr   WI Madison Area                   1869 2023 1869 2023
-MSPthr   MN Minneapolis-St Paul Area       1872 2023 1871 2023
-OFKthr   NE Norfolk Area                   1893 2023 1893 2023
-OMAthr   NE Omaha Area                     1871 2023 1871 2023
-ORDN1thr NE Ord Area                       0 0 1908 2023
-ORDthr   IL Chicago Area                   1872 2023 1871 2023
-PAHthr   KY Paducah Area                   1937 2023 1937 2023
-PIAthr   IL Peoria Area                    1883 2023 1883 2023
-POFthr   MO Poplar Bluff Area              1893 2023 1893 2023
-PUBthr   CO Pueblo Area                    1888 2023 1888 2023
-RAPthr   SD Rapid City Area                1942 2023 1942 2023
-RFDthr   IL Rockford Area                  1893 2023 1893 2023
-RHIthr   WI Rhinelander Area               1893 2023 1895 2023
-RSTthr   MN Rochester Area                 1886 2023 1886 2023
-SBNthr   IN South Bend Area                1893 2023 1893 2023
-SDFthr   KY Louisville Area                1872 2023 1872 2023
-SGFthr   MO Springfield Area               1888 2023 1888 2023
-SHRthr   WY Sheridan Area                  1907 2023 1907 2023
-SLNthr   KS Salina Area                    1900 2023 1900 2023
-SPIthr   IL Springfield Area               1879 2023 1879 2023
-SPWthr   IA Spencer Area                   1895 2023 1895 2023
-STCthr   MN Saint Cloud Area               1894 2023 1893 2023
-STLthr   MO St Louis Area                  1874 2023 1874 2023
-SUXthr   IA Sioux City Area                1889 2023 1889 2023
-TOPthr   KS Topeka Area                    1887 2023 1887 2023
-UINthr   IL Quincy Area                    1901 2023 1901 2023
-UNRS2thr SD Rapid City Downtown Area       1888 2023 1888 2023
-VTNthr   NE Valentine Area                 1889 2023 1889 2023
+8D3thr   SD Sisseton Area                  1931 2024 1931 2024
+ABRthr   SD Aberdeen Area                  1893 2024 1893 2024
+ALOthr   IA Waterloo Area                  1895 2024 1895 2024
+ALSthr   CO Alamosa Area                   1906 2024 1906 2024
+ANJthr   MI Sault Ste Marie Area           1888 2024 1888 2024
+APNthr   MI Alpena Area                    1916 2024 1916 2024
+ASXthr   WI Ashland Area                   1893 2024 1893 2024
+AUWthr   WI Wausau Area                    1895 2024 1895 2024
+AZOthr   MI Kalamazoo Area                 1887 2024 1887 2024
+BFFthr   NE Scottsbluff Area               1893 2024 1893 2024
+BISthr   ND Bismarck Area                  1874 2024 1874 2024
+BIVthr   MI Holland Area                   1905 2024 1905 2024
+BRDthr   MN Brainerd Area                  1898 2024 1887 2024
+BRLthr   IA Burlington Area                1897 2024 1897 2024
+BTLthr   MI Battle Creek Area              1895 2024 1895 2024
+CIDthr   IA Cedar Rapids Area              1893 2024 1893 2024
+CNKthr   KS Concordia Area                 1885 2024 1885 2024
+COSthr   CO Colorado Springs Area          1894 2024 1894 2024
+COUthr   MO Columbia Area                  1889 2024 1889 2024
+CPRthr   WY Casper Area                    1939 2024 1939 2024
+CYSthr   WY Cheyenne Area                  1872 2024 1871 2024
+DBQthr   IA Dubuque Area                   1874 2024 1873 2024
+DDCthr   KS Dodge City Area                1874 2024 1874 2024
+DENthr   CO Denver Area                    1872 2024 1872 2024
+DLHthr   MN Duluth Area                    1874 2024 1871 2024
+DSMthr   IA Des Moines Area                1878 2024 1878 2024
+DTWthr   MI Detroit Area                   1874 2024 1874 2024
+EAUthr   WI Eau Claire Area                1893 2024 1893 2024
+EVVthr   IN Evansville Area                1897 2024 1897 2024
+FARthr   ND Fargo Area                     1881 2024 1881 2024
+FNTthr   MI Flint Area                     1921 2024 1921 2024
+FSDthr   SD Sioux Falls Area               1893 2024 1893 2024
+FWAthr   IN Fort Wayne Area                1897 2024 1897 2024
+GFKthr   ND Grand Forks Area               1893 2024 1893 2024
+GJTthr   CO Grand Junction Area            1893 2024 1893 2024
+GLDthr   KS Goodland Area                  1895 2024 1895 2024
+GRBthr   WI Green Bay Area                 1886 2024 1886 2024
+GRIthr   NE Grand Island Area              1895 2024 1895 2024
+GRRthr   MI Grand Rapids Area              1892 2024 1892 2024
+HIBthr   MN Hibbing Area                   1938 2024 1931 2024
+HONthr   SD Huron Area                     1881 2024 1881 2024
+HSIthr   NE Hastings Area                  1907 2024 1894 2024
+HTLthr   MI Houghton Lake Area             1913 2024 1913 2024
+HYRthr   WI Hayward Area                   1893 2024 1893 2024
+ICTthr   KS Wichita Area                   1888 2024 1888 2024
+INDthr   IN Indianapolis Area              1871 2024 1871 2024
+INLthr   MN International Falls Area       1897 2024 1895 2024
+ISNthr   ND Williston Area                 1894 2024 1894 2024
+JEFthr   MO Jefferson City Area            1894 2024 1894 2024
+JKLthr   KY Jackson Area                   1981 2024 1981 2024
+LANthr   MI Lansing Area                   1863 2024 1863 2024
+LBFthr   NE North Platte Area              1874 2024 1874 2024
+LEXthr   KY Lexington Area                 1872 2024 1872 2024
+LNDthr   WY Lander Area                    1891 2024 1891 2024
+LNKthr   NE Lincoln Area                   1887 2024 1887 2024
+LSEthr   WI La Crosse Area                 1872 2024 1872 2024
+MBGthr   SD Mobridge Area                  1911 2024 1911 2024
+MBSthr   MI Saginaw Area                   1912 2024 1912 2024
+MCIthr   MO Kansas City Area               1888 2024 1888 2024
+MCKthr   NE McCook Area                    1896 2024 1894 2024
+MDHthr   IL Carbondale Area                1898 2024 1898 2024
+MHEthr   SD Mitchell Area                  1893 2024 1893 2024
+MKEthr   WI Milwaukee Area                 1871 2024 1871 2024
+MKGthr   MI Muskegon Area                  1896 2024 1896 2024
+MLIthr   IL Moline Area                    1874 2024 1871 2024
+MQTthr   MI Marquette County Area          1961 2024 1961 2024
+MSNthr   WI Madison Area                   1869 2024 1869 2024
+MSPthr   MN Minneapolis-St Paul Area       1872 2024 1871 2024
+OFKthr   NE Norfolk Area                   1893 2024 1893 2024
+OMAthr   NE Omaha Area                     1871 2024 1871 2024
+ORDN1thr NE Ord Area                       0 0 1908 2024
+ORDthr   IL Chicago Area                   1872 2024 1871 2024
+PAHthr   KY Paducah Area                   1937 2024 1937 2024
+PIAthr   IL Peoria Area                    1883 2024 1883 2024
+POFthr   MO Poplar Bluff Area              1893 2024 1893 2024
+PUBthr   CO Pueblo Area                    1888 2024 1888 2024
+RAPthr   SD Rapid City Area                1942 2024 1942 2024
+RFDthr   IL Rockford Area                  1893 2024 1893 2024
+RHIthr   WI Rhinelander Area               1893 2024 1895 2024
+RSTthr   MN Rochester Area                 1886 2024 1886 2024
+SBNthr   IN South Bend Area                1893 2024 1893 2024
+SDFthr   KY Louisville Area                1872 2024 1872 2024
+SGFthr   MO Springfield Area               1888 2024 1888 2024
+SHRthr   WY Sheridan Area                  1907 2024 1907 2024
+SLNthr   KS Salina Area                    1900 2024 1900 2024
+SPIthr   IL Springfield Area               1879 2024 1879 2024
+SPWthr   IA Spencer Area                   1895 2024 1895 2024
+STCthr   MN Saint Cloud Area               1894 2024 1893 2024
+STLthr   MO St Louis Area                  1874 2024 1874 2024
+SUXthr   IA Sioux City Area                1889 2024 1889 2024
+TOPthr   KS Topeka Area                    1887 2024 1887 2024
+UINthr   IL Quincy Area                    1901 2024 1901 2024
+UNRS2thr SD Rapid City Downtown Area       1888 2024 1888 2024
+VTNthr   NE Valentine Area                 1889 2024 1889 2024

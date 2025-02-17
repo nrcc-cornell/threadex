@@ -1,92 +1,92 @@
-AATthr   CA Alturas Area                   1935 2023 1935 2023
-AFLI1thr ID American Falls Area            1892 2023 1892 2023
-ASTthr   OR Astoria Area                   1887 2023 1887 2023
-BFLthr   CA Bakersfield Area               1893 2023 1893 2023
-BIHthr   CA Bishop Area                    1943 2023 1943 2023
-BILthr   MT Billings Area                  1934 2023 1934 2023
-BKEthr   OR Baker City Area                1928 2023 1928 2023
-BNOthr   OR Burns Area                     1939 2023 1939 2023
-BOIthr   ID Boise Area                     1875 2023 1878 2023
-BROO3thr OR Brookings Area                 1913 2023 1913 2023
-BURthr   CA Burbank Glendale Pasadena Area 1939 2023 1939 2023
-BYIthr   ID Burley Area                    1917 2023 1917 2023
-CECthr   CA Crescent City Area             1894 2023 1894 2023
-CMAthr   CA Camarillo Area                 1923 2023 1923 2023
-CQTthr   CA Los Angeles Downtown Area      1877 2023 1877 2023
-DERM8thr MT Deer Lodge Area                1893 2023 1893 2023
-DWRI1thr ID Dworshak Area                  1903 2023 1903 2023
-EEDthr   CA Needles Area                   1888 2023 1888 2023
-EKAthr   CA Eureka Area                    1886 2023 1886 2023
-EKOthr   NV Elko Area                      1890 2023 1888 2023
-ELJC1thr CA El Cajon Area                  1899 2023 1899 2023
-ELYthr   NV Ely Area                       1893 2023 1888 2023
-ESCC1thr CA Escondido Area                 1893 2023 1893 2023
-EUGthr   OR Eugene Area                    1893 2023 1892 2023
-FATthr   CA Fresno Area                    1887 2023 1881 2023
-FCAthr   MT Kalispell Area                 1899 2023 1899 2023
-FLGthr   AZ Flagstaff Area                 1898 2023 1898 2023
-GEGthr   WA Spokane Area                   1881 2023 1881 2023
-GGWthr   MT Glasgow Area                   1893 2023 1894 2023
-GTFthr   MT Great Falls Area               1891 2023 1891 2023
-HIOthr   OR Hillsboro Area                 1929 2023 1929 2023
-HJOthr   CA Hanford Area                   1899 2023 1899 2023
-HLNthr   MT Helena Area                    1880 2023 1880 2023
-HVRthr   MT Havre Area                     1880 2023 1880 2023
-IGMthr   AZ Kingman Area                   1901 2023 1901 2023
-INWthr   AZ Winslow Area                   1915 2023 1915 2023
-IPLthr   CA El Centro Area                 1925 2023 1925 2023
-JERthr   ID Jerome Area                    1915 2023 1915 2023
-LASthr   NV Las Vegas Area                 1937 2023 1937 2023
-LAXthr   CA Los Angeles Airport Area       1944 2023 1944 2023
-LGBthr   CA Long Beach Area                1958 2023 1958 2023
-LHUthr   AZ Lake Havasu City Area          1968 2023 1967 2023
-LLJthr   ID Challis Area                   1895 2023 1895 2023
-LMTthr   OR Klamath Falls Area             1897 2023 1897 2023
-LOXthr   CA Oxnard Area                    1923 2023 1923 2023
-LWSthr   ID Lewiston Area                  1881 2023 1881 2023
-MAEthr   CA Madera Area                    1928 2023 1928 2023
-MCEthr   CA Merced Area                    1899 2023 1899 2023
-MFRthr   OR Medford Area                   1911 2023 1911 2023
-MHSthr   CA Mount Shasta Area              1948 2023 1948 2023
-MMVthr   OR McMinnville Area               1894 2023 1894 2023
-MSOthr   MT Missoula Area                  1893 2023 1893 2023
-MYLthr   ID McCall Area                    1906 2023 1905 2023
-OLMthr   WA Olympia Area                   1948 2023 1948 2023
-OMKthr   WA Omak Area                      1909 2023 1909 2023
-ONOthr   OR Ontario Area                   1945 2023 1945 2023
-OSPA3thr AZ Oracle Area                    1893 2023 1893 2023
-P68thr   NV Eureka Area                    1963 2023 1963 2023
-PDTthr   OR Pendleton Area                 1892 2023 1892 2023
-PDXthr   OR Portland Area                  1940 2023 1940 2023
-PGWO3thr OR Portland Downtown Area         1874 2023 1872 2023
-PHXthr   AZ Phoenix Area                   1895 2023 1895 2023
-PIHthr   ID Pocatello Area                 1939 2023 1939 2023
-PMDthr   CA Palmdale Area                  1931 2023 1931 2023
-PSCthr   WA Tri-Cities Area                1894 2023 1894 2023
-PSPthr   CA Palm Springs Area              1922 2023 1922 2023
-PUWthr   WA Pullman Area                   1893 2023 1893 2023
-RALthr   CA Riverside Area                 1893 2023 1893 2023
-RDDthr   CA Redding Area                   1893 2023 1893 2023
-RNMthr   CA Ramona Area                    1974 2023 1974 2023
-RNOthr   NV Reno Area                      1893 2023 1893 2023
-SACthr   CA Sacramento Area                1877 2023 1856 2023
-SANthr   CA San Diego Area                 1874 2023 1850 2023
-SCKthr   CA Stockton Area                  1893 2023 1893 2023
-SEAthr   WA Seattle Tacoma Area            1945 2023 1945 2023
-SEWthr   WA Seattle City Area              1894 2023 1894 2023
-SFOthr   CA San Francisco Airport Area     1945 2023 1945 2023
-SJCthr   CA San Jose Area                  1893 2023 1893 2023
-SLCthr   UT Salt Lake City Area            1874 2023 1874 2023
-SLEthr   OR Salem Area                     1893 2023 1892 2023
-SLNI1thr ID Salmon Area                    1905 2023 1905 2023
-SMXthr   CA Santa Maria Area               1906 2023 1906 2023
-SNTthr   ID Stanley Area                   1916 2023 1916 2023
-TAHC1thr CA Tahoe City Area                1909 2023 1909 2023
-TUSthr   AZ Tucson Area                    1894 2023 1894 2023
-UILthr   WA Quillayute Area                1966 2023 1966 2023
-UKIthr   CA Ukiah Area                     1893 2023 1893 2023
-VUOthr   WA Vancouver Area                 1891 2023 1856 2023
-WJFthr   CA Lancaster Area                 1945 2023 1945 2023
-WMCthr   NV Winnemucca Area                1877 2023 1877 2023
-YKMthr   WA Yakima Area                    1946 2023 1946 2023
-YUMthr   AZ Yuma Area                      1878 2023 1876 2023
+AATthr   CA Alturas Area                   1935 2024 1935 2024
+AFLI1thr ID American Falls Area            1892 2024 1892 2024
+ASTthr   OR Astoria Area                   1887 2024 1887 2024
+BFLthr   CA Bakersfield Area               1893 2024 1893 2024
+BIHthr   CA Bishop Area                    1943 2024 1943 2024
+BILthr   MT Billings Area                  1934 2024 1934 2024
+BKEthr   OR Baker City Area                1928 2024 1928 2024
+BNOthr   OR Burns Area                     1939 2024 1939 2024
+BOIthr   ID Boise Area                     1875 2024 1878 2024
+BROO3thr OR Brookings Area                 1913 2024 1913 2024
+BURthr   CA Burbank Glendale Pasadena Area 1939 2024 1939 2024
+BYIthr   ID Burley Area                    1917 2024 1917 2024
+CECthr   CA Crescent City Area             1894 2024 1894 2024
+CMAthr   CA Camarillo Area                 1923 2024 1923 2024
+CQTthr   CA Los Angeles Downtown Area      1877 2024 1877 2024
+DERM8thr MT Deer Lodge Area                1893 2024 1893 2024
+DWRI1thr ID Dworshak Area                  1903 2024 1903 2024
+EEDthr   CA Needles Area                   1888 2024 1888 2024
+EKAthr   CA Eureka Area                    1886 2024 1886 2024
+EKOthr   NV Elko Area                      1890 2024 1888 2024
+ELJC1thr CA El Cajon Area                  1899 2024 1899 2024
+ELYthr   NV Ely Area                       1893 2024 1888 2024
+ESCC1thr CA Escondido Area                 1893 2024 1893 2024
+EUGthr   OR Eugene Area                    1893 2024 1892 2024
+FATthr   CA Fresno Area                    1887 2024 1881 2024
+FCAthr   MT Kalispell Area                 1899 2024 1899 2024
+FLGthr   AZ Flagstaff Area                 1898 2024 1898 2024
+GEGthr   WA Spokane Area                   1881 2024 1881 2024
+GGWthr   MT Glasgow Area                   1893 2024 1894 2024
+GTFthr   MT Great Falls Area               1891 2024 1891 2024
+HIOthr   OR Hillsboro Area                 1929 2024 1929 2024
+HJOthr   CA Hanford Area                   1899 2024 1899 2024
+HLNthr   MT Helena Area                    1880 2024 1880 2024
+HVRthr   MT Havre Area                     1880 2024 1880 2024
+IGMthr   AZ Kingman Area                   1901 2024 1901 2024
+INWthr   AZ Winslow Area                   1915 2024 1915 2024
+IPLthr   CA El Centro Area                 1925 2024 1925 2024
+JERthr   ID Jerome Area                    1915 2024 1915 2024
+LASthr   NV Las Vegas Area                 1937 2024 1937 2024
+LAXthr   CA Los Angeles Airport Area       1944 2024 1944 2024
+LGBthr   CA Long Beach Area                1958 2024 1958 2024
+LHUthr   AZ Lake Havasu City Area          1968 2024 1967 2024
+LLJthr   ID Challis Area                   1895 2024 1895 2024
+LMTthr   OR Klamath Falls Area             1897 2024 1897 2024
+LOXthr   CA Oxnard Area                    1923 2024 1923 2024
+LWSthr   ID Lewiston Area                  1881 2024 1881 2024
+MAEthr   CA Madera Area                    1928 2024 1928 2024
+MCEthr   CA Merced Area                    1899 2024 1899 2024
+MFRthr   OR Medford Area                   1911 2024 1911 2024
+MHSthr   CA Mount Shasta Area              1948 2024 1948 2024
+MMVthr   OR McMinnville Area               1894 2024 1894 2024
+MSOthr   MT Missoula Area                  1893 2024 1893 2024
+MYLthr   ID McCall Area                    1906 2024 1905 2024
+OLMthr   WA Olympia Area                   1948 2024 1948 2024
+OMKthr   WA Omak Area                      1909 2024 1909 2024
+ONOthr   OR Ontario Area                   1945 2024 1945 2024
+OSPA3thr AZ Oracle Area                    1893 2024 1893 2024
+P68thr   NV Eureka Area                    1963 2024 1963 2024
+PDTthr   OR Pendleton Area                 1892 2024 1892 2024
+PDXthr   OR Portland Area                  1940 2024 1940 2024
+PGWO3thr OR Portland Downtown Area         1874 2024 1872 2024
+PHXthr   AZ Phoenix Area                   1895 2024 1895 2024
+PIHthr   ID Pocatello Area                 1939 2024 1939 2024
+PMDthr   CA Palmdale Area                  1931 2024 1931 2024
+PSCthr   WA Tri-Cities Area                1894 2024 1894 2024
+PSPthr   CA Palm Springs Area              1922 2024 1922 2024
+PUWthr   WA Pullman Area                   1893 2024 1893 2024
+RALthr   CA Riverside Area                 1893 2024 1893 2024
+RDDthr   CA Redding Area                   1893 2024 1893 2024
+RNMthr   CA Ramona Area                    1974 2024 1974 2024
+RNOthr   NV Reno Area                      1893 2024 1893 2024
+SACthr   CA Sacramento Area                1877 2024 1856 2024
+SANthr   CA San Diego Area                 1874 2024 1850 2024
+SCKthr   CA Stockton Area                  1893 2024 1893 2024
+SEAthr   WA Seattle Tacoma Area            1945 2024 1945 2024
+SEWthr   WA Seattle City Area              1894 2024 1894 2024
+SFOthr   CA San Francisco Airport Area     1945 2024 1945 2024
+SJCthr   CA San Jose Area                  1893 2024 1893 2024
+SLCthr   UT Salt Lake City Area            1874 2024 1874 2024
+SLEthr   OR Salem Area                     1893 2024 1892 2024
+SLNI1thr ID Salmon Area                    1905 2024 1905 2024
+SMXthr   CA Santa Maria Area               1906 2024 1906 2024
+SNTthr   ID Stanley Area                   1916 2024 1916 2024
+TAHC1thr CA Tahoe City Area                1909 2024 1909 2024
+TUSthr   AZ Tucson Area                    1894 2024 1894 2024
+UILthr   WA Quillayute Area                1966 2024 1966 2024
+UKIthr   CA Ukiah Area                     1893 2024 1893 2024
+VUOthr   WA Vancouver Area                 1891 2024 1856 2024
+WJFthr   CA Lancaster Area                 1945 2024 1945 2024
+WMCthr   NV Winnemucca Area                1877 2024 1877 2024
+YKMthr   WA Yakima Area                    1946 2024 1946 2024
+YUMthr   AZ Yuma Area                      1878 2024 1876 2024

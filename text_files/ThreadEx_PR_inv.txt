@@ -1,14 +1,14 @@
-GSNthr   MP Saipan Area                    1945 2023 1945 2023
-GUMthr   GU Guam Area                      1945 2023 1945 2023
-HNLthr   HI Honolulu Area                  1940 2023 1940 2023
-ITOthr   HI Hilo Area                      1949 2023 1949 2023
-KMRthr   MH Majuro Area                    1951 2023 1951 2023
-KWAthr   MH Kwajalein Area                 1949 2023 1949 2023
-LIHthr   HI Lihue Area                     1950 2023 1950 2023
-OGGthr   HI Kahului Area                   1954 2023 1905 2023
-STUthr   AS Pago Pago Area                 1957 2023 1956 2023
-TKKthr   FM Chuuk Area                     1946 2023 1946 2023
-TKRthr   PW Koror Area                     1947 2023 1947 2023
-TTPthr   FM Pohnpei Area                   1949 2023 1949 2023
-TYAthr   FM Yap Area                       1948 2023 1948 2023
+GSNthr   MP Saipan Area                    1945 2024 1945 2024
+GUMthr   GU Guam Area                      1945 2024 1945 2024
+HNLthr   HI Honolulu Area                  1940 2024 1940 2024
+ITOthr   HI Hilo Area                      1949 2024 1949 2024
+KMRthr   MH Majuro Area                    1951 2024 1951 2024
+KWAthr   MH Kwajalein Area                 1949 2024 1949 2024
+LIHthr   HI Lihue Area                     1950 2024 1950 2024
+OGGthr   HI Kahului Area                   1954 2024 1905 2024
+STUthr   AS Pago Pago Area                 1957 2024 1956 2024
+TKKthr   FM Chuuk Area                     1946 2024 1946 2024
+TKRthr   PW Koror Area                     1947 2024 1947 2024
+TTPthr   FM Pohnpei Area                   1949 2024 1949 2024
+TYAthr   FM Yap Area                       1948 2024 1948 2024
 WAKthr   UM Wake Island Area               1949 2004 1949 2004
