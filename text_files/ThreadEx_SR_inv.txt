@@ -1,100 +1,100 @@
-ABIthr   TX Abilene Area                   1885 2024 1885 2024
-ABQthr   NM Albuquerque Area               1891 2024 1891 2024
-ABYthr   GA Albany Area                    1892 2024 1892 2024
-ACTthr   TX Waco Area                      1901 2024 1901 2024
-AGSthr   GA Augusta Area                   1874 2024 1871 2024
-AHNthr   GA Athens Area                    1893 2024 1857 2024
-AMAthr   TX Amarillo Area                  1892 2024 1892 2024
-ATLthr   GA Atlanta Area                   1878 2024 1878 2024
-ATTthr   TX Austin Area                    1897 2024 1897 2024
-AUSthr   TX Austin-Bergstrom Airport Area  1942 2024 1942 2024
-BGDthr   TX Borger Area                    1949 2024 1949 2024
-BHMthr   AL Birmingham Area                1895 2024 1895 2024
-BKVthr   FL Brooksville Area               1892 2024 1892 2024
-BNAthr   TN Nashville Area                 1873 2024 1871 2024
-BPTthr   TX Beaumont-Port Arthur Area      1901 2024 1901 2024
-BROthr   TX Brownsville Area               1878 2024 1878 2024
-BTRthr   LA Baton Rouge Area               1892 2024 1892 2024
-BVLA4thr AR Booneville Area                1906 2024 1906 2024
-CAOthr   NM Clayton Area                   1896 2024 1896 2024
-CDSthr   TX Childress Area                 1893 2024 1893 2024
-CHAthr   TN Chattanooga Area               1879 2024 1879 2024
-CLLthr   TX College Station Area           1888 2024 1882 2024
-CRPthr   TX Corpus Christi Area            1887 2024 1887 2024
-CSGthr   GA Columbus Area                  1891 2024 1891 2024
-CUSM6thr MS Columbus Area                  1903 2024 1903 2024
-DABthr   FL Daytona Beach Area             1923 2024 1923 2024
-DALthr   TX Dallas Area                    1913 2024 1913 2024
-DEQthr   AR Dequeen Area                   1902 2024 1902 2024
-DFWthr   TX Dallas-Fort Worth Area         1898 2024 1898 2024
-DRTthr   TX Del Rio Area                   1905 2024 1905 2024
-ELPthr   TX El Paso Area                   1887 2024 1879 2024
-EYWthr   FL Key West Area                  1872 2024 1871 2024
-FLLthr   FL Fort Lauderdale Area           1912 2024 1912 2024
-FMYthr   FL Fort Myers Area                1892 2024 1892 2024
-FPRthr   FL Fort Pierce Area               1901 2024 1901 2024
-FSMthr   AR Fort Smith Area                1882 2024 1882 2024
-GGGthr   TX Longview Area                  1902 2024 1902 2024
-GIFthr   FL Winter Haven Area              1941 2024 1941 2024
-GLHthr   MS Greenville Area                1903 2024 1903 2024
-GLSthr   TX Galveston Area                 1874 2024 1871 2024
-GNVthr   FL Gainesville Area               1890 2024 1890 2024
-GPTthr   MS Gulfport Area                  1893 2024 1893 2024
-GWOthr   MS Greenwood Area                 1948 2024 1948 2024
-HBGthr   MS Hattiesburg Area               1893 2024 1893 2024
-HROthr   AR Harrison Area                  1892 2024 1892 2024
-HSVthr   AL Huntsville Area                1907 2024 1894 2024
-IAHthr   TX Houston Area                   1889 2024 1888 2024
-ICHL1thr LA Natchitoches Area              1893 2024 1893 2024
-JANthr   MS Jackson Area                   1896 2024 1896 2024
-JAXthr   FL Jacksonville Area              1871 2024 1871 2024
-JBRthr   AR Jonesboro Area                 1893 2024 1893 2024
-LALthr   FL Lakeland Area                  1948 2024 1948 2024
-LAWthr   OK Lawton Area                    1912 2024 1912 2024
-LBBthr   TX Lubbock Area                   1911 2024 1911 2024
-LCHthr   LA Lake Charles Area              1895 2024 1895 2024
-LEEthr   FL Leesburg Area                  1958 2024 1958 2024
-LITthr   AR Little Rock Area               1879 2024 1875 2024
-LRDthr   TX Laredo Area                    1902 2024 1902 2024
-MAFthr   TX Midland-Odessa Area            1930 2024 1930 2024
-MCNthr   GA Macon Area                     1892 2024 1892 2024
-MCOthr   FL Orlando Area                   1892 2024 1892 2024
-MEIthr   MS Meridian Area                  1889 2024 1889 2024
-MEMthr   TN Memphis Area                   1875 2024 1872 2024
-MFEthr   TX McAllen Area                   1941 2024 1941 2024
-MGMthr   AL Montgomery Area                1872 2024 1872 2024
-MIAthr   FL Miami Area                     1895 2024 1895 2024
-MLBthr   FL Melbourne Area                 1937 2024 1937 2024
-MLUthr   LA Monroe Area                    1893 2024 1892 2024
-MOBthr   AL Mobile Area                    1872 2024 1871 2024
-MSLthr   AL Muscle Shoals Area             1893 2024 1893 2024
-MSYthr   LA New Orleans Area               1946 2024 1946 2024
-MTHthr   FL Marathon Area                  1950 2024 1950 2024
-MWTthr   AR Mount Ida Area                 1883 2024 1872 2024
-OKCthr   OK Oklahoma City Area             1890 2024 1890 2024
-OQTthr   TN Oak Ridge Area                 1947 2024 1947 2024
-PBFthr   AR Pine Bluff Area                1884 2024 1884 2024
-PBIthr   FL West Palm Beach Area           1888 2024 1888 2024
-PGDthr   FL Punta Gorda Area               1914 2024 1914 2024
-PNSthr   FL Pensacola Area                 1879 2024 1879 2024
-ROWthr   NM Roswell Area                   1893 2024 1893 2024
-RUEthr   AR Russellville Area              1882 2024 1882 2024
-SATthr   TX San Antonio Area               1885 2024 1885 2024
-SAVthr   GA Savannah Area                  1874 2024 1871 2024
-SFBthr   FL Sanford Area                   1948 2024 1948 2024
-SHVthr   LA Shreveport Area                1874 2024 1871 2024
-SJTthr   TX San Angelo Area                1907 2024 1907 2024
-SJUthr   PR San Juan Area                  1898 2024 1898 2024
-SPSthr   TX Wichita Falls Area             1923 2024 1897 2024
-SRQthr   FL Sarasota-Bradenton Area        1911 2024 1911 2024
-SWOthr   OK Stillwater Area                1893 2024 1893 2024
-TLHthr   FL Tallahassee Area               1892 2024 1892 2024
-TPAthr   FL Tampa Area                     1890 2024 1890 2024
-TRIthr   TN Bristol-Johnson City Area      1937 2024 1937 2024
-TULthr   OK Tulsa Area                     1905 2024 1893 2024
-TUPthr   MS Tupelo Area                    1930 2024 1930 2024
-TVRthr   LA Tallulah-Vicksburg Area        1948 2024 1948 2024
-TYRthr   TX Tyler Area                     1883 2024 1883 2024
-TYSthr   TN Knoxville Area                 1871 2024 1871 2024
-VCTthr   TX Victoria Area                  1902 2024 1946 2024
-VRBthr   FL Vero Beach Area                1942 2024 1942 2024
+ABIthr   TX Abilene Area                   1885 2025 1885 2025
+ABQthr   NM Albuquerque Area               1891 2025 1891 2025
+ABYthr   GA Albany Area                    1892 2025 1892 2025
+ACTthr   TX Waco Area                      1901 2025 1901 2025
+AGSthr   GA Augusta Area                   1874 2025 1871 2025
+AHNthr   GA Athens Area                    1893 2025 1857 2025
+AMAthr   TX Amarillo Area                  1892 2025 1892 2025
+ATLthr   GA Atlanta Area                   1878 2025 1878 2025
+ATTthr   TX Austin Area                    1897 2025 1897 2025
+AUSthr   TX Austin-Bergstrom Airport Area  1942 2025 1942 2025
+BGDthr   TX Borger Area                    1949 2025 1949 2025
+BHMthr   AL Birmingham Area                1895 2025 1895 2025
+BKVthr   FL Brooksville Area               1892 2025 1892 2025
+BNAthr   TN Nashville Area                 1873 2025 1871 2025
+BPTthr   TX Beaumont-Port Arthur Area      1901 2025 1901 2025
+BROthr   TX Brownsville Area               1878 2025 1878 2025
+BTRthr   LA Baton Rouge Area               1892 2025 1892 2025
+BVLA4thr AR Booneville Area                1906 2025 1906 2025
+CAOthr   NM Clayton Area                   1896 2025 1896 2025
+CDSthr   TX Childress Area                 1893 2025 1893 2025
+CHAthr   TN Chattanooga Area               1879 2025 1879 2025
+CLLthr   TX College Station Area           1888 2025 1882 2025
+CRPthr   TX Corpus Christi Area            1887 2025 1887 2025
+CSGthr   GA Columbus Area                  1891 2025 1891 2025
+CUSM6thr MS Columbus Area                  1903 2025 1903 2025
+DABthr   FL Daytona Beach Area             1923 2025 1923 2025
+DALthr   TX Dallas Area                    1913 2025 1913 2025
+DEQthr   AR Dequeen Area                   1902 2025 1902 2025
+DFWthr   TX Dallas-Fort Worth Area         1898 2025 1898 2025
+DRTthr   TX Del Rio Area                   1905 2025 1905 2025
+ELPthr   TX El Paso Area                   1887 2025 1879 2025
+EYWthr   FL Key West Area                  1872 2025 1871 2025
+FLLthr   FL Fort Lauderdale Area           1912 2025 1912 2025
+FMYthr   FL Fort Myers Area                1892 2025 1892 2025
+FPRthr   FL Fort Pierce Area               1901 2025 1901 2025
+FSMthr   AR Fort Smith Area                1882 2025 1882 2025
+GGGthr   TX Longview Area                  1902 2025 1902 2025
+GIFthr   FL Winter Haven Area              1941 2025 1941 2025
+GLHthr   MS Greenville Area                1903 2025 1903 2025
+GLSthr   TX Galveston Area                 1874 2025 1871 2025
+GNVthr   FL Gainesville Area               1890 2025 1890 2025
+GPTthr   MS Gulfport Area                  1893 2025 1893 2025
+GWOthr   MS Greenwood Area                 1948 2025 1948 2025
+HBGthr   MS Hattiesburg Area               1893 2025 1893 2025
+HROthr   AR Harrison Area                  1892 2025 1892 2025
+HSVthr   AL Huntsville Area                1907 2025 1894 2025
+IAHthr   TX Houston Area                   1888 2025 1888 2025
+ICHL1thr LA Natchitoches Area              1893 2025 1893 2025
+JANthr   MS Jackson Area                   1896 2025 1896 2025
+JAXthr   FL Jacksonville Area              1871 2025 1871 2025
+JBRthr   AR Jonesboro Area                 1893 2025 1893 2025
+LALthr   FL Lakeland Area                  1948 2025 1948 2025
+LAWthr   OK Lawton Area                    1912 2025 1912 2025
+LBBthr   TX Lubbock Area                   1911 2025 1911 2025
+LCHthr   LA Lake Charles Area              1895 2025 1895 2025
+LEEthr   FL Leesburg Area                  1958 2025 1958 2025
+LITthr   AR Little Rock Area               1879 2025 1875 2025
+LRDthr   TX Laredo Area                    1902 2025 1902 2025
+MAFthr   TX Midland-Odessa Area            1930 2025 1930 2025
+MCNthr   GA Macon Area                     1892 2025 1892 2025
+MCOthr   FL Orlando Area                   1892 2025 1892 2025
+MEIthr   MS Meridian Area                  1889 2025 1889 2025
+MEMthr   TN Memphis Area                   1875 2025 1872 2025
+MFEthr   TX McAllen Area                   1941 2025 1941 2025
+MGMthr   AL Montgomery Area                1872 2025 1872 2025
+MIAthr   FL Miami Area                     1895 2025 1895 2025
+MLBthr   FL Melbourne Area                 1937 2025 1937 2025
+MLUthr   LA Monroe Area                    1893 2025 1892 2025
+MOBthr   AL Mobile Area                    1872 2025 1871 2025
+MSLthr   AL Muscle Shoals Area             1893 2025 1893 2025
+MSYthr   LA New Orleans Area               1946 2025 1946 2025
+MTHthr   FL Marathon Area                  1950 2025 1950 2025
+MWTthr   AR Mount Ida Area                 1883 2025 1872 2025
+OKCthr   OK Oklahoma City Area             1890 2025 1890 2025
+OQTthr   TN Oak Ridge Area                 1947 2025 1947 2025
+PBFthr   AR Pine Bluff Area                1884 2025 1884 2025
+PBIthr   FL West Palm Beach Area           1888 2025 1888 2025
+PGDthr   FL Punta Gorda Area               1914 2025 1914 2025
+PNSthr   FL Pensacola Area                 1879 2025 1879 2025
+ROWthr   NM Roswell Area                   1893 2025 1893 2025
+RUEthr   AR Russellville Area              1882 2025 1882 2025
+SATthr   TX San Antonio Area               1885 2025 1885 2025
+SAVthr   GA Savannah Area                  1874 2025 1871 2025
+SFBthr   FL Sanford Area                   1948 2025 1948 2025
+SHVthr   LA Shreveport Area                1874 2025 1871 2025
+SJTthr   TX San Angelo Area                1907 2025 1907 2025
+SJUthr   PR San Juan Area                  1898 2025 1898 2025
+SPSthr   TX Wichita Falls Area             1908 2025 1897 2025
+SRQthr   FL Sarasota-Bradenton Area        1911 2025 1911 2025
+SWOthr   OK Stillwater Area                1893 2025 1893 2025
+TLHthr   FL Tallahassee Area               1892 2025 1892 2025
+TPAthr   FL Tampa Area                     1890 2025 1890 2025
+TRIthr   TN Bristol-Johnson City Area      1937 2025 1937 2025
+TULthr   OK Tulsa Area                     1905 2025 1893 2025
+TUPthr   MS Tupelo Area                    1930 2025 1930 2025
+TVRthr   LA Tallulah-Vicksburg Area        1948 2025 1948 2025
+TYRthr   TX Tyler Area                     1883 2025 1883 2025
+TYSthr   TN Knoxville Area                 1871 2025 1871 2025
+VCTthr   TX Victoria Area                  1902 2025 1946 2025
+VRBthr   FL Vero Beach Area                1942 2025 1942 2025
