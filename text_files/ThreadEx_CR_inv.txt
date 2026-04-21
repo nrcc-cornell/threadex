@@ -31,7 +31,7 @@ FARthr   ND Fargo Area                     1881 2025 1881 2025
 FNTthr   MI Flint Area                     1921 2025 1921 2025
 FSDthr   SD Sioux Falls Area               1893 2025 1893 2025
 FWAthr   IN Fort Wayne Area                1897 2025 1897 2025
-GFKthr   ND Grand Forks Area               1893 2025 1893 2025
+GFKthr   ND Grand Forks Area               1941 2025 1941 2025
 GJTthr   CO Grand Junction Area            1893 2025 1893 2025
 GLDthr   KS Goodland Area                  1895 2025 1895 2025
 GRBthr   WI Green Bay Area                 1886 2025 1886 2025

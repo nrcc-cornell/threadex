@@ -42,7 +42,7 @@ ECGthr   NC Elizabeth City Area            1934 2025 1934 2025
 EKNthr   WV Elkins Area                    1899 2025 1899 2025
 ERIthr   PA Erie Area                      1873 2025 1873 2025
 EWNthr   NC New Bern Area                  1933 2025 1933 2025
-EWRthr   NJ Newark Area                    1893 2025 1893 2025
+EWRthr   NJ Newark Area                    1843 2025 1843 2025
 FAYthr   NC Fayetteville Area              1910 2025 1910 2025
 GEDthr   DE Georgetown Area                1945 2025 1945 2025
 GFLthr   NY Glens Falls Area               1893 2025 1893 2025
