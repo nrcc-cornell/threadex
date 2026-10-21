@@ -9,7 +9,7 @@ AVPthr   PA Avoca Area                     1901 2025 1901 2025
 BAFthr   MA Westfield Area                 1926 2025 1926 2025
 BDLthr   CT Hartford Area                  1905 2025 1905 2025
 BDRthr   CT Bridgeport Area                1948 2025 1948 2025
-BELN4thr NJ Belvidere Area                 1893 2025 1893 2025
+BELN4thr NJ Belvidere Area                 1891 2025 1891 2025
 BGMthr   NY Binghamton Area                1951 2025 1951 2025
 BGRthr   ME Bangor Area                    1925 2025 1925 2025
 BKWthr   WV Beckley Area                   1896 2025 1893 2025
@@ -33,7 +33,7 @@ CONthr   NH Concord Area                   1868 2025 1868 2025
 CREthr   SC Myrtle Beach Area              1931 2025 1931 2025
 CRWthr   WV Charleston Area                1892 2025 1892 2025
 CVGthr   OH Cincinnati Area                1872 2025 1871 2025
-CXMthr   SC Charleston Downtown Area       1893 2025 1893 2025
+CXMthr   SC Charleston Downtown Area       1845 2025 1845 2025
 DANthr   VA Danville Area                  1916 2025 1916 2025
 DAYthr   OH Dayton Area                    1893 2025 1893 2025
 DCAthr   DC Washington Area                1871 2025 1871 2025

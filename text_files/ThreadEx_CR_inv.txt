@@ -63,7 +63,7 @@ MHEthr   SD Mitchell Area                  1893 2025 1893 2025
 MKEthr   WI Milwaukee Area                 1871 2025 1871 2025
 MKGthr   MI Muskegon Area                  1896 2025 1896 2025
 MLIthr   IL Moline Area                    1874 2025 1871 2025
-MQTthr   MI Marquette County Area          1961 2025 1961 2025
+MQTthr   MI Marquette County Area          1959 2025 1959 2025
 MSNthr   WI Madison Area                   1869 2025 1869 2025
 MSPthr   MN Minneapolis-St Paul Area       1872 2025 1871 2025
 OFKthr   NE Norfolk Area                   1893 2025 1893 2025

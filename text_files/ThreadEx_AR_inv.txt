@@ -1,7 +1,7 @@
 ADQthr   AK Kodiak Area                    1913 2025 1913 2025
 AGYthr   AK Skagway Area                   1898 2025 1898 2025
 AKNthr   AK King Salmon Area               1917 2025 1917 2025
-ANCthr   AK Anchorage Area                 1953 2025 1953 2025
+ANCthr   AK Anchorage Area                 1952 2025 1952 2025
 ANNthr   AK Annette Area                   1941 2019 1941 2019
 BETthr   AK Bethel Area                    1923 2025 1923 2025
 BIGthr   AK Delta Junction Area            1917 2025 1919 2025
